@@ -1,2 +1,2 @@
 # thomasguitare
-Thomas se prend pour un guitariste 
+Thomas se prend pour un guitariste.
