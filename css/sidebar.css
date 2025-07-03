@@ -1,0 +1,16 @@
+/* Bloc gauche */
+.sidebar {
+  	width: 5.0em;
+  	background-color:rgba(0, 0,0, 0.0);
+  	padding: 20px;
+  	border-right: 10px groove rgba(0,255,255,1);
+	/* border-right:inset 10px rgba(0,255,255,1);		 */
+
+  	border-top: 2px solid #abced4;	
+
+	background-color: #fff;
+	background-image:
+		linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+		linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em; 
+}
