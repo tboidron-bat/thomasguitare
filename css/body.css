@@ -1,0 +1,68 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+body {
+  	margin: 0;
+  	padding: 0;	
+  	/* background-image: url('../svg/bathroom-floor.svg'); */
+	/* background-image: url('../svg/bubbles.svg');   */
+  	/* background-image: url('../svg/bathroom-floor.svg');	 */
+	/* background-image: url('../svg/temple.svg');     	 */
+  	/* background-image: url('../svg/graph-paper.svg'); */
+  	/* background-image: url('../svg/circuit-board.svg');	
+  	background-repeat: repeat;
+  	background-size: 200px 200px; /* Ajuste la taille des motifs */
+	/* background-color:rgba(150,175,225,0.3); 									
+	background-attachment: fixed; Optionnel : fixe le fond pendant le scroll  */
+}
+
+/* Bloc principal */
+.main-content {
+  flex-grow: 1;
+	/* margin-right:3.0em;	   */
+	/* margin-left:1.0em;	  	 */
+	background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, 
+				radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+				radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#f0f0f0;
+	background-size:4px 4px;	
+
+
+  /* background-image:
+    linear-gradient(rgba(0, 155, 255, 0.1), rgba(0, 155, 255, 0.1)), 
+    url('../svg/circuit-board.svg');
+  background-repeat: repeat;
+  background-size: 150px 150px;    */
+}
+
+main
+{
+	display:flex;
+	font-size:1.0em;	
+	margin-top:0px;	    
+	margin-left:0px;	
+	padding-left:1em;		
+  	margin-right: 1em;			
+	/* border-left:solid 3px #7bced4;			 */
+	/* border-left:ridge 5px rgb(0, 150, 255); */
+	border-left:solid 1px rgb(0, 0, 0);
+	border-top:dotted 4px rgb(0, 0, 0,1);
+	border-bottom:dotted 2px rgb(0, 0, 0,1);    
+	border-right:dashed 5px rgb(0, 0, 0);					
+
+	background-color: #fff;
+	background-image:
+		linear-gradient(90deg, transparent 50px, #abced4 50px, #abced4 52px,
+         transparent 52px),
+		linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;	
+    
+
+}
+
+main nav ul
+{
+    list-style-type: none;    
+}
