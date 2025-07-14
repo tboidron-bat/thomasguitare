@@ -1,0 +1,123 @@
+
+
+/* body {
+	background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, 
+				radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+				radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#f0f0f0;
+	background-size:4px 4px;
+}  */
+
+/* Navigation */
+/* .lesson-nav {
+	background-color: #ddd;
+
+	padding: 0.5em 1em;
+} */
+
+.lesson-nav {
+	background-color: #fff;
+	background-image: 
+		linear-gradient(to bottom, #d0e1ff 1px, transparent 1px);
+	background-size: 100% 10px; /* lignes espacées de 24px */
+	padding-top: 10px;
+	padding-bottom: 10px;  
+	padding-left: 10px;    
+	padding-right: 10px;      
+	color: #333;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	border-top: 2px solid #88b;
+	border-bottom: 2px solid #88b;
+}
+
+.lesson-nav ul {
+
+  	background-color: #fdfbf7; /* ton ivoire clair, papier beaux-arts */
+	background-image:
+		repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.03) 0px, rgba(0, 0, 0, 0.03) 3px, transparent 3px, transparent 12px),
+		repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.02) 0px, rgba(0, 0, 0, 0.02) 3px, transparent 3px, transparent 12px);
+	background-size: 24px 24px;
+	box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.06); 
+  
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 1em;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000;
+
+}
+
+.lesson-nav a {
+	color: #0055aa;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.lesson-nav a:hover {
+	color: #0055aa;
+	text-decoration: underline;
+}
+
+.lesson-content {
+
+	background-image: 
+		linear-gradient(to bottom, #d0e1ff 1px, transparent 1px);
+	background-size: 100% 10px; /* lignes espacées de 24px */
+
+    display: flex;
+    padding: 0.5em;
+    margin-right: .5em;    
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #cccccc;    
+    border-left: 10px solid #aacccc; 
+    font-size: 1.2em;
+    background-color: #e6f8fc;
+    align-items: top;   /* Centre verticalement si hauteur différente */
+
+	  box-shadow: 4px 2px 3px 1px rgba(0, 0, 0, 1);     
+}
+
+.lesson-content .text {
+    flex: 1 1 100px;       Texte prend l’espace restant, minimum 300px
+    min-width: 300px;      
+ }  
+
+.lesson-content .image {
+  flex: 0 0 40%;         /* Image prend 40% fixe */
+  max-width: 40%;
+}
+
+.lesson-content .image img {
+    max-width: 70%;     
+    width: 100%;
+    height: auto;
+    display: block;      
+    margin-left: 1em;    
+    border: 1px solid #888;
+    background-color: #e3edfc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	  box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 1);           
+}
+
+.lesson-content .image img:hover {
+  transform: scale(1.8);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Pied de page */
+footer {
+	text-align: center;
+	padding: 1em;
+	background-color: #eee;
+	color: #555;
+	border-top: 1px solid #000000;
+	margin-top: 2em;
+	margin-left:5px;  
+  margin-right:5px;
+}

@@ -6,10 +6,12 @@ header
   	align-items: center;	
 	font-size:1.0em;	
   	margin-bottom: 0px;
+  	margin-right: 1.0em;	
 	/* border-left:ridge 3px rgb(0,0,0,1) ;		 */
 	border-left:groove 5px rgb(171, 206, 212);				
 	/* background-color:rgba(100,155,155,0.0); 	 */
-	/* box-shadow: 7px 0px 7px 5px rgba(0, 0, 0);									 */
+	/* box-shadow: 7px 0px 7px 5px rgba(0, 0, 0);	*/
+	border-bottom:groove 2px rgb(0,0,100);
 }
 h1.titre
 {
@@ -28,12 +30,15 @@ h1.titre
 	/* margin-left:.3em;	 */
   	margin-top: 0.2em;		
   	margin-bottom: 0.1em;	
-  	border-right: dashed 10px rgb(255,255,0,1) ;		
+  	/* border-right: dashed 10px rgb(255,255,0,1) ;		 */
 	border-bottom:groove 2px rgb(0,0,100);
 	/* border-top:solid 1px rgb(0,0,0,1) ;  */
 	/* border-left:solid 3px #ff9Bff;  */
 	/* border-left:solid 7px rgb(0, 50, 50,1);	;	 */
-  	border-left: dotted 10px rgb(255,0,0,1) ;			
+  	border-left: groove 7px rgb(255,255,255,1) ;	
+	border-top:solid 1px rgb(0, 50, 50,1);	;	 		
+	border-right:solid 1px rgb(0, 50, 50,1);	;	
+  	/* background-color:rgba(100,155,155,0.3); 	 */
 	background-color:rgb(155, 255, 255,0.3);	
 
 
