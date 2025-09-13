@@ -1,6 +1,6 @@
 .layout {
   display: flex;
-  min-height: 100vh;
+/*  min-height: 100vh;*/
 }
 
 body {
@@ -37,20 +37,64 @@ body {
   background-size: 150px 150px;    */
 }
 
+/* Liens non visités */
+main a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Liens visités */
+main a:visited {
+  color: black;
+}
+
+/* Liens au survol */
+main a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Liens actifs (clic en cours) */
+main a:active {
+  color: rgb(0,100,0);
+}
+
+
+main .section-marker {
+
+  margin: 0.3em 0;	
+	padding-top:0;	    			
+	padding-bottom:0;	    			
+
+  font-weight: bold;
+  font-size: 1.2em;
+  color: darkred;
+  border-left: 4px solid darkred;
+	border-bottom:groove 3px rgb(0, 0, 0,0.9);      
+  padding-left: 8px;
+  font-family: "Courier New", monospace;
+/*  background-color: #f9f2f2;*/
+	background-color: #f0ffff;
+/*  background: linear-gradient(to right, #f0e5e5, #ffffff);	*/
+	background: linear-gradient(to right, #f0ffff, #ffffff);	
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
 main
 {
 	display:flex;
-	font-size:1.0em;	
-	margin-top:0px;	    
-	margin-left:0px;	
+	font-size:1.2em;	
+	margin-top:7px;	    
+	margin-left:7px;	
 	padding-left:1em;		
-  	margin-right: 1em;			
+  margin-right: 1em;			
 	/* border-left:solid 3px #7bced4;			 */
 	/* border-left:ridge 5px rgb(0, 150, 255); */
-	border-left:solid 1px rgb(0, 0, 0);
-	border-top:dotted 4px rgb(0, 0, 0,1);
-	border-bottom:dotted 2px rgb(0, 0, 0,1);    
-	border-right:dashed 5px rgb(0, 0, 0);					
+	border-left:ridge 7px rgb(0, 0, 0,1);
+	border-right:groove 7px rgb(0, 0, 0,1);						
+	border-top:dotted 8px rgb(0, 0, 0,0.8);
+	border-bottom:dotted 8px rgb(0, 0, 0,0.8);    
+
 
 	background-color: #fff;
 	background-image:
@@ -58,11 +102,31 @@ main
          transparent 52px),
 		linear-gradient(#eee .1em, transparent .1em);
 	background-size: 100% 1.2em;	
+/*	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);	*/
     
 
 }
 
+main nav
+{
+	margin:0;	    	
+	margin-bottom:1.0em;	    		
+	padding:0;	    			
+}
+
 main nav ul
 {
+		margin:0;	    	
+		padding:0;		
+		padding-left:.8em;	    					
+		margin-left:1.4em;	    			
+
     list-style-type: none;    
+		border-top:dashed 1px rgb(0, 0, 0,0.5);    
+		border-left:dotted 1px rgb(0, 0, 0,1);    		
+		border-left:ridge 6px rgb(255, 0, 0,.5);    				
+		border-bottom:dashed 1px rgb(0, 0, 0,0.5);    						
+		background-color: rgb(155, 155, 155,0.1);    
+/*		box-shadow: 0px 0px 10px 10px rgba(200, 100, 100, 0.2);*/
+/*		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);	*/
 }
