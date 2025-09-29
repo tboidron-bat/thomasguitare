@@ -8,14 +8,26 @@ if [ ! -d .git ]; then
   exit 1
 fi
 
-# Ajout des fichiers modifiés
-git add .
+# Vérifie s'il y a des changements
+if git diff-index --quiet HEAD --; then
+  echo "ℹ️ Aucun changement à valider."
+else
+  # Ajout des fichiers modifiés
+  git add .
 
-# Commit avec message automatique
-git commit -m "$1
+  # Commit avec message automatique
+  if [ -z "$1" ]; then
+    git commit -m "Mise à jour automatique"
+  else
+    git commit -m "$1"
+  fi
+fi
 
 # Récupération des changements distants (en rebase)
-git pull origin main --rebase
+git pull origin main --rebase || {
+  echo "❌ Conflit ou index sale, pull annulé."
+  exit 1
+}
 
 # Push vers GitHub
 git push origin main
