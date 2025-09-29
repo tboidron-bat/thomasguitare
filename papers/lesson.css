@@ -121,3 +121,21 @@ footer {
 	margin-left:5px;  
   margin-right:5px;
 }
+
+
+.lesson-content .text p::first-letter {
+
+  font-size: 3em;
+  font-weight: bold;
+  float: left;
+  line-height: 1;
+  margin-right: 8px;
+  color: darkred;
+  font-family: "Times New Roman", serif;
+  text-shadow: 
+    1px 1px 0 gold, 
+   -1px -1px 0 gold, 
+    1px -1px 0 gold, 
+   -1px 1px 0 gold;
+}
+
