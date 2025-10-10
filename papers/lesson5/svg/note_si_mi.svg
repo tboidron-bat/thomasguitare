@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.52560325"
-     inkscape:cx="594.55492"
-     inkscape:cy="345.3175"
+     inkscape:zoom="0.74331524"
+     inkscape:cx="541.493"
+     inkscape:cy="308.75191"
      inkscape:window-width="1280"
      inkscape:window-height="651"
      inkscape:window-x="0"
@@ -206,15 +206,15 @@
     <text
        xml:space="preserve"
        style="font-size:10.1023px;fill:#ffffff;fill-rule:evenodd;stroke-width:0.447046;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="60.46204"
-       y="81.882919"
+       x="58.079185"
+       y="81.413483"
        id="text7-8"
        transform="matrix(0.9199452,-0.36218784,0.35118932,0.94875597,0,0)"><tspan
          sodipodi:role="line"
          id="tspan7-7"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.1023px;font-family:'Adobe Arabic';-inkscape-font-specification:'Adobe Arabic';fill:#ffffff;stroke:#666666;stroke-width:0.447046;stroke-dasharray:none"
-         x="60.46204"
-         y="81.882919">Si</tspan></text>
+         x="58.079185"
+         y="81.413483">Si</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11.2248px;fill:#ffffff;fill-rule:evenodd;stroke-width:0.447046;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
@@ -230,39 +230,39 @@
     <text
        xml:space="preserve"
        style="font-size:11.2248px;fill:#ffffff;fill-rule:evenodd;stroke-width:0.447046;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="96.214554"
-       y="99.116364"
+       x="93.407257"
+       y="101.04108"
        id="text7-2-4"
        transform="matrix(0.92851722,-0.33812271,0.32785498,0.95759644,0,0)"><tspan
          sodipodi:role="line"
          id="tspan7-3-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2248px;font-family:'Adobe Arabic';-inkscape-font-specification:'Adobe Arabic';fill:#ffffff;stroke:#666666;stroke-width:0.447046;stroke-dasharray:none"
-         x="96.214554"
-         y="99.116364">Do</tspan></text>
+         x="93.407257"
+         y="101.04108">Do</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11.2248px;fill:#ffffff;fill-rule:evenodd;stroke-width:0.447046;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="167.38632"
-       y="138.49123"
+       x="165.46208"
+       y="139.99156"
        id="text7-2-4-6"
        transform="matrix(0.92851722,-0.33812271,0.32785498,0.95759644,0,0)"><tspan
          sodipodi:role="line"
          id="tspan7-3-6-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2248px;font-family:'Adobe Arabic';-inkscape-font-specification:'Adobe Arabic';fill:#ffffff;stroke:#666666;stroke-width:0.447046;stroke-dasharray:none"
-         x="167.38632"
-         y="138.49123">Ré</tspan></text>
+         x="165.46208"
+         y="139.99156">Ré</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11.2248px;fill:#ffffff;fill-rule:evenodd;stroke-width:0.447046;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none"
-       x="172.42365"
-       y="132.35275"
+       x="170.63272"
+       y="129.74182"
        id="text7-2-1"
        transform="matrix(0.92851722,-0.33812271,0.32785498,0.95759644,0,0)"><tspan
          sodipodi:role="line"
          id="tspan7-3-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2248px;font-family:'Adobe Arabic';-inkscape-font-specification:'Adobe Arabic';fill:#ffffff;stroke:#666666;stroke-width:0.447046;stroke-dasharray:none"
-         x="172.42365"
-         y="132.35275">Sol</tspan></text>
+         x="170.63272"
+         y="129.74182">Sol</tspan></text>
     <polyline
        class="StaffLines"
        fill="none"
