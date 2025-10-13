@@ -6,7 +6,7 @@
    version="1.2"
    id="svg80"
    sodipodi:docname="dodo_sissi.svg"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,16 +25,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.1982668"
-     inkscape:cx="1182.7497"
-     inkscape:cy="403.49669"
-     inkscape:window-width="1440"
-     inkscape:window-height="872"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="2.2431328"
+     inkscape:cx="483.02981"
+     inkscape:cy="582.89015"
+     inkscape:window-width="1280"
+     inkscape:window-height="651"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg80"
-     inkscape:document-units="mm" />
+     inkscape:document-units="mm"
+     showgrid="false" />
   <title
      id="title1">dodo_sissi</title>
   <desc
@@ -274,7 +275,7 @@
      stroke-linejoin="bevel"
      points="1290.97,1320.36 1290.97,1403"
      id="polyline24"
-     transform="matrix(0.41842001,0,0,0.41842001,-66.675272,8.1736573)" />
+     transform="matrix(0.41842001,0,0,0.41842001,-52.877036,-8.0619279)" />
   <polyline
      class="Stem"
      fill="none"
@@ -534,7 +535,7 @@
      style="stroke-width:0.415073" />
   <path
      class="Note"
-     d="m 472.97359,560.64268 c 0,1.78352 1.2841,3.77457 4.6501,3.77457 4.31291,0 8.83978,-3.52812 8.83978,-7.17946 0,-2.45152 -2.07535,-3.81997 -4.6501,-3.81997 -4.02755,0 -8.83978,3.4049 -8.83978,7.22486"
+     d="m 474.48014,581.27085 c 0,1.78352 1.2841,3.77457 4.6501,3.77457 4.31291,0 8.83978,-3.52812 8.83978,-7.17946 0,-2.45152 -2.07535,-3.81997 -4.6501,-3.81997 -4.02755,0 -8.83978,3.4049 -8.83978,7.22486"
      id="path61"
      style="stroke-width:0.415073" />
   <path
