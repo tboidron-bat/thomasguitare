@@ -6,7 +6,7 @@
    version="1.2"
    id="svg166"
    sodipodi:docname="ah_vous_dirais_je_maman.svg"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,16 +25,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.56078321"
-     inkscape:cx="699.91397"
-     inkscape:cy="276.39915"
-     inkscape:window-width="1440"
-     inkscape:window-height="872"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="3.1722689"
+     inkscape:cx="718.57087"
+     inkscape:cy="170.69801"
+     inkscape:window-width="1280"
+     inkscape:window-height="651"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg166"
-     inkscape:document-units="mm" />
+     inkscape:document-units="mm"
+     showgrid="false" />
   <title
      id="title1">ah_vous_dirais_je_maman</title>
   <desc
@@ -409,7 +410,7 @@
      stroke-linejoin="bevel"
      points="2013.14,663.165 2013.14,745.798"
      id="polyline41"
-     transform="matrix(0.33351552,0,0,0.33351552,61.448358,-50.280022)" />
+     transform="matrix(0.33351552,0,0,0.33351552,61.448358,-46.280022)" />
   <polyline
      class="Stem"
      fill="none"
@@ -427,7 +428,7 @@
      stroke-linejoin="bevel"
      points="2200.2,663.165 2200.2,745.798"
      id="polyline43"
-     transform="matrix(0.33351552,0,0,0.33351552,61.448358,-50.280022)" />
+     transform="matrix(0.33351552,0,0,0.33351552,61.448358,-46.280022)" />
   <polyline
      class="Stem"
      fill="none"
@@ -736,12 +737,12 @@
      transform="matrix(0.33351552,0,0,0.33351552,61.448358,-50.280022)" />
   <path
      class="Note"
-     d="m 732.44823,170.89663 c 0,1.42161 1.02357,3.00865 3.70653,3.00865 3.43771,0 7.04602,-2.81221 7.04602,-5.72264 0,-1.95406 -1.65424,-3.04482 -3.70653,-3.04482 -3.21026,0 -7.04602,2.71398 -7.04602,5.75881"
+     d="m 732.44823,174.89663 c 0,1.42161 1.02357,3.00865 3.70653,3.00865 3.43771,0 7.04602,-2.81221 7.04602,-5.72264 0,-1.95406 -1.65424,-3.04482 -3.70653,-3.04482 -3.21026,0 -7.04602,2.71398 -7.04602,5.75881"
      id="path77"
      style="stroke-width:0.330848" />
   <path
      class="Note"
-     d="m 794.83565,170.89663 c 0,1.42161 1.02355,3.00865 3.70653,3.00865 3.4377,0 7.046,-2.81221 7.046,-5.72264 0,-1.95406 -1.65424,-3.04482 -3.70652,-3.04482 -3.21025,0 -7.04601,2.71398 -7.04601,5.75881"
+     d="m 794.83565,174.89663 c 0,1.42161 1.02355,3.00865 3.70653,3.00865 3.4377,0 7.046,-2.81221 7.046,-5.72264 0,-1.95406 -1.65424,-3.04482 -3.70652,-3.04482 -3.21025,0 -7.04601,2.71398 -7.04601,5.75881"
      id="path78"
      style="stroke-width:0.330848" />
   <path
