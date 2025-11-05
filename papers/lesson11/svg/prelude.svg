@@ -47,8 +47,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="4.8592169"
-     inkscape:cx="587.64613"
-     inkscape:cy="588.26351"
+     inkscape:cx="956.84142"
+     inkscape:cy="197.25401"
      inkscape:window-width="1280"
      inkscape:window-height="651"
      inkscape:window-x="0"
@@ -2409,18 +2409,6 @@
      class="NoteLineSegment"
      fill="none"
      stroke="#000000"
-     stroke-dasharray="18.6, 22.1162"
-     stroke-dashoffset="0"
-     stroke-width="3.72"
-     stroke-linejoin="miter"
-     stroke-miterlimit="2"
-     points="2535.9,740.616 2758.08,739.843"
-     id="polyline654"
-     transform="matrix(1.4302413,0,0,1.2017708,-99.378356,-10.139758)" />
-  <polyline
-     class="NoteLineSegment"
-     fill="none"
-     stroke="#000000"
      stroke-dasharray="18.6, 17.8644"
      stroke-dashoffset="0"
      stroke-width="3.72"
@@ -2531,4 +2519,16 @@
      style="fill:#8c4a4c;fill-opacity:0.743003;stroke:#000000;stroke-width:4.25197;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
      d="m 2422.4225,2187.3148 -369.4396,17.9561 z"
      id="path6257" />
+  <polyline
+     class="NoteLineSegment"
+     fill="none"
+     stroke="#000000"
+     stroke-dasharray="18.6, 14.6567"
+     stroke-dashoffset="0"
+     stroke-width="3.72"
+     stroke-linejoin="miter"
+     stroke-miterlimit="2"
+     points="344.069,1279.39 462.439,1279.29"
+     id="polyline652-3"
+     transform="matrix(1.4302413,0,0,1.2017708,3264.8001,-740.43705)" />
 </svg>
