@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Thomas #guitare#</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />     
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css" />                 
+    <link rel="stylesheet" type="text/css" href="css/body.css" />         
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />             
+    <link rel="stylesheet" type="text/css" href="css/form.css" />                 
+</head>
+<body>
+
+  <div class="layout">
+    
+    <aside class="sidebar">
+        <a href="index.html">Accueil</a>
+    </aside>
+
+    <div class="main-content">
+      <header>
+        <div class="container">
+          <h1 class="titre">&nbsp;&gt;&nbsp; Contact </h1>
+        </div>
+      </header>   
+
+      <main class="container">
+        <section>
+          <h3>Me contacter</h3>
+          <p>
+            Vous voulez me poser une question sur les cours, signaler une erreur ou simplement échanger à propos de la guitare ?  
+            N’hésite pas à m’envoyer un message via le formulaire ci-dessous.
+          </p>
+
+          <form action="mailto:tboidron@yahoo.fr" method="post" enctype="text/plain" class="contact-form">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="email">Adresse e-mail :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="sujet">Sujet :</label><br>
+            <input type="text" id="sujet" name="sujet"><br><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Effacer">
+          </form>
+
+          <p>&nbsp;</p>
+          <hr>
+          <h4>Autres moyens de contact</h4>
+          <ul>
+            <li><b>Email :</b> <a href="mailto:tboidron@yahoo.fr">tboidron@yahoo.fr</a></li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+          <p>&copy; 2025 MonSite. Tous droits réservés.</p>
+        </div>
+      </footer>   
+
+    </div>
+  </div>
+
+</body>
+</html>
