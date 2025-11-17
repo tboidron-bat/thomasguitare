@@ -169,8 +169,10 @@ footer {
 
 .lesson-content.theory 
 {
+  position: relative; /* nécessaire pour positionner le ::before */
+
   padding-top: 0.2em; 
-  padding-left: 0.2em;
+  padding-left: 1.8em;
   margin-right: 1.5em;  
 
   border-left: 15px solid rgba(100, 200,255, 1);
@@ -188,20 +190,24 @@ footer {
 
 	background-image: 
 		linear-gradient(to bottom, #d0e1ff 1px, transparent 1px);
-	background-size: 100% 5px; /* lignes espacées de 24px 
+	background-size: 100% 5px; /* lignes espacées de 24px */
 
 }
 
 .lesson-content.theory::before {
-    content: "💡";
-    font-size: 20px;
+    content: "∴"; /*∴💡🧭ℹ️📘🔷📖➤🟩✦*/
+    position: absolute;
+    left: -12px;         /* décale sur la bordure */
+    top: -4px;  
+
+    font-size: 30px;
   	margin-top: 0.6em;     
     margin-right: 10px;
     align-self: flex-start;
-    border-bottom: solid 7px black;
-    border-right: solid 1px;    
+    border: solid 1px;        
+    border-bottom: solid 7px rgb(0,155,255);
     background-color: white;
-  	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);    
+  	box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.6);    
 
 }
 
