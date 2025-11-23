@@ -1,0 +1,64 @@
+
+.lesson-content.theory 
+{
+  position: relative; /* nécessaire pour positionner le ::before */
+
+  padding-top: 0.2em; 
+  padding-left: 1.8em;
+  margin-right: 1.5em;  
+
+  border-left: 15px solid rgba(100, 200,255, 1);
+  border-right: 5px solid rgba(100, 200,255, 1);  
+  border-top: 2px solid rgba(100, 200,255, 1);    
+  border-bottom: 2px solid rgba(100, 200,255, 1);
+  border-radius: 0.5em 5px 5px 1.5em;    
+
+
+  background-color: #fffdf6;
+  background-image:
+      /* Trait vertical gauche */
+      linear-gradient(to right,
+          black 0px, black 1px,      /* ligne noire verticale */
+          transparent 1px
+      ),
+
+      /* Gradient du bas + trait horizontal */
+      linear-gradient(
+          to bottom,
+          transparent 93%,           
+          black 93%, black 94%,      
+/*          #adf4ff 95%, #80a0a0 100%,*/
+          #adf4ff 95%, #adf4ff 100%          
+      ),
+
+      /* Petits pois */
+      radial-gradient(#ffedf6 1.8px, transparent 0.8px);
+
+  background-size:
+      auto,           /* trait vertical */
+      100% 100%,      /* gradient horizontal */
+      8px 8px;        /* pois */
+  background-repeat: no-repeat, no-repeat, repeat;
+
+}
+.lesson-content.theory::before {
+    content: "∴"; /*∴💡🧭ℹ️📘🔷📖➤🟩✦*/
+    position: absolute;
+    left: -12px;         /* décale sur la bordure */
+    top: -4px;  
+
+    font-size: 30px;
+    margin-top: 0.6em;     
+    margin-right: 10px;
+    align-self: flex-start;
+    border: solid 1px;        
+    border-bottom: solid 7px rgb(0,155,255);
+    background-color: white;
+    box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.6);    
+
+}
+
+
+
+
+

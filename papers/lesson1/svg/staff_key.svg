@@ -7,8 +7,8 @@
    viewBox="0 0 74 52"
    version="1.1"
    id="SVGRoot"
-   sodipodi:docname="_svg_porte_and_key.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="staff_key.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.7417504"
-     inkscape:cx="355.38962"
-     inkscape:cy="198.65074"
-     inkscape:window-width="1920"
-     inkscape:window-height="1046"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:zoom="2.463207"
+     inkscape:cx="152.84951"
+     inkscape:cy="164.4198"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="SVGRoot" />
   <defs
@@ -87,4 +87,50 @@
      cy="-37.372944"
      rx="1.5736374"
      ry="1.7101083" />
+  <text
+     xml:space="preserve"
+     style="font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+     x="3.2755549"
+     y="7.8535371"
+     id="text294"><tspan
+       sodipodi:role="line"
+       id="tspan292"
+       style="font-size:4.23333px;stroke-width:0;stroke-dasharray:none"
+       x="3.2755549"
+       y="7.8535371">Clé de Sol</tspan></text>
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="M 9.9025778,9.4828454 9.8683751,14.262597 Z"
+     id="path1017" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="M 9.8880542,14.23709 C 9.7270471,13.95281 8.6499262,11.753824 8.6499262,11.753824 l 1.1625027,2.248794 z"
+     id="path1019" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="M 9.7380069,14.061001 10.914915,11.906729 Z"
+     id="path1021" />
+  <text
+     xml:space="preserve"
+     style="font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+     x="33.556152"
+     y="47.249004"
+     id="text1041"><tspan
+       sodipodi:role="line"
+       id="tspan1039"
+       style="stroke-width:0;stroke-dasharray:none"
+       x="33.556152"
+       y="47.249004">Portée</tspan></text>
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="m 40.486414,42.437462 -0.1695,-6.586812 z"
+     id="path1043" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="m 40.257235,35.905212 -0.449379,1.382115 z"
+     id="path1045" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+     d="m 40.304251,35.90804 c 0,0 0.528061,1.404739 0.513414,1.323925 -0.01466,-0.08081 -0.513414,-1.323925 -0.513414,-1.323925 z"
+     id="path1047" />
 </svg>
