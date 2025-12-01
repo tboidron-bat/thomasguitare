@@ -27,11 +27,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="4.8592169"
-     inkscape:cx="195.81344"
-     inkscape:cy="377.11838"
-     inkscape:window-width="1280"
-     inkscape:window-height="651"
+     inkscape:zoom="1.2148042"
+     inkscape:cx="786.13491"
+     inkscape:cy="336.67977"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -436,15 +436,63 @@
        x="1243.9105"
        y="586.49445">Liés ascendants.</tspan></text>
   <path
-     style="fill:#000000;stroke:#000000;stroke-width:10.4173;stroke-dasharray:none;marker-mid:;stroke-dashoffset:0"
-     d="M 1974.0803,727.09866 684.02897,1365.4483 Z"
-     id="path5954" />
+     style="fill:#ffff00;stroke:#ff0000;stroke-width:3.75;paint-order:stroke fill markers;fill-opacity:1;stroke-opacity:1"
+     d="m 589.92339,1211.9667 1.27238,177.8896 z"
+     id="path368" />
   <path
-     style="fill:#000000;stroke:#000000;stroke-width:10.4173;stroke-dasharray:none;stroke-dashoffset:0"
-     d="m 686.04017,1365.1755 22.42792,-55.956 -18.63566,54.1993 z"
-     id="path14019" />
+     style="fill:#ffff00;stroke:#ff0000;stroke-width:3.75;paint-order:stroke fill markers;fill-opacity:1;stroke-opacity:1"
+     d="m 589.8722,1388.8716 c -1.72001,-3.1687 -12.73743,-29.0208 -12.73743,-29.0208 z"
+     id="path370" />
   <path
-     style="fill:#000000;stroke:#000000;stroke-width:10.4173;stroke-dasharray:none;stroke-dashoffset:0"
-     d="m 732.09565,1380.715 -52.06924,-11.7209 z"
-     id="path14021" />
+     style="fill:#ffff00;stroke:#ff0000;stroke-width:3.75;paint-order:stroke fill markers;fill-opacity:1;stroke-opacity:1"
+     d="m 588.16194,1386.5121 16.72286,-23.4644 z"
+     id="path372" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1187.9775,1261.3418 1.2724,177.8896 z"
+     id="path368-3" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1187.9264,1438.2467 c -1.7201,-3.1687 -12.7375,-29.0208 -12.7375,-29.0208 z"
+     id="path370-6" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1186.2161,1435.8872 16.7229,-23.4644 z"
+     id="path372-7" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1882.189,1218.9941 1.2723,177.8896 z"
+     id="path368-5" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1882.1378,1395.899 c -1.72,-3.1687 -12.7375,-29.0208 -12.7375,-29.0208 z"
+     id="path370-3" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1880.4275,1393.5395 16.7229,-23.4644 z"
+     id="path372-5" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 2498.981,1146.2119 1.2724,177.8896 z"
+     id="path368-6" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 2498.9298,1323.1168 c -1.72,-3.1687 -12.7374,-29.0208 -12.7374,-29.0208 z"
+     id="path370-2" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 2497.2195,1320.7573 16.7229,-23.4644 z"
+     id="path372-9" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 3188.5104,1111.866 1.2724,177.8896 z"
+     id="path368-1" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 3188.4592,1288.7709 c -1.72,-3.1687 -12.7374,-29.0208 -12.7374,-29.0208 z"
+     id="path370-27" />
+  <path
+     style="fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:3.75;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 3186.7489,1286.4114 16.7229,-23.4644 z"
+     id="path372-0" />
 </svg>
