@@ -1,0 +1,91 @@
+
+.lesson-content.theory 
+{
+  position: relative; /* nécessaire pour positionner le ::before */
+
+  margin-top: 5px;    
+  margin-left: 1.7em;    
+  margin-right: .4em;    
+  padding-top: 0px; 
+  padding-left: 0.1em;
+
+
+  font-family: Georgia, serif;
+  font-size: 1.4em;
+
+  color: rgb(0,0,0);
+
+  border-left: solid 1.1em rgba(100, 200,255, 1);   
+  border-right: solid 5px rgba(100, 200,255, 1);  
+  border-bottom: 2px solid rgba(100, 200,255, 1);
+  border-radius: 5px 5px 5px 1em;    
+
+  background-color: #fffdf6; 
+
+  background-image: linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 20px,
+    rgba(200,100,0) 20px,
+    rgba(200,100,0) 22px,
+    transparent 22px
+  ),
+
+  /* Trait vertical à gauche */
+  linear-gradient(to right, rgba(0,0,0,1) 1px, transparent 1px),
+
+
+  linear-gradient(to bottom, #d0e1ff 1px, transparent 2px);
+
+
+  background-size: 100% 24px;  /* distance entre les lignes */
+
+  text-shadow:
+      -1px 1px 1px rgb(200,225,255),
+      1px 0px 1px rgb(255,255,255),      
+       1px 1px 2px black;
+
+
+
+  box-shadow: -2px -1px 1px rgba(0,0,0,1),
+              0px 1px 1px rgba(0,0,0,1),  
+              4px 2px 3px rgba(0,0,0,0.4);
+
+
+}
+
+.lesson-content  p u {
+
+  margin-top: 10px;
+  padding-right: 0.5em;  
+  padding-top: 0px;      
+  padding-left: 2px;    
+  padding-bottom: 10px;
+
+  border-bottom: solid 1px;
+  border-radius: 0px 10px 0px 10px;
+
+  background-color: rgba(100,100,100,0.1); 
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);    
+}
+
+.lesson-content.theory::before {
+    content: "➤"; /*∴🧭ℹ️📘🔷📖➤🟩✦∴*/
+    position: absolute;
+    left: -50px; 
+    top: 30%;  
+    padding: 5px;
+    font-size: 20px;
+    align-self: flex-start;
+    border: solid 1px;        
+    border-bottom: solid 3px rgb(0,155,255);
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);    
+
+}
+
+
+
+
+

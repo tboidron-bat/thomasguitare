@@ -1,0 +1,136 @@
+.container h3
+{
+  text-align: center;
+}
+
+.container p
+{
+    padding: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;    
+    border-left: solid 1px rgba(255,255,255,1);        
+    border-right: solid 1px white;            
+
+
+    background-color: rgba(200,255,255,0.2);       
+
+    font-family: 'Audiowide', cursive;
+
+    font-size: 1.5em;
+    line-height: .8;
+    text-align: center;    
+    text-shadow: 1px 1px 1px rgba(100,100,100,1);      
+}
+
+/*.header-links a {
+  background-color: rgba(0,255,255,1);
+  text-decoration: none;
+}
+*/
+.home-link {
+  display: inline-block;
+  width: 48px;   /* largeur de l’icône */
+  height: 40px;  /* hauteur de l’icône */
+  text-indent: -9999px;  /* cache le texte hors écran */
+  overflow: hidden;
+
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  border-top: 3px solid rgba(200,255,255,0.8);
+  border-bottom: 3px solid rgba(200,255,255,0.8);  
+
+  background: rgba(200,255,255,0.5) url('../icon_home.gif') no-repeat center center;
+  background-size: contain; /* adapte l’image à la taille */
+}
+
+.home-link:hover
+{
+  border-top: 3px solid rgba(255,255,255,1);
+  border-bottom: 3px solid rgba(255,255,255,1);  
+
+  background: rgba(0,255,255,1) url('../icon_home.gif') no-repeat center center;    
+  background-size: contain; /* adapte l’image à la taille */  
+}
+
+
+
+
+.contact-form {
+    max-width: 600px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin: 30px auto;         
+    padding: 20px;
+    background-color: #fafafa;       /* léger fond gris clair */
+    border: 1px solid #888888;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+    background: linear-gradient( to right, rgba(155, 200, 235,0.5), rgba(155, 200,235,0.5));    
+}
+
+/* Champs texte + zone de saisie */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="submit"],
+.contact-form input[type="reset"],
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+
+/* Effet focus (quand on clique dans un champ) */
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: #333;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;         
+    padding: 20px;
+    background: linear-gradient(to right, rgba(155, 200, 235, 0.5), rgba(155, 200, 235, 0.5));
+    border: 1px solid #888888;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    position: relative;  /* important pour le positionnement du ::before */
+    overflow: hidden;    /* éviter que les zébrures débordent */
+}
+
+.contact-form::before {
+    content: "";
+    position: absolute;
+    inset: 0;   /* top:0; right:0; bottom:0; left:0; */
+    pointer-events: none;  /* ne gêne pas les clics */
+    background-image: repeating-linear-gradient(
+        5deg,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.05) 30px,
+        transparent 3px,
+        transparent 50px
+    );
+    z-index: 1;  /* au-dessus du fond mais en dessous du contenu */
+}
+
+.other-contact
+{
+
+    padding: 0;    
+    margin: 0;
+}
+
+

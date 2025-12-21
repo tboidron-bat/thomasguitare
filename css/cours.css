@@ -1,0 +1,52 @@
+.container
+{
+  margin-top: 0px;
+  margin-left: 1.0em;
+  margin-right: 1.0em;   
+  font-size: 1.2em;
+
+}
+
+.container h3
+{
+  color: #3a78d8; /* bleu doux pour les titres */  
+  text-align: center;
+    background: linear-gradient( to right, rgba(155, 200, 235,0.5), rgba(155, 200,235,0.5));      
+}
+
+.home-link {
+  display: inline-block;
+  width: 48px;   /* largeur de l’icône */
+  height: 40px;  /* hauteur de l’icône */
+  text-indent: -9999px;  /* cache le texte hors écran */
+  overflow: hidden;
+
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  border-top: 3px solid rgba(200,255,255,0.8);
+  border-bottom: 3px solid rgba(200,255,255,0.8);  
+
+  background: rgba(200,255,255,0.5) url('../icon_home.gif') no-repeat center center;
+  background-size: contain; /* adapte l’image à la taille */
+}
+
+.home-link:hover
+{
+  border-top: 3px solid rgba(255,255,255,1);
+  border-bottom: 3px solid rgba(255,255,255,1);  
+
+  background: rgba(0,255,255,1) url('../icon_home.gif') no-repeat center center;    
+  background-size: contain; /* adapte l’image à la taille */  
+}
+
+
+/*.container {
+  font-family: 'Arial', sans-serif;
+}
+*/
+.container a
+{
+  color: #1e90ff; /* bleu clair pour les liens */
+  transition: color 0.3s ease;
+}  
+
+

@@ -1,152 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thomas #guitare#</title>
-    <link rel="stylesheet" type="text/css" href="css/header.css" />     
-    <link rel="stylesheet" type="text/css" href="css/sidebar.css" />                 
-    <link rel="stylesheet" type="text/css" href="css/body.css" />         
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />             
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NG1Q9YY5K"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0NG1Q9YY5K');
-  </script>
-
-    
+  <meta charset="UTF-8">
+  <title>eGuitare.fr</title>
+  <link href="css/header.css" rel="stylesheet" />  
+  <link href="css/body_tile_00.css" rel="stylesheet" />      
+  <link href="fonts/body_segoe_ui.css" rel="stylesheet" />        
+  <link href="css/card.css" rel="stylesheet" />      
+  <link href="css/footer.css" rel="stylesheet" />        
+  <link href="fonts/footer_courier_new.css" rel="stylesheet" />          
 </head>
 
 <body>
 
-  <div class="layout">
-    
-    <aside class="sidebar">
-        <a href="cours.html">Cours</a>            
-        <a href="contact.html">Contact</a>      
-    </aside>
+<header>
+  <h1>Bienvenue sur eGuitare.fr</h1>
+  <p>Apprends la guitare, du débutant au niveau intermédiaire.</p>
 
-    <div class="main-content">
-      <header>
-        <div class="container">
-          <h1 class="titre">&nbsp;&gt;&nbsp; Cours d&eacute;butant </h1>
-
-        </div>
-      </header>   
-
-      <!-- <hr class="ligne-separatrice">       -->
-      
-      <main class="container">
-        <section>
-          <h3>Bienvenue</h3>
-          <p class="section-marker">
-            1-#</p>
-          <nav>
-            <ul>
-              <li><a href="papers/lesson1/lesson.html">&alpha; &gt;&nbsp;Un peu de solf&egrave;ge.</a></li>
-              <li>
-                <a href="papers/lesson2/lesson.html">&beta; &gt;&nbsp;Les cordes à vides, la mesure.</a>
-              </li>
-              <li><a href="papers/lesson3/lesson.html">&gamma; &gt;&nbsp;La signature rythmique, la blanche.</a></li>
-              <li>
-                <a href="papers/lesson4/lesson.html">&delta; &gt;&nbsp;La ronde, le point de prolongation. </a>
-              </li>
-            </ul>
-          </nav>          
-
-          <p class="section-marker">
-            2-#</p>          
-
-          <nav>
-            <ul>
-              <li><a href="papers/lesson5/lesson.html">&alpha; &gt;&nbsp;Notes sur les cordes de Si & de Mi aigüe. </li>
-              <li><a href="papers/lesson6/lesson.html">&beta; &gt;&nbsp;Notes sur les cordes de Ré & Sol.</a></li>
-              <li><a href="papers/lesson7/lesson.html">&gamma; &gt;&nbsp;Notes sur les cordes de Mi grave & La.</a></li>
-            </ul>
-          </nav>   
-
-
-
-          <p class="section-marker">
-            3-#</p>
-          <nav>
-            <ul>
-              <li>
-                <a href="papers/lesson8/lesson.html">&alpha; &gt;&nbsp;La liaison.</a>
-              </li>
-              <li>
-                <a href="papers/lesson9/lesson.html">&beta; &gt;&nbsp;La croche.</a>
-              </li>
-              <li>
-                <a href="papers/lesson10/lesson.html">&gamma; &gt;&nbsp;Le dièse #.</a>
-              </li>
-              <li>
-                <a href="papers/lesson11/lesson.html">&delta; &gt;&nbsp;La tonalité de Sol.</a>
-              </li>              
-            </ul>
-          </nav>     
-
-          <p class="section-marker">
-            4-#</p>
-          <nav>
-            <ul>
-              <li>
-                <a href="papers/lesson12/lesson.html">&alpha; &gt;&nbsp;Les li&eacute;es.</a>
-
-              </li>
-              <li>
-                <a href="papers/lesson13/lesson.html">&beta; &gt;&nbsp;Le triolet.</a>
-              </li>
-              <li>
-                <a href="papers/lesson14/lesson.html">&gamma; &gt;&nbsp;La double croche.</a>
-              </li>
-              <li>
-                <a href="papers/lesson15/lesson.html">&delta; &gt;&nbsp;Num&eacute;ro de corde.</a>
-              </li>              
-            </ul>
-          </nav>                
-
-          <p class="section-marker">
-            5-#</p>
-          <nav>
-            <ul>
-              <li>
-                <a href="papers/lesson16/lesson.html">&alpha;&nbsp;&gt;&nbsp;Les 12 notes&nbsp;.</a>
-
-              </li>
-              <li>
-                <a href="papers/lesson17/lesson.html">&beta; &gt;&nbsp;.</a>
-              </li>
-              <li>
-                <a href="papers/lesson18/lesson.html">&gamma; &gt;&nbsp;.</a>
-              </li>
-              <li>
-                <a href="papers/lesson19/lesson.html">&delta; &gt;&nbsp;.</a>
-              </li>              
-            </ul>
-          </nav>                
-
-
-
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            -----------------------------------------------------------------------------------
-          </p>                             
-
-        </section>
-      </main>
-
-      <footer>
-        <div class="container">
-          <p>&copy; 2025 MonSite. Tous droits réservés.</p>
-        </div>
-      </footer>   
-
-    </div>
+  <div class="header-links">
+    <a href="contact.html">Contact</a>
+    <a href="cours.html">Cours</a>
   </div>
+    
+</header>
+
+<div class="container">
+  <h2 style="text-align:center;">Choisis ton parcours</h2>
+
+  <div class="cards">
+
+
+    <a href="papers/classique_debutant/index.html" class="card">
+      <h3 >🎸Classique – Débutant</h3>
+      <p>D&eacute;couvre la guitare, les positions de base, la lecture des notes et tes premi&egrave;res m&eacute;lodies.</p>
+    </a>
+
+    <a href="papers/classique_intermediaire/index.html" class="card">
+    
+      <h3>🎼 Classique – Intermédiaire</h3>
+      <p>Progresse avec des pièces plus longues, travail du rythme, arpèges et techniques avancées.</p>
+    </a>
+
+  <a href="papers/blues_debutant/index.html" class="card">
+    <h3 class="card_title">🔵 Blues – Débutant</h3>
+    <p>Découvre les accords blues, le shuffle, tes premiers riffs et les plans incontournables.</p>
+  </a>
+
+
+</div>
+
+<footer>
+  &copy; 2025 eGuitare.fr – Tous droits réservés
+</footer>
+
 </body>
 </html>

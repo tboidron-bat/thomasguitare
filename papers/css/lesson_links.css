@@ -1,0 +1,101 @@
+/* Liens visités */
+nav.lesson-links a:visited {
+	color:rgb(0,0,0);
+}
+
+
+/* Liens actifs (clic en cours) */
+nav.lesson-links a:active {
+  color: rgb(0,255,0);
+}
+
+
+nav.lesson-links a {
+
+	font-size:1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+  	/*font-family: "Courier New", Courier, monospace;	*/
+
+
+	text-decoration: none;
+
+	color: rgba(0,0,0,1);	
+
+	text-shadow: 
+		1px 0px 1px rgba(255,255,255,1),      
+		-1px 0px 1px rgba(255,255,255,1),
+		0px 1px 1px rgba(255,255,255,1),	
+		0px -1px 1px rgba(255,255,255,1),		
+		1px 1px 2px rgba(0,0,0,1);
+
+}
+nav.lesson-links a:hover {
+
+	color:rgb(0,0,0);
+	text-decoration: underline;
+	text-shadow: 
+		1px 0px 1px rgba(255,255,200,1),      
+		-1px 0px 1px rgba(255,245,200,1),
+		0px 1px 1px rgba(255,244,200,1),	
+		0px -1px 1px rgba(255,244,200,1),		
+		1px 1px 2px rgba(0,0,0,1);
+
+
+}
+
+
+nav.lesson-links
+{
+	margin:0;	    	
+	margin-bottom:1.0em;	    		
+	padding:0;	
+
+}
+
+nav.lesson-links ul
+{
+    position: relative; 
+
+
+  	margin-left: -10px;	      	
+	margin-top:0px;	    		
+	padding:0;		
+	padding-left:.4em;	    					
+	padding-top:.5em;	    						
+	padding-bottom:.5em;	    							
+
+    list-style-type: none;    
+
+    border: solid 1px black;
+    border-left: solid 5px rgba(200,255,255,1);    
+    border-radius: 0.2em 1em 0px 5px;
+
+	background-color: #f0ffff;
+    background: linear-gradient( to right, rgba(200, 255, 255,0.1), rgba(0,255,255,0.1));	
+    background: linear-gradient( to right, rgba(255, 255, 0,0.1), rgba(255,255,100,0.1));	        
+    background: linear-gradient( to right, rgba(255, 255, 0,0.1), rgba(255,255,100,0.1));	            
+    background: linear-gradient( to right, rgba(200, 100, 255,0.1), rgba(180,100,255,0.1));	    
+
+
+
+	
+	box-shadow: 4px 4px 4px 2px rgba(100, 100	, 100, 1);
+/*		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);	*/
+}
+
+nav.lesson-links ul::before {
+    content: "";
+    position: absolute;
+    inset: 0;   /* top:0; right:0; bottom:0; left:0; */
+    pointer-events: none;  /* ne gêne pas les clics */
+    background-image: repeating-linear-gradient(
+        135	deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2) 20px,
+        transparent 20px,
+        transparent 40px
+    );
+    z-index: 1;  /* au-dessus du fond mais en dessous du contenu */
+}
+
+
