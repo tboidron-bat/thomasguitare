@@ -1,64 +1,137 @@
+.lesson-content.piece {
 
-.lesson-content.theory 
-{
   position: relative; /* nécessaire pour positionner le ::before */
 
-  padding-top: 0.2em; 
-  padding-left: 1.8em;
-  margin-right: 1.5em;  
+  margin-top: 5px;    
+  margin-left: 1.7em;    
+  margin-right: .4em;    
+  padding-top: 0px; 
+  padding-left: 1.1em;
 
-  border-left: 15px solid rgba(100, 200,255, 1);
-  border-right: 5px solid rgba(100, 200,255, 1);  
-  border-top: 2px solid rgba(100, 200,255, 1);    
+  font-family: Georgia, serif;
+  font-size: 1.4em;
+
+
+  color: rgb(50,50,50);  
+
+  border-left: solid 1.1em rgba(0, 200,200, 1);   
+  border-right: solid 5px rgba(100, 200,255, 1);  
   border-bottom: 2px solid rgba(100, 200,255, 1);
-  border-radius: 0.5em 5px 5px 1.5em;    
+  border-radius: 5px 5px 5px 1em;    
+
+  background-color: #fffdf6; 
 
 
-  background-color: #fffdf6;
-  background-image:
-      /* Trait vertical gauche */
-      linear-gradient(to right,
-          black 0px, black 1px,      /* ligne noire verticale */
-          transparent 1px
-      ),
+background-image:
+  /* traits verticaux à gauche */
+  linear-gradient(
+    to right,
+    #ffffff 0px,
+    #ffffff 1px,
+    #000000 2px,
+    #000000 3px,
+    transparent 3px
+  ),
 
-      /* Gradient du bas + trait horizontal */
-      linear-gradient(
-          to bottom,
-          transparent 93%,           
-          black 93%, black 94%,      
-/*          #adf4ff 95%, #80a0a0 100%,*/
-          #adf4ff 95%, #adf4ff 100%          
-      ),
+  /* marge verticale du modèle 3 */
+  linear-gradient(
+    to right,
+    transparent 0,
+    transparent 18px,
+    rgba(120,120,120,0.35) 18px,
+    rgba(120,120,120,0.35) 19px,
+    transparent 19px
+  ),
 
-      /* Petits pois */
-      radial-gradient(#ffedf6 1.8px, transparent 0.8px);
+  /* lignes horizontales fines (mm) */
+  repeating-linear-gradient(
+    to bottom,
+    rgba(170, 190, 220, 0.35) 0,
+    rgba(170, 190, 220, 0.35) 1px,
+    transparent 1px,
+    transparent 8px
+  ),
 
-  background-size:
-      auto,           /* trait vertical */
-      100% 100%,      /* gradient horizontal */
-      8px 8px;        /* pois */
-  background-repeat: no-repeat, no-repeat, repeat;
+  /* lignes verticales fines (mm) */
+  repeating-linear-gradient(
+    to right,
+    rgba(170, 190, 220, 0.25) 0,
+    rgba(170, 190, 220, 0.25) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+
+
+
+text-shadow:
+  1px 0px 0 rgba(218,225,255,1),
+ -1px 0px 0 rgba(218,225,255,1),
+  0px -1px 0 rgba(218,225,255,1),
+  0px 1px 0 rgba(218,225,255,1),
+  1px 1px 2px rgba(105,105,105,1);
+
+
+
+
+
+  box-shadow: -2px -1px 1px rgba(0,0,0,1),
+              0px 1px 1px rgba(0,0,0,1),  
+              -6px 1px 0px rgba(255,100,255 ,1),                
+              1px 0px 0px rgba(0,0,0,1),                              
+              4px 2px 3px rgba(0,0,0,0.4);
+
 
 }
-.lesson-content.theory::before {
-    content: "∴"; /*∴💡🧭ℹ️📘🔷📖➤🟩✦*/
+
+.lesson-content.piece  p u {
+
+  margin-top: 10px;
+  padding-right: 0.5em;  
+  padding-top: 0px;      
+  padding-left: 2px;    
+  padding-bottom: 10px;
+
+  border-bottom: solid 1px;
+  border-radius: 0px 10px 0px 10px;
+
+  background-color: rgba(100,100,100,0.1); 
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.0),
+    rgba(0,200,255,0.1),    
+    rgba(0,200,255,0.1)
+  );
+
+  text-shadow: 
+    1px 1px 0 rgb(255,255,255), 
+   -1px -1px 0 rgb(255,255,255), 
+    1px -1px 0 rgb(255,255,255), 
+   -1px 1px 0 rgb(255,255,255);
+
+
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);    
+}
+
+
+
+.lesson-content.piece::before {
+    content: "🎵";
+
     position: absolute;
-    left: -12px;         /* décale sur la bordure */
-    top: -4px;  
-
+    left: -50px; 
+    top: 34%;  
+    padding: 2px;
     font-size: 30px;
-    margin-top: 0.6em;     
-    margin-right: 10px;
     align-self: flex-start;
-    border: solid 1px;        
-    border-bottom: solid 7px rgb(0,155,255);
+    border: solid 2px rgb(100,100,100);        
+    border-bottom: solid 3px rgb(0,155,255);
+
+    color: rgb(255,50,50);      
     background-color: white;
-    box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.6);    
 
+    text-shadow: 2px 2px 4px green;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);    
 }
-
-
-
-
-

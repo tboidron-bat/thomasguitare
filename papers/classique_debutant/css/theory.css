@@ -13,7 +13,8 @@
   font-family: Georgia, serif;
   font-size: 1.4em;
 
-  color: rgb(0,0,0);
+
+  color: rgb(50,50,50);  
 
   border-left: solid 1.1em rgba(100, 200,255, 1);   
   border-right: solid 5px rgba(100, 200,255, 1);  
@@ -41,20 +42,23 @@
   background-size: 100% 24px;  /* distance entre les lignes */
 
   text-shadow:
-      -1px 1px 1px rgb(200,225,255),
-      1px 0px 1px rgb(255,255,255),      
-       1px 1px 2px black;
+      -1px 0px 0px rgb(200,225,255),
+      1px 0px 0px rgb(200,225,255),      
+      0px -1px 0px rgb(200,255,255),      
+       0px 1px 0px rgb(200,225,255);
 
 
 
   box-shadow: -2px -1px 1px rgba(0,0,0,1),
               0px 1px 1px rgba(0,0,0,1),  
+              -6px 1px 0px rgba(0,100,255,1),                
+              1px 0px 0px rgba(0,0,0,1),                              
               4px 2px 3px rgba(0,0,0,0.4);
 
 
 }
 
-.lesson-content  p u {
+.lesson-content.theory  p u {
 
   margin-top: 10px;
   padding-right: 0.5em;  
@@ -77,6 +81,8 @@
 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);    
 }
+
+
 
 .lesson-content.theory::before {
     content: "➤"; /*∴🧭ℹ️📘🔷📖➤🟩✦∴*/

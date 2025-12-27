@@ -1,6 +1,5 @@
 main
 {
-	display:flex;
 	font-size:1.2em;	
 	margin-top:1.0em;	    
 	margin-left:1.0em;	
@@ -25,20 +24,24 @@ main
 
 }
 
-main .section-marker {
+main .lesson-block
+{
+	margin-top:0.5em;			
+	margin-left:1em;	
+	margin-right:5em;		
+}
 
-  position: relative;
+main h2 {
 
-  margin: 0;	
-
-  margin-right: 20%;	      
-  margin-left: -10px;	      
+  	display: inline-block;
+    position: relative;
+  	margin: 0;	
+  	margin-left: -1.5em;	      
 	padding-top:0;	    			
 	padding-bottom:.2em;	    			
 	padding-top:.4em;	    				
-  padding-left: 8px;	
-
-
+  	padding-left: 1.0em;	
+  	padding-right: 1.0em;	  	
   	font-weight: bold;
   	font-size: 1.4em;
 
@@ -47,9 +50,9 @@ main .section-marker {
 
    	text-shadow: 1px 1px 0px black, 0 0 1px blue, 0 0 0.2em blue;				
 
-  	border-left: 4px double rgba(255,255,255);
+  	border-left: solid 4px rgba(0,0,0);
 	border-top:solid 1px rgb(0, 0, 0,1);        
-	border-bottom:double 3px rgb(0, 0, 0,1);      
+	border-bottom:solid 1px rgb(0, 0, 0,1);        
   	border-radius: 0.2em 1.0em 0px 0px;	
 
   	font-family: "Courier New", monospace;
@@ -57,11 +60,10 @@ main .section-marker {
 	background-color: #f0ffff;
     background: linear-gradient( to right, rgba(0, 100, 200,0.3), rgba(0, 200,200,0.05));	
 
-
-	box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 0px 2px rgba(100, 100, 200, 1);    
 }
 
-main .section-marker::before {
+main h2::before {
     content: "";
     position: absolute;
     inset: 0;   /* top:0; right:0; bottom:0; left:0; */
@@ -73,7 +75,7 @@ main .section-marker::before {
         transparent 20px,
         transparent 40px
     );
-    z-index: 1;  /* au-dessus du fond mais en dessous du contenu */
+    z-index: 10;  /* au-dessus du fond mais en dessous du contenu */
 }
 
 

@@ -81,15 +81,15 @@ header h1.titre {
 
 
   /* ton motif */
-/*  background: radial-gradient(black 15%, transparent 16%) 0 0,
+  background: radial-gradient(black 15%, transparent 16%) 0 0,
               radial-gradient(black 15%, transparent 16%) 8px 8px,
               radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
               radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
   background-color: rgba(245,245,245,0.1);
 
   background-size:
-    4px 70px;
-*/
+    8px 70px;
+
 
 
   box-shadow: -2px -1px 1px rgba(0,0,0,1),
@@ -99,128 +99,7 @@ header h1.titre {
 
 
 
-.lesson-content {
 
-  display: flex;
-  padding: 0.5em;
-	padding-top: 0.2em;
-  
-  margin-right: .5em;    
-  margin-top: 1.1em;
-  margin-left: 0.5em;
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #cccccc;    
-  border-left: 10px solid #aacccc; 
-  font-size: 1.2em;
-  align-items: top;   /* Centre verticalement si hauteur différente */
-
- 	box-shadow: 8px 10px 3px 1px rgba(0, 0, 0, 0.6);     
-
-}
-
-.lesson-content .text {
-    flex: 1 1 100px;       Texte prend l’espace restant, minimum 300px
-    min-width: 300px;      
-	  margin-top: -0.4em;        
- }  
-
-.lesson-content .image {
-  margin-top: 10px;
-  flex: 0 0 40%;         /* Image prend 40% fixe */
-  max-width: 40%;
-}
-
-.lesson-content .image img {
-
-
-    flex: 0 0 40%;
-    max-width: 40%;
-    overflow: visible; /* Permet à l'image de dépasser sans être coupée */
-    position: relative; /* pour gérer le z-index */
-    z-index: 10;        /* pour s'assurer qu'elle soit au-dessus */
-    max-width: 70%;     
-    width: 100%;
-    height: auto;
-    display: block;      
-    margin-left: 1em;    
-    border: double 5px #888;
-    background-color: #e3edfc;
-
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-	  box-shadow: 4px 4px 3px  rgba(0, 0, 0, 0.7);           
-}
-
-.lesson-content .image img:hover {
-  transform: scale(1.8);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-}
-
-
-.lesson-content .text p::first-letter {
-
-  font-size: 3em;
-  border: 1px solid black;
-  padding:2px;
-  font-weight: bold;
-  float: left;
-
-  color: darkred;
-  background-color: rgba(200,200,255,0.5);  
-  font-family: "Times New Roman", serif;
-  text-shadow: 
-    1px 1px 0 gold, 
-   -1px -1px 0 gold, 
-    1px -1px 0 gold, 
-   -1px 1px 0 gold;
-  	box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);       
-}
-
-.lesson-content.piece {
-
-    position: relative; /* nécessaire pour positionner le ::before */
-
-
-  padding-left: 2.8em;
-  margin-left: 1.0em;    
-  margin-right: 2.0em;  
-
-  border-left: 25px solid rgba(0, 200,255, 1);
-  border-right: 5px solid rgba(100, 200,255, 1);  
-  border-top: 2px solid rgba(100, 200,255, 1);    
-  border-bottom: 2px solid rgba(100, 200,255, 1);
-  border-radius: 0.1em 5px 5px 1.5em;    
-
-  background-color: #fffdf6; 
-
-  background-image: linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 20px,
-    rgba(200,0,0) 20px,
-    rgba(200,0,0) 22px,
-    transparent 22px
-  ),linear-gradient(to bottom, #d0e1ff 1px, transparent 2px);
-
-
-  background-size: 100% 24px;  /* distance entre les lignes */
-
-}
-.lesson-content.piece::before {
-    content: "🎵";
-
-    position: absolute;    
-
-    left: -10px;         /* décale sur la bordure */
-    top: 13px;  
-
-    font-size: 38px;
-    margin-right: 10px;
-    border: solid 1px;   
-    background-color: rgb(255,255,235);    
-    align-self: flex-start;
-    box-shadow: 4px 6px 1px rgba(0, 0, 0, 0.6);        
-}
 
 
 

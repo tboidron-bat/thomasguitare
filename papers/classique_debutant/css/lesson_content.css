@@ -1,0 +1,72 @@
+.lesson-content 
+{
+  display: flex;  
+  margin-bottom: 0.5em;
+}
+
+.lesson-content .text {
+  flex: 1 1 60%;
+  max-width: 60%;
+}
+
+
+.lesson-content .image {
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;  
+  flex: 0 0 40%;         /* Image prend 40% fixe */
+  max-width: 40%;
+}
+
+.lesson-content .image img {
+
+    display: block;      
+    flex: 0 0 40%;
+    max-width: 40%;
+    overflow: visible; /* Permet à l'image de dépasser sans être coupée */
+    position: relative; /* pour gérer le z-index */
+    z-index: 10;        /* pour s'assurer qu'elle soit au-dessus */
+    max-width: 70%;     
+    width: 100%;
+    height: auto;
+    margin-left: 1em;    
+    border: double 5px #888;
+    background-color: #e3edfc;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	  box-shadow: 3px 3px 3px  rgba(150, 150, 150, 0.7);           
+}
+
+.lesson-content .image img:hover {
+  transform: scale(1.8);
+  box-shadow: 4px 4px 4px rgba(100, 100, 100, 0.1);
+}
+
+.lesson-content .text p::first-letter {
+
+  font-size: 3em;
+  border: 1px solid black;
+  padding:2px;
+  font-weight: bold;
+  float: left;
+
+  color: darkred;
+  background-color: rgba(200,200,255,0.5);  
+  font-family: "Times New Roman", serif;
+  text-shadow: 
+    1px 1px 0 gold, 
+   -1px -1px 0 gold, 
+    1px -1px 0 gold, 
+   -1px 1px 0 gold;
+
+  	box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);       
+}
+
+
+audio {
+  text-shadow: none !important;
+  color: inherit !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  font-style: normal !important;
+}
