@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1007"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="exercice2.svg"
+   sodipodi:docname="ex_corde_a_vide_02.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,13 +26,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="350"
-     inkscape:cy="332.85714"
+     inkscape:cx="548.57143"
+     inkscape:cy="405.71429"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="651"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -644,5 +644,16 @@
        d="m 256.72437,196.33006 c -0.65657,0 -1.1354,1.05906 -1.1354,2.52376 0,1.43473 0.46415,2.48577 1.09689,2.48577 0.65856,0 1.11886,-1.01549 1.11886,-2.46677 0,-0.73776 -0.10448,-1.3504 -0.30076,-1.83219 -0.18348,-0.4384 -0.48424,-0.71057 -0.77959,-0.71057 m -0.033,0.29936 c 0.15413,0 0.30451,0.15246 0.41826,0.43299 0.12655,0.32671 0.16869,0.72416 0.16869,1.67972 0,0.98291 -0.033,1.44309 -0.12654,1.74802 -0.10824,0.34292 -0.27693,0.54991 -0.45489,0.54991 -0.15953,0 -0.30627,-0.15246 -0.41826,-0.4302 -0.13207,-0.32932 -0.16869,-0.75953 -0.16869,-1.9031 0,-0.81668 0.033,-1.21971 0.12654,-1.52725 0.10824,-0.34849 0.27693,-0.55009 0.45489,-0.55009"
        id="path74-2"
        style="stroke-width:0.14302" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8167px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.264583;paint-order:stroke fill markers"
+       x="62.970169"
+       y="122.26305"
+       id="text449"><tspan
+         sodipodi:role="line"
+         id="tspan447"
+         style="font-size:14.8167px;stroke-width:0.264583"
+         x="62.970169"
+         y="122.26305">Exercice de corde à vide.</tspan></text>
   </g>
 </svg>
