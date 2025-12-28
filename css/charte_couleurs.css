@@ -1,0 +1,42 @@
+/* Charte des couleurs pour la leçon de musique */
+
+/* Mots importants, titres, notions clés */
+.color-important {
+  color: #c0392b;
+  font-weight: 700;
+}
+
+/* Concepts, idées, définitions */
+.color-concept {
+  color: #1a73e8;
+  font-style: italic;
+}
+
+/* Actions, verbes, consignes */
+.color-action {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+/* Termes techniques, exemples spécifiques */
+.color-technique {
+  color: #d35400;
+  font-weight: 600;
+}
+
+/* Compléments, notes supplémentaires, styles alternés */
+.color-complement {
+  color: #8e44ad;
+  font-style: italic;
+}
+
+/* Style général pour listes avec charte */
+ul.charte-list {
+  font-size: 0.9em;
+  padding-left: 1.2em;
+  margin-top: 0.5em;
+}
+
+ul.charte-list li {
+  margin-bottom: 0.6em;
+}

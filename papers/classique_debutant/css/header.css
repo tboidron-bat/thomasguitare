@@ -1,0 +1,62 @@
+header h1::first-letter {
+
+
+  color: gold;
+  text-shadow:
+      -1px 0px 0 black,
+       1px 0px 0 black,
+       0px  1px 0 black,
+       0px  -1px 0 black,
+       2px 2px 5px black;   
+}
+
+header h1
+{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 0px;	
+
+	margin-left: 1em;			
+	padding-right: 10%;
+
+  	color: #000050;                 
+
+	font-family: "Segoe UI", sans-serif;
+	text-shadow:
+      -1px 0px 0 rgb(100,200,255),
+       1px 0px 0 rgb(100,200,255),
+       0px  1px 0 rgb(100,200,255),
+       0px  -1px 0 rgb(100,200,255),
+       1px  1px 4px black;
+
+  	border-top: solid 8px rgba(0,100,255,0.4);  
+	/*border-right: solid 10px rgba(0,0,0,0.1);*/
+  	border-bottom: solid 8px rgba(200,255,255,0.3);  
+
+  	border-radius: 10em 10px 2em 0.1em;
+
+/*  background: radial-gradient(black 15%, transparent 16%) 0 0,
+              radial-gradient(black 15%, transparent 16%) 8px 8px,
+              radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+              radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color: rgba(245,245,245,0.1);
+
+  background-size:
+    16px 16px;
+*/
+
+  background: linear-gradient(to right, rgba(50,160,255,0.8), rgba(50,180,255,0.6));
+  background: linear-gradient(to right, rgba(225,235,255,0.6), rgba(225,235,255,0.9));  
+
+	box-shadow: 0px -1px 1px rgba(0,0,0,1),
+              0px 1px 1px rgba(200,200,255,1),  
+              4px 6px 2px rgba(0,0,0,0.6);
+
+
+
+}
+
+
+
+
+
