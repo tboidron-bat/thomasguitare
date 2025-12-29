@@ -15,84 +15,7 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
-     id="defs64">
-    <marker
-       style="overflow:visible"
-       id="marker3899"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path3897" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2-3"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L-6" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2-5"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L-3" />
-    </marker>
-  </defs>
+     id="defs64" />
   <sodipodi:namedview
      id="namedview62"
      pagecolor="#ffffff"
@@ -104,11 +27,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.60740211"
-     inkscape:cx="496.37628"
-     inkscape:cy="409.11942"
-     inkscape:window-width="1280"
-     inkscape:window-height="651"
+     inkscape:zoom="3.4359852"
+     inkscape:cx="273.13855"
+     inkscape:cy="243.59826"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -299,15 +222,15 @@
        x="1570.7816"
        y="2317.0854">Fa dièse</tspan></text>
   <path
-     style="fill:#000000;stroke:#666666;stroke-width:14.1732;stroke-dasharray:none;marker-end:url(#Arrow2)"
+     style="fill:#000000;stroke:#000000;stroke-width:14.1732;stroke-dasharray:none;stroke-opacity:1"
      d="m 2642.0614,1821.6437 -499.8902,227.1491 z"
      id="path3312" />
   <path
-     style="fill:#000000;stroke:#666666;stroke-width:14.2714;stroke-dasharray:none;marker-end:url(#Arrow2-5)"
+     style="fill:#000000;stroke:#000000;stroke-width:14.2714;stroke-dasharray:none;stroke-opacity:1"
      d="m 1959.4053,1653.6886 5.5353,451.3113 z"
      id="path3312-5" />
   <path
-     style="fill:#000000;stroke:#666666;stroke-width:17.2795;stroke-dasharray:none;marker-end:url(#Arrow2-3)"
+     style="fill:#000000;stroke:#000000;stroke-width:17.2795;stroke-dasharray:none;stroke-opacity:1"
      d="m 1289.3215,1667.7507 485.05,390.8269 z"
      id="path3312-7" />
   <text
@@ -323,7 +246,39 @@
        x="809.0705"
        y="511.09506">Altération structurelle</tspan></text>
   <path
-     style="fill:#000000;stroke:#666666;stroke-width:12.2231;stroke-dasharray:none;marker-end:url(#marker3899)"
+     style="fill:#000000;stroke:#000100;stroke-width:12.2173231;stroke-dasharray:none;stroke-opacity:1"
      d="M 824.34744,1080.5559 1266.9374,697.73854 Z"
      id="path3877" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10.076;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 827.46871,1075.537 c 8.16301,-8.4817 21.31666,-64.7323 21.31666,-64.7323 z"
+     id="path16973" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:11.2066;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 829.04702,1077.3739 67.99241,-5.0706 z"
+     id="path16975" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10.0556;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1289.0201,1669.9198 31.6294,58.9855 z"
+     id="path16977" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10.5956;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1289.1918,1667.813 70.75,9.7598 z"
+     id="path16979" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.2173;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1954.2445,1656.847 c 0,0 -32.8866,82.1229 -29.5357,73.9498 3.3509,-8.1732 29.5357,-73.9498 29.5357,-73.9498 z"
+     id="path16981" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.2173;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 1957.4149,1658.1971 30.7858,68.1138 z"
+     id="path16983" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.2173;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 2641.4176,1820.513 c -7.0558,-1.4741 -86.8399,12.4742 -86.8399,12.4742 z"
+     id="path16985" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:12.2173;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 2638.7632,1824.5244 -37.4181,59.6418 z"
+     id="path16987" />
 </svg>
