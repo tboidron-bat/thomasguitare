@@ -2,20 +2,24 @@
 
 /* Mots importants, titres, notions clés */
 .color-important {
-  color: #c0392b;
-  font-weight: 700;
+  /*color: #0066cc;  */
+  font-weight: bold;
 }
 
 /* Concepts, idées, définitions */
 .color-concept {
+
+  font-weight:  bold;  
   color: #1a73e8;
   font-style: italic;
+  text-decoration: underline;  
+
 }
 
 /* Actions, verbes, consignes */
 .color-action {
-  color: #27ae60;
-  font-weight: 600;
+  color: #000077;
+  font-weight: 500;
 }
 
 /* Termes techniques, exemples spécifiques */
@@ -30,7 +34,6 @@
   font-style: italic;
 }
 
-/* Style général pour listes avec charte */
 ul.charte-list {
   font-size: 0.9em;
   padding-left: 1.2em;
@@ -38,5 +41,5 @@ ul.charte-list {
 }
 
 ul.charte-list li {
-  margin-bottom: 0.6em;
+ 
 }

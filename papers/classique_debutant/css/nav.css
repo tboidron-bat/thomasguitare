@@ -40,13 +40,18 @@ nav ul {
 }
 
 nav a {
+  display: block;         
+  line-height: 1.2;       
+
   color: #0055aa;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  border-top: 2px solid rgb(0,0,0);    
+
   color: #0055aa;
   text-decoration: underline;
+
+
 }

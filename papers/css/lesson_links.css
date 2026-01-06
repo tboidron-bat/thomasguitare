@@ -12,19 +12,22 @@ nav.lesson-links a:active {
 
 nav.lesson-links a {
 
+	padding: 0px;
+	margin: 0px;	
 	padding-left: 0.2em;
 
 	font-size:1.5em;
 	font-family: Georgia, "Times New Roman", Times, serif;
-  	/*font-family: "Courier New", Courier, monospace;	*/
 
+/*    border-left: groove 4px rgba(0,0,0,0.4);       */
 
-    border-left: solid 5px rgba(255,225,0,1);   
-    border-left: solid 5px rgba(200,200,200,1);       
+    border-radius: 0.5em 0.2em 0 0 ;
 
 	text-decoration: none;
 
 	color: rgba(0,0,0,1);	
+
+
 
 	text-shadow: 
 		1px 0px 1px rgba(255,255,255,1),      
@@ -33,39 +36,57 @@ nav.lesson-links a {
 		0px -1px 1px rgba(255,255,255,1),		
 		1px 1px 2px rgba(0,0,0,1);
 
-	box-shadow: -1px 0px 0px rgba(0, 0, 0, 1);
+	/*box-shadow: -1px 0px 0px rgba(0, 0, 0, 1);*/
 
 
 }
 
-/*.lesson-links a::first-letter {
-  color: red; !important;
-  font-weight: bold;
-  font-size: 2.2em;
+nav.lesson-links a::before {
+  content: "> "; 
+
+  color: gold;
+  text-shadow:
+      -1px 0px 0 black,
+       1px 0px 0 black,
+       0px  1px 0 black,
+       0px  -1px 0 black,
+       2px 2px 5px black;    
 }
-*/
+
 
 nav.lesson-links a:hover {
 
-	color:rgb(0,0,0);
-	text-decoration: underlinea;
-	text-shadow: 
-		1px 0px 1px rgba(255,255,200,1),      
-		-1px 0px 1px rgba(255,245,200,1),
-		0px 1px 1px rgba(255,244,200,1),	
-		0px -1px 1px rgba(255,244,200,1),		
-		1px 1px 2px rgba(0,0,0,1);
 
-    border-left: solid 10px rgba(200,200,200,1);   
+  text-shadow:
+      -1px 0px 0 rgba(235,255,255,1),
+       1px 0px 0 rgba(235,255,255,1),
+       0px  1px 0 rgba(235,255,255,1),
+       0px  -1px 0 rgba(235,255,255,1);
+    
 
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);    
+	box-shadow: 2px 0px 1px rgba(0, 0, 0, 1),
+		-2px 0px 1px rgba(0, 0, 0, 1);    
 }
 
 nav.lesson-links li
 {
-	margin-top: 0px;		
+  	border-top: solid 5px rgba(100,200,255,0.8);  
+  	border-radius: 1em 4px 4px 4px;  	
+
+  	background-color: rgba(225, 255, 255, .5);
+
+	padding-top: 0px;
+	padding-bottom: 2px;	
+
+	margin-top: -5px;		
 	margin-bottom: 0px;
-	padding-left: 0.4em;
+
+
+	box-shadow: 0px -1px 0px rgba(0, 0, 0, 1),
+				0px -1px 3px rgba(0, 0, 0, 1),
+				0px 1px 1px rgba(0, 0, 0, 0.2),
+				2px 2px 3px rgba(0, 0, 0, 0.7);
+
 }
 
 
@@ -79,34 +100,38 @@ nav.lesson-links ul
     column-gap: 1.5em;
     row-gap: 0.6em;
 
-  	margin-left: -1.5em;	      	
+  	margin-left: -1.4em;	      	
+  	margin-right: 0px;	      	  	
 	margin-top:0px;	    		
-	padding:0;		
-	padding-left:.4em;	    					
-	padding-top:.5em;	    						
+
+	padding-left:0.1em;	    					
+	padding-right:.4em;	    						
+	padding-top:1em;	    						
 	padding-bottom:.5em;	    							
 
     list-style-type: none;    
 
     
-    border-left: solid 5px rgba(255,255,0,1);    
-    border-radius: 0.2em 1em 0px 5px;
+    border-left: solid 5px rgba(225,255,255,1);    
+    border-radius: 0px 4px 0px 5px;
 
 
-    background: linear-gradient( to right, rgba(200, 100, 255,0.1), rgba(180,100,255,0.1));	    
-	background-color: rgba(240,255,255,0.1);
+    background: linear-gradient( to right, rgba(0, 100, 255,0.2), rgba(0,100,255,0.1));	    
 
 
-	box-shadow: 0px -1px 0px rgba(100, 100, 100, 1)
-	,4px 4px 2px rgba(100, 100, 100, 1);
+
+	box-shadow: 0px -1px 0px rgba(100, 100, 100, 1),
+	4px 4px 2px rgba(100, 100, 100, 0.8),
+	-2px 0px 1px rgba(0, 255, 255, 1);
+
 
 }
 
-nav.lesson-links ul::before {
+/*nav.lesson-links ul::before {
     content: "";
     position: absolute;
-    inset: 0;   /* top:0; right:0; bottom:0; left:0; */
-    pointer-events: none;  /* ne gêne pas les clics */
+    inset: 0;   
+    pointer-events: none; 
     background-image: repeating-linear-gradient(
         135	deg,
         rgba(255, 255, 255, 0.2),
@@ -114,7 +139,7 @@ nav.lesson-links ul::before {
         transparent 20px,
         transparent 40px
     );
-    z-index: 1;  /* au-dessus du fond mais en dessous du contenu */
+    z-index: 1; 
 }
-
+*/
 

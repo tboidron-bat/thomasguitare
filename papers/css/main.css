@@ -12,11 +12,9 @@ main
 	border-radius:1.0em 1.0em 1.0em 1.0em;
 
 
-	background-color: rgba(200,255,255,0.2);
 	background-image:
 		linear-gradient(90deg, transparent 97%, #abced4 97%, #abced4 99%,
          transparent 99%);
-
 
 	box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.5);	
 /*opacity: 0.5;*/
@@ -57,26 +55,26 @@ main h2 {
 
   	font-family: "Courier New", monospace;
 
-	background-color: #f0ffff;
+
     background: linear-gradient( to right, rgba(0, 100, 200,0.3), rgba(0, 200,200,0.05));	
 
 	box-shadow: 2px 0px 2px rgba(100, 100, 200, 1);    
 }
 
-main h2::before {
-    content: "";
-    position: absolute;
-    inset: 0;   /* top:0; right:0; bottom:0; left:0; */
-    pointer-events: none;  /* ne gêne pas les clics */
-    background-image: repeating-linear-gradient(
-        45deg,
-        rgba(255, 255, 255, 0.2),
-        rgba(255, 255, 255, 0.2) 20px,
-        transparent 20px,
-        transparent 40px
-    );
-    z-index: 10;  /* au-dessus du fond mais en dessous du contenu */
-}
+	main h2::before {
+	    content: "";
+	    position: absolute;
+	    inset: 0;   /* top:0; right:0; bottom:0; left:0; */
+	    pointer-events: none;  /* ne gêne pas les clics */
+	    background-image: repeating-linear-gradient(
+	        45deg,
+	        rgba(255, 255, 255, 0.2),
+	        rgba(255, 255, 255, 0.2) 20px,
+	        transparent 20px,
+	        transparent 40px
+	    );
+	    z-index: 10;  /* au-dessus du fond mais en dessous du contenu */
+	}
 
 
 
