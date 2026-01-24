@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37mm"
+   height="26mm"
+   viewBox="0 0 37 26"
+   version="1.1"
+   id="svg679"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="double_croche_2_1_1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview681"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.9300999"
+     inkscape:cx="95.331851"
+     inkscape:cy="76.161859"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs676" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="1094.39,687.965 1094.39,758.198"
+       id="polyline32"
+       transform="matrix(0.12558377,0,0,0.12558377,-106.04855,-77.149955)" />
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="1001.45,687.965 1001.45,758.198"
+       id="polyline36"
+       transform="matrix(0.12558377,0,0,0.12558377,-106.04855,-77.149955)" />
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="862.046,687.965 862.046,758.198"
+       id="polyline40"
+       transform="matrix(0.12558377,0,0,0.12558377,-106.04855,-77.149955)" />
+    <path
+       class="Note"
+       d="m 31.233348,9.2476011 c 0,0.535299 0.385417,1.1328939 1.395672,1.1328939 1.294464,0 2.653149,-1.0589255 2.653149,-2.1548322 0,-0.7357954 -0.622894,-1.1465155 -1.395671,-1.1465155 -1.208804,0 -2.65315,1.0219348 -2.65315,2.1684538"
+       id="path56"
+       style="stroke-width:0.124579" />
+    <path
+       class="Note"
+       d="m 19.561594,9.2476011 c 0,0.535299 0.385416,1.1328939 1.395671,1.1328939 1.294465,0 2.65315,-1.0589255 2.65315,-2.1548322 0,-0.7357954 -0.622895,-1.1465155 -1.395672,-1.1465155 -1.208804,0 -2.653149,1.0219348 -2.653149,2.1684538"
+       id="path60"
+       style="stroke-width:0.124579" />
+    <path
+       class="Note"
+       d="m 2.0547128,9.2476011 c 0,0.535299 0.3854166,1.1328939 1.3956715,1.1328939 1.2944648,0 2.6531495,-1.0589255 2.6531495,-2.1548322 0,-0.7357954 -0.6228946,-1.1465155 -1.3956716,-1.1465155 -1.208804,0 -2.6531494,1.0219348 -2.6531494,2.1684538"
+       id="path62"
+       style="stroke-width:0.124579" />
+    <path
+       class="Beam"
+       fill-rule="evenodd"
+       d="M 2.0547128,17.288791 H 31.544796 V 18.84603 H 2.0547128 v -1.557239"
+       id="path84"
+       style="stroke-width:0.125584" />
+    <path
+       class="Beam"
+       fill-rule="evenodd"
+       d="m 19.561594,14.952933 h 11.983202 v 1.557239 H 19.561594 v -1.557239"
+       id="path86"
+       style="stroke-width:0.125584" />
+  </g>
+</svg>

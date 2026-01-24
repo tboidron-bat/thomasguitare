@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37mm"
+   height="26mm"
+   viewBox="0 0 37 26"
+   version="1.1"
+   id="svg1186"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="double_croche_3_1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1188"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.9300999"
+     inkscape:cx="97.922391"
+     inkscape:cy="61.654839"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1183" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="1187.33,687.965 1187.33,758.198"
+       id="polyline30"
+       transform="matrix(0.15961314,0,0,0.15961314,-186.85123,-101.55178)" />
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="1364.05,687.965 1364.05,758.198"
+       id="polyline34"
+       transform="matrix(0.15961314,0,0,0.15961314,-186.85123,-101.55178)" />
+    <path
+       class="Note"
+       d="m 30.67115,8.256865 c 0,0.6803487 0.489853,1.4398733 1.773856,1.4398733 1.645225,0 3.372072,-1.3458616 3.372072,-2.7387266 0,-0.9351735 -0.79168,-1.4571843 -1.773856,-1.4571843 -1.536353,0 -3.372072,1.2988479 -3.372072,2.7560376"
+       id="path52"
+       style="stroke-width:0.158336" />
+    <path
+       class="Note"
+       d="m 2.4643166,8.256865 c 0,0.6803487 0.4898528,1.4398733 1.7738559,1.4398733 1.6452252,0 3.3720719,-1.3458616 3.3720719,-2.7387266 0,-0.9351735 -0.79168,-1.4571843 -1.7738559,-1.4571843 -1.536353,0 -3.3720719,1.2988479 -3.3720719,2.7560376"
+       id="path58"
+       style="stroke-width:0.158336" />
+    <path
+       class="Beam"
+       fill-rule="evenodd"
+       d="M 2.4643166,18.476971 H 31.066991 v 1.979204 H 2.4643166 v -1.979204"
+       id="path80"
+       style="stroke-width:0.159613" />
+    <path
+       class="Beam"
+       fill-rule="evenodd"
+       d="m 31.066991,15.508167 h -4.354248 v 1.979204 h 4.354248 v -1.979204"
+       id="path82"
+       style="stroke-width:0.159613" />
+    <path
+       class="NoteDot"
+       d="m 9.5862557,5.6121537 c 0,0.4428474 0.3488364,0.7916813 0.7916823,0.7916813 0.442845,0 0.79168,-0.3488339 0.79168,-0.7916813 0,-0.4428474 -0.348835,-0.7916811 -0.79168,-0.7916811 -0.4428459,0 -0.7916823,0.3488337 -0.7916823,0.7916811"
+       id="path96"
+       style="stroke-width:0.158336" />
+  </g>
+</svg>
