@@ -48,11 +48,11 @@ ul.charte-list li {
 
 /* Symboles musicaux inline (reprises, fine, DC, etc.) */
 .music-symbol {
-  height: 2em;
+  height: 3em;
   vertical-align: middle;
   margin: 0 0.2em;
 
-  border: 1px solid rgb(120,200,200);
+  border: 2px solid rgb(120,200,200);
   background-color: rgba(0, 255, 255, 0.1);
 
   /* Optionnel mais utile */
