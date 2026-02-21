@@ -127,7 +127,7 @@ nav.lesson-links ul
 
 }
 
-/*nav.lesson-links ul::before {
+nav.lesson-links ul::before {
     content: "";
     position: absolute;
     inset: 0;   
@@ -141,5 +141,5 @@ nav.lesson-links ul
     );
     z-index: 1; 
 }
-*/
+
 
