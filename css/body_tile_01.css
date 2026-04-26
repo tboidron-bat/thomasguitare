@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background:
+    linear-gradient(#bcd6ff, #e8f0ff),
+    url("../img/sky.png");
+
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 200px, auto; /* ciel en haut + texture répétée */
+  background-position: top, top left;
+
+  image-rendering: pixelated;
+}
