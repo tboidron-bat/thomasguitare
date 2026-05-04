@@ -1,0 +1,47 @@
+main
+{
+	font-size:1.2em;	
+	margin-top:1.0em;	    
+	margin-left:1.0em;	
+  	margin-right: 1em;	
+  	padding-bottom: 1px;		
+
+	border-left:solid 3px rgb(0, 0, 0,1);
+	border-right:solid 5px rgb(0, 0, 0,1);						
+	border-top:solid 1px rgb(0, 0, 0,0);
+
+	border-radius:20px 20px 10px 10px;
+}
+
+main h2 {
+
+  	display: inline-block;
+    position: relative;
+  	margin: 0;	
+  	margin-left: -1em;	      
+	padding-bottom:.1em;	    			
+	padding-top:.1em;	    				
+  	padding-left: .5em;	
+  	padding-right: 1em;	  	
+  	font-weight: bold;
+  	font-size: 1.4em;
+
+  	color: rgba(255,255,255,1);  
+
+	font-size: 2em;
+   	text-shadow: 1px 1px 0px black, 0 0 1px blue, 0 0 0.2em blue;				
+
+  	border-left: solid 7px rgba(255,50,50);
+	border-top:solid 1px rgb(0, 0, 0,1);        
+	border-bottom:solid 1px rgb(0, 0, 0,1);        
+  	border-radius: 0px 10px 3px 5px;	
+
+  	font-family: "Courier New", monospace;
+
+
+    background: linear-gradient( to right, rgba(0, 155, 200,1), rgba(0, 200,200,0.05));	
+
+	box-shadow: 2px 0px 2px rgba(100, 100, 200, 1);    
+  	box-shadow: .2em 5px 2px rgba(0,0, 0, 0.2);    	
+}
+

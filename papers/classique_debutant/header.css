@@ -1,0 +1,99 @@
+header 
+{
+  position: relative;
+  padding: 0;
+  margin: 0;
+
+  background-color: #000; /* fond derrière l'image */
+
+  color: white;
+
+  image-rendering: pixelated;
+
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.5);      
+  border-bottom: solid 10px white;
+}
+header::before 
+{
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    url("../../img/beach.png");
+
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.9; /* ajuste si besoin */
+
+  z-index: 0;
+}
+
+/* 🔒 contenu au-dessus */
+header * 
+{
+  position: relative;
+  z-index: 1;
+}
+
+/* 🎯 Texte principal */
+header h1 
+{
+  font-size: 2.8em;
+  margin: 0;
+
+  text-shadow:
+    1px 1px 0 #000,
+   -1px 1px 0 #000,
+    1px -1px 0 #000,
+   -1px -1px 0 #000;
+}
+
+header p 
+{
+  font-size: 1.2em;
+  opacity: 0.9;
+
+  text-shadow:
+    1px 1px 0 #000,
+   -1px 1px 0 #000,
+    1px -1px 0 #000,
+   -1px -1px 0 #000;
+}
+
+/* 📎 Liens en bas à droite */
+.header-links 
+{
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+
+  font-size: 1.5em;
+
+  text-shadow: 
+    2px 2px 4px rgba(0,100,255,1),
+   -2px -2px 4px rgba(0,100,255,0.9);
+}
+
+.header-links a 
+{
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.header-links a:hover 
+{
+  text-decoration: underline;
+}
+.guitar-icon {
+  padding: 0;
+  margin: 0;
+    height: 3em;
+    vertical-align: bottom;
+
+filter: drop-shadow(0px 8px 6px rgba(0,0,0,0.6));
+}
