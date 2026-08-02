@@ -1,0 +1,225 @@
+html
+{
+    height: 100%;
+}
+body {
+
+  margin: 0;
+  padding: 0;
+
+   min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;  
+
+  font-family: 'Segoe UI', sans-serif;  
+
+  background-color: #fcf8f2;
+
+}
+
+main 
+{
+  flex: 1;
+  margin-top: 1em;
+  border-top: solid 3px #9e7448;
+}
+
+/* =======================================================
+   Carte outil
+   ======================================================= */
+
+.tool-card
+{
+    display: flex;
+
+    gap: 40px;
+
+    margin: 40px auto;
+
+    padding: 35px;
+
+    max-width: 1100px;
+
+    background: rgba(255,255,255,.95);
+
+    border: 1px solid #d9d9d9;
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.12);
+}
+
+
+/* =======================================================
+   Image
+   ======================================================= */
+
+.tool-image
+{
+    flex: 0 0 320px;
+}
+
+.tool-image img
+{
+    width: 100%;
+
+    display: block;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    border: 1px solid #ccc;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+
+
+/* =======================================================
+   Contenu
+   ======================================================= */
+
+.tool-content
+{
+    flex: 1;
+}
+
+
+.tool-content h2
+{
+    margin-top: 0;
+
+    color: #7b3f00;
+
+    font-size: 2.4em;
+}
+
+
+.tool-content h3
+{
+    margin-top: 30px;
+    margin-bottom: 12px;
+
+    color: #d07a00;
+
+    font-size: 1.35em;
+}
+
+
+.tool-content p
+{
+    margin-bottom: 18px;
+
+    text-align: justify;
+
+    line-height: 1.75em;
+
+    color: #333;
+}
+
+
+/* =======================================================
+   Liste
+   ======================================================= */
+
+.tool-list
+{
+    margin: 20px 0;
+
+    padding-left: 25px;
+}
+
+.tool-list li
+{
+    margin-bottom: 10px;
+
+    line-height: 1.7em;
+}
+
+
+/* =======================================================
+   Citation
+   ======================================================= */
+
+.tool-content blockquote
+{
+    margin: 35px 0;
+
+    padding: 18px 25px;
+
+    border-left: 5px solid #d07a00;
+
+    background: #fff8ee;
+
+    font-style: italic;
+
+    color: #555;
+}
+
+
+/* =======================================================
+   Lien
+   ======================================================= */
+
+.tool-link
+{
+    margin-top: 35px;
+}
+
+.tool-link a
+{
+    display: inline-block;
+
+    padding: 12px 24px;
+
+    background: linear-gradient(#d88916,#b86800);
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    transition: .25s;
+}
+
+.tool-link a:hover
+{
+    background: linear-gradient(#e99b27,#c76f00);
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 15px rgba(0,0,0,.2);
+}
+
+
+/* =======================================================
+   Responsive
+   ======================================================= */
+
+@media (max-width:900px)
+{
+    .tool-card
+    {
+        flex-direction: column;
+    }
+
+    .tool-image
+    {
+        flex: none;
+
+        max-width: 450px;
+
+        margin: auto;
+    }
+
+    .tool-content h2
+    {
+        text-align: center;
+    }
+}
+

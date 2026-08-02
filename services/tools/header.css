@@ -1,0 +1,89 @@
+
+.tools-header .nav-bar-top-right
+{
+    position: absolute;
+    z-index: 1000;
+}
+.tools-header
+{
+    position: relative;
+
+    height: 270px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+        url("/home/img/beach1.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.header-overlay
+{
+    width:min(1200px,95%);
+
+    margin:auto;
+
+    position:relative;
+
+    height:100%;
+}
+
+
+/*==========================================================
+    Titre
+==========================================================*/
+
+.header-title
+{
+    position: absolute;
+
+    left: 40px;
+    bottom: 45px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.header-icon
+{
+    width: 85px;
+
+    filter:
+        drop-shadow(0 5px 12px rgba(0,0,0,.35));
+}
+
+.header-title h1
+{
+    margin: 0;
+
+    font-size: 4.2rem;
+
+    color: white;
+
+    font-family: Georgia, serif;
+
+    text-shadow:
+        0 3px 8px rgba(0,0,0,.6);
+}
+
+.header-title p
+{
+    margin-top: 12px;
+
+    max-width: 650px;
+
+    font-size: 1.3rem;
+
+    color: rgba(255,255,255,.92);
+
+    line-height: 1.6em;
+
+    text-shadow:
+        0 2px 5px rgba(0,0,0,.7);
+}
