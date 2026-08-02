@@ -39,13 +39,8 @@ ul.charte-list {
   font-size: 0.9em;
   padding-left: 1.2em;
   margin-top: 0.5em;
-  list-style: circle;  
-}
 
-ul.charte-list li {
- 
 }
-
 /* Symboles musicaux inline (reprises, fine, DC, etc.) */
 .music-symbol {
   height: 3em;

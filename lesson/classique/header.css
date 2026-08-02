@@ -1,0 +1,89 @@
+.site-header
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    height: 90px;
+
+    padding: 0 22px;
+    margin-bottom: 0.3em;
+
+    background:
+        linear-gradient(to bottom,
+            #fbf5e8 0%,
+            #f6ecd8 45%,
+            #efe0c4 100%);
+
+    border: 2px solid #c7b18a;
+
+    border-radius: 10px;
+
+    box-shadow:
+        5px 5px 6px rgba(0,0,0,.2),
+        inset 0 1px 0 rgba(255,255,255,.8);
+}
+
+.logo
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    text-decoration: none;
+
+    color: #2f2f2f;
+}
+
+.logo img
+{
+    width: 54px;
+
+    height: 54px;
+
+    object-fit: contain;
+
+    filter: drop-shadow(2px 3px 3px rgba(0,0,0,.30));
+}
+
+.logo span
+{
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 3rem;
+
+    font-weight: bold;
+
+    color: #2f2f2f;
+
+    text-shadow:
+        0 1px 0 #ffffff,
+        0 2px 3px rgba(0,0,0,.18);
+}
+
+.section
+{
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 3rem;
+
+    color: #b56a18;
+
+    text-shadow:
+        1px 1px 0 white,
+        0 0 2px rgba(0,0,0,.25);
+}
+.separator
+{
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 2.8rem;
+
+    color: #7a7a7a;
+
+    margin: 0 -5px;
+}

@@ -1,0 +1,31 @@
+footer
+{
+    position: relative;
+
+    margin-top: 1em;
+
+    height: 100px;
+
+    padding-top: 1em;
+
+    font-size: 2em;
+
+    background: #fcf8f2 url("img/beach_end.png")
+                bottom center / cover no-repeat;
+}
+.footer-text
+{
+    position: absolute;
+
+    top: 00px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    padding: .3em .8em;
+
+    border-radius: 8px;
+
+
+}

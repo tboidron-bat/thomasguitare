@@ -1,0 +1,176 @@
+.lesson-content-theory
+{
+    display: flex;
+
+    align-items: flex-start;
+
+    margin-top: 2px;
+    margin-left: 2px;    
+    margin-bottom: 0.5em;
+
+    padding-top: 2rem;
+
+    border: 1px solid #d7ccb6;
+    border-radius: 12px;
+
+    background-color: #fffefb;
+
+    background-image:
+        linear-gradient(
+            to right,
+            transparent 0,
+            transparent 3.8rem,
+
+            #d76b6b 3.8rem,
+            #d76b6b 3.9rem,
+
+            transparent 3.9rem
+        ),
+
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+
+            #d8ebff 1.75rem,
+            #d8ebff 1.82rem
+        );
+
+    box-shadow:
+        5px 5px 6px rgba(0,0,0,.5),
+        inset 0 1px 0 rgba(255,255,255,.8);
+
+}
+.lesson-content-theory .content
+{
+    flex: 1;
+
+    padding-left: 2.8em;        
+}
+
+.lesson-content-theory h2
+{
+    display: inline-flex;
+
+    position: relative;
+
+    z-index: 2;
+
+    gap: 0;
+
+
+
+    background: #f7eccc;    
+
+    align-items: center;
+
+    margin: 0 0 0.8rem;
+
+    border: 1px solid #958971;
+
+    border-radius: 6px;
+
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 1.8rem;
+
+    font-weight: normal;
+
+    color: #2d2d2d;
+
+
+    text-decoration: none;
+}
+.lesson-content-theory .title-text
+{
+    padding: .3rem .9rem .3rem .3rem;
+
+    text-decoration: underline;
+}
+.dropcap
+{
+    display: inline-block;
+
+    background: #f9f9f9;    
+
+    border-radius: 6px;    
+
+    border-right: solid 3px #2d2d2d;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 2.4em;
+
+    font-weight: bold;
+
+    color: #b86a17;
+
+    line-height: 1;
+
+    vertical-align: middle;
+
+
+
+    text-shadow:
+        1px 1px 0 white,
+        0 2px 3px rgba(0,0,0,.15);
+}
+.lesson-content-theory ul
+{
+    padding-left: 0em;    
+
+
+}
+
+.lesson-content-theory li
+{
+    padding-left: 0.5em;
+    margin-bottom: 1rem;
+    list-style: none;        
+
+    line-height: 1.7;
+
+    font-size: 1.1rem;
+}
+.lesson-content-theory .image
+{
+    align-self: center;
+
+    padding-right: 3.0em;
+
+    width: 520px;
+
+    flex-shrink: 0;
+
+    text-align: center;
+}
+.lesson-content-theory .image img
+{
+    max-width: 100%;
+
+    height: auto;
+
+    padding: 1rem;
+
+    background: white;
+
+    border: 2px solid #b49a5a;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.10);
+}
+@media (max-width: 1000px)
+{
+    .lesson-content-theory
+    {
+        flex-direction: column;
+    }
+
+    .lesson-content-theory .image
+    {
+        width: 100%;
+    }
+}

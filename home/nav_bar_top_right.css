@@ -1,0 +1,95 @@
+.nav-bar-top-right
+{
+    position: absolute;
+
+    right: 200px;
+    bottom: 140px;
+}
+.nav-bar-top-right li
+{
+    margin: 0;
+
+
+background-image:
+    linear-gradient(
+        to bottom,
+        transparent,
+        rgba(255,255,255,.9),
+        transparent
+    );
+
+background-repeat: no-repeat;
+background-position: right center;
+background-size: 2px 28px;
+}
+.nav-bar-top-right ul
+{
+    display: flex;
+
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    background: rgba(255,255,255,.15);
+    backdrop-filter: blur(12px);
+
+    border:1px solid rgba(255,255,255,.35);   
+    border-radius: 14px;
+
+    box-shadow:
+        0 4px 18px rgba(0,0,0,.12);    
+}
+.nav-bar-top-right a:visited
+{
+    color: white;
+
+    text-shadow:
+        0 1px 2px rgba(0,0,0,.75);    
+
+
+}
+.nav-bar-top-right a img
+{
+    width: 40px;
+
+}
+.nav-bar-top-right a
+{
+    display: flex;
+    align-items: center;   /* Centre verticalement l'icône et le texte */
+    gap: .5rem;    
+
+    text-decoration: none;    
+    font-weight: bold;
+    font-size: 1.3em;
+    background: transparent;
+    border: none;
+    backdrop-filter: none;
+    box-shadow: none;
+    padding: 8px 10px;
+
+    color:white;
+
+    text-shadow:
+        0 1px 2px rgba(0,0,0,.75);    
+
+
+
+}
+
+.nav-bar-top-right a:hover
+{
+    background: rgba(255,255,255,.25);
+    border-bottom: solid 4px #ffbb00;        
+    border-radius: 8px;
+}
+
+.nav-bar-top-right li:last-child
+{
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+

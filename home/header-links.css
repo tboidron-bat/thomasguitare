@@ -1,0 +1,25 @@
+/* 📎 Liens en bas à droite */
+.header-links 
+{
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+
+  font-size: 1.5em;
+
+  text-shadow: 
+    2px 2px 4px rgba(0,100,255,1),
+   -2px -2px 4px rgba(0,100,255,0.9);
+}
+
+.header-links a 
+{
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.header-links a:hover 
+{
+  text-decoration: underline;
+}

@@ -4,78 +4,269 @@
   <meta charset="UTF-8">
 
   <meta name="description"
-    content="Cours de guitare en ligne pour d&eacute;butants et interm&eacute;diaires : lecture de notes, technique classique et blues. M&eacute;thode progressive pour apprendre la guitare pas &agrave; pas sur eGuitare.fr." />
+    content="Cours de guitare en ligne pour d&eacute;butants et interm&eacute;diaires : lecture de notes, 
+      technique classique et blues. M&eacute;thode progressive pour apprendre la guitare pas &agrave; pas 
+      sur eGuitare.fr." />
 
   <title>Cours de guitare – eGuitare.fr</title>
 
-  <link href="css/header.css" rel="stylesheet" />  
-  <link href="css/background_cloud_and_bird.css" rel="stylesheet" />      
-  <link href="fonts/body_segoe_ui.css" rel="stylesheet" />        
-  <link href="css/card.css" rel="stylesheet" />      
-  <link href="css/footer.css" rel="stylesheet" />        
-  <link href="fonts/footer_courier_new.css" rel="stylesheet" />          
+  <link href="home/header.css" rel="stylesheet" />  
+  <link href="home/nav_bar_top_right.css" rel="stylesheet" />  
+  <link href="home/hero.css" rel="stylesheet" />
+  <link href="home/base.css" rel="stylesheet" />    
+  <link href="home/card.css" rel="stylesheet" />    
+  <link href="home/group.css" rel="stylesheet" />  
+  <link href="home/footer.css" rel="stylesheet" />        
 </head>
 
 <body>
 
 <header>
-  <h1>Bienvenue sur eGuitare.fr</h1>
-  <p><strong>Cours de guitare</strong>, du débutant au niveau intermédiaire.</p>
 
-  <div class="header-links">
-    <a href="contact.html">Contact</a>
-    <a href="cours.html">Cours</a>
-  </div>
-    
-</header>
+    <div class="header-content">
 
-<div class="container" style="margin-bottom: .5em;">
+    <img
+        class="header-guitar"
+        src="home/img/classique_guitare.png"
+        alt="Guitare">
 
-  <section class="cards-group">
-    <h3 class="group-title">&nbsp;&nbsp;Classique&nbsp;&nbsp;</h3>
+      <div class="header-title">
 
-  <div class="cards">
-    <a href="papers/classique_debutant/index.html" class="card">
-      <h3 >🪕 D&eacute;butant</h3>
-      <p>D&eacute;couvre la guitare, les positions de base, la lecture des notes et tes premi&egrave;res m&eacute;lodies.</p>
-    </a>
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="img/classique_guitare.png" alt="eGuitare">
+            </a>
+            <h1>
+                <span class="logo-e">e</span><span class="logo-guitare">Guitare</span>
+            </h1>
+        </div>
+        <p>
+            <strong>Cours de guitare</strong>,
+            du débutant au niveau intermédiaire.
+        </p>
 
-    <a href="papers/classique_debutant_avance/index.html" class="card">
-      <h3 >🎵D&eacute;butant avanc&eacute;</h3>
-      <p>
-        Apprends &agrave; jouer de courts morceaux classiques tout en consolidant tes bases de lecture.
-      </p>
-    </a>
+      </div>
+      
+      <nav class="nav-bar-top-right">
+          <ul>
+              <li>
+                  <a href="index.html" style="border-bottom: solid 4px #ffbb00;">
+                      <img src="img/home.png" class="icon" alt="Accueil">                    
+                      Accueil
+                  </a>
+              </li>
+              <li>
+                  <a href="contact/index.html" img src="img/contact.png">
+                    <img src="img/contact.png" class="icon" alt="Contact">                                        
+                      Contact
+                  </a>
+              </li>
+              <li>
+                  <a href="tools/index.html" img src="img/wrench.png">
+                    <img src="img/wrench.png" class="icon" alt="Outils">
+                      Outils
+                  </a>
+              </li>
+          </ul>
+      </nav>
 
-    <a href="papers/classique_intermediaire/index.html" class="card">
-    
-      <h3>🎼 Intermédiaire</h3>
-      <p>Progresse avec des pièces plus longues, travail du rythme, arpèges et techniques avancées.</p>
-    </a>
+    </div>
 
-  </div>
+</header>    
 
-  </section>
 
-  <section class="cards-group">
-    <h3 class="group-title">&nbsp;&nbsp;&Eacute;lectrique&nbsp;&nbsp;</h3>
+<main>
+
+<section class="hero">
+
+    <div class="hero-intro">
+
+        <div class="hero-letter">
+            B
+        </div>
+
+        <div class="hero-content">
+
+            <h2>Bienvenue sur eGuitare.fr</h2>
+
+            <p>
+                Apprends la guitare pas à pas, à ton rythme, avec des cours
+                progressifs, des exercices et des morceaux adaptés à ton niveau.
+            </p>
+
+            <a href="lesson/classique/debutant/01_solfege/lesson.html"
+               class="hero-button">
+                Commencer mon apprentissage →
+            </a>
+
+        </div>
+
+    </div>
+
+    <img
+        class="hero-decoration"
+        src="home/img/guitare_and_note2.png"
+        alt="Illustration guitare">
+
+</section>
+
+
+
+
+<div class="course-group">
+
+    <div class="group-title">
+      
+        <img src="img/classique_guitare.png" alt="">
+        
+        <h2>Cours Classique</h2>
+        
+        <div class="group-line"></div>
+        
+    </div>      
 
     <div class="cards">
 
-      <a href="papers/blues_debutant/index.html" class="card">
-        <h3 class="card_title">🔵 Blues – Débutant</h3>
-        <p>Découvre les accords blues, le shuffle, tes premiers riffs et les plans incontournables.</p>
+      <a href="lesson/classique/debutant/01_solfege/lesson.html" class="card beginner">
+
+          <div class="card-icon">
+
+            <img src="home/img/icon_classique.png" alt="Guitare classique">
+
+          </div>
+
+          <div class="card-content">
+
+          <h3>
+
+            D&eacute;butant
+
+          </h3>
+
+          <p>
+
+            D&eacute;couvre la guitare, les positions de base, 
+            la lecture des notes et tes premi&egrave;res m&eacute;lodies.
+
+          </p>
+
+          <span class="card-link">
+
+              Voir les cours →
+
+          </span>        
+
+        </div>        
+
       </a>
 
-    </div>
-  </section>
+
+      <a href="lesson/classique/debutant_avance/index.html"
+        class="card advanced">
+
+          <div class="card-icon">
+              <img src="home/img/icon_note.png" alt="Débutant avancé">
+          </div>
+
+          <div class="card-content">
+
+              <h3>Débutant avancé</h3>
+
+              <p>
+                  Apprends à jouer de courts morceaux classiques
+                  tout en consolidant tes bases de lecture.
+              </p>
+
+              <span class="card-link">
+                  Voir les cours →
+              </span>
+
+          </div>
+
+      </a>
+
+      <a href="lesson/classique_intermediaire/index.html"
+        class="card intermediate">
+
+          <div class="card-icon">
+              <img src="home/img/icon_key.png" alt="Intermédiaire">
+          </div>
+
+          <div class="card-content">
+
+              <h3>Intermédiaire</h3>
+
+              <p>
+                  Progresse avec des pièces plus longues,
+                  travaille le rythme, les arpèges et les
+                  techniques avancées.
+              </p>
+
+              <span class="card-link">
+                  Voir les cours →
+              </span>
+
+          </div>
+
+      </a>
+
+
+
+    </div>   
+    
+</div>
+
+
+<div class="course-group">
+
+      <div class="group-title">
+
+          <img src="img/electrique_guitare.png" alt="">
+
+          <h2>Cours Blues</h2>
+
+          <div class="group-line"></div>
+
+      </div>
+
+      <div class="cards">
+
+        <a href="lesson/blues_debutant/index.html"
+          class="card blues">
+
+            <div class="card-icon">
+                <img src="home/img/icon_blues.png" alt="Blues">
+            </div>
+
+            <div class="card-content">
+
+                <h3>Blues – Débutant</h3>
+
+                <p>
+                    Découvre les accords blues, le shuffle,
+                    tes premiers riffs et les plans incontournables.
+                </p>
+
+                <span class="card-link">
+                    Voir les cours →
+                </span>
+
+            </div>
+
+        </a>
+      </div>
+
+</div>
+
+</main>
 
 <footer>
 
-  <span class="footer-text">  
+    <span class="footer-text">  
 
-    &copy; 2025 eGuitare.fr – Tous droits réservés
-  </span>
+      &copy; 2025 eGuitare.fr – Tous droits réservés
+    </span>
+
 </footer>
 
 </body>

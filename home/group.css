@@ -1,0 +1,54 @@
+.course-group
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*--------------------------------------------------------------
+    Titre
+--------------------------------------------------------------*/
+
+.group-title
+{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 0em;
+}
+
+.group-title img
+{
+    width: 70px;
+    height: auto;
+
+    flex-shrink: 0;
+
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.35));
+}
+
+.group-title h2
+{
+    padding-left: 0.2em;
+    padding-right: 1.0em;
+
+    color: #1b3f6a;
+    font-size: 2rem;
+
+    text-shadow: none;
+}
+
+.group-line
+{
+    flex: 1;
+    height: 2px;
+
+
+
+    background: linear-gradient(
+        to right,
+        rgba(170,170,170,.7),
+        rgba(170,170,170,0)
+    );
+}
