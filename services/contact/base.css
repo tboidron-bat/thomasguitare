@@ -1,0 +1,102 @@
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Segoe UI', sans-serif;  
+
+  background-color: #fcf8f2;
+
+}
+
+main{
+    
+  flex: 1;
+  margin-top: 1em;
+  border-top: solid 3px #9e7448;
+}
+
+.main-container
+{
+    position: relative;
+
+    width: min(1200px,90%);
+    margin: -70px auto 60px;
+
+    background:#fcfaf7;
+
+    border-radius:18px;
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.18);
+
+    overflow:hidden;
+}
+
+.main-container
+{
+    padding:
+
+        40px
+        40px
+        40px
+        110px;
+
+    background:
+
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 34px,
+            #dbe8ff 35px
+        ),
+
+        #fcfaf7;
+}
+
+.main-container::before
+{
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    bottom:0;
+
+    left:60px;
+
+    width:2px;
+
+    background:#d86161;
+} 
+
+
+.main-container::after
+{
+    content:"";
+
+    position:absolute;
+
+    left:18px;
+    top:25px;
+    bottom:25px;
+
+    width:20px;
+
+    /* background:
+        radial-gradient(circle,#0e0e0e 35%, transparent 36%) center top/10px 45px repeat-y,                 
+        radial-gradient(circle,#d8d8d8 35%, transparent 36%) center top/16px 45px repeat-y;        */
+
+background:
+    radial-gradient(circle,
+        #efeae1 35%,
+        transparent 35%)
+        calc(50% + 2px) 2px / 16px 45px repeat-y,
+
+    radial-gradient(circle,
+        #bcbaba 35%,
+        transparent 35%)
+        center top / 16px 45px repeat-y;
+}
+
