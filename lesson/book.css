@@ -1,0 +1,202 @@
+
+.book
+{
+    position: relative;
+
+    margin-top: 0.4em;    
+    margin-left: 0.5em;
+    margin-right: 0.7em;   
+    
+    padding-top: 1em;
+
+    border-radius: 1.0em 2em 0em 0em;    
+
+    border-top: solid 8px rgb(95, 68, 1);    
+    border-left: solid 5px rgb(95, 68, 1);
+    border-right: solid 5px rgb(101, 83, 0);    
+ 
+    overflow: hidden;
+
+
+    background-image:
+        url("/img/paper_noise.png");
+
+}
+
+/******************************************************************************
+ * Pages
+ ******************************************************************************/
+
+.page
+{
+    flex: 1;
+
+    min-width: 0;
+
+    padding-top:2rem;
+
+}
+
+.page-left
+{
+    position: relative;
+
+    padding-left: 1.8em;
+
+    margin-left: 20px;
+
+    background:
+
+        /* reflet au bord de la reliure */
+        linear-gradient(
+            to right,
+
+            transparent 0%,
+            transparent 94%,
+
+            rgba(255,255,255,.90) 97%,
+
+            rgba(0,0,0,.12) 100%
+        ),
+
+        /* lignes du cahier */
+        repeating-linear-gradient(
+            to bottom,
+
+            transparent 0,
+            transparent 1.75rem,
+
+            #d8ebff 1.75rem,
+            #d8ebff 1.82rem
+        ),
+
+        /* marge rouge */
+        linear-gradient(
+            to right,
+
+            transparent 0,
+            transparent 2.8rem,
+
+            #d76b6b 2.8rem,
+
+            #d76b6b 2.9rem,
+
+            transparent 2.9rem
+        );
+
+    /* border-top: 1px ridge #d7ccb6; */
+
+    border-right: solid 3px rgb(119, 119, 119);
+
+    /* border-radius: 0 20px 0px 0; */
+}
+
+.book::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+
+    left: 0;
+
+    width: 20px;
+
+    background:
+        
+        repeating-linear-gradient(
+            to right,
+
+            #d6c3a4 0px,
+            #d6c3a4 1px,
+
+            #f7f1e4 1px,
+            #f7f1e4 2px,
+
+            #ece2d0 2px,
+            #ece2d0 3px
+        );        
+}
+.page-right
+{
+    margin-left:1px;
+
+
+    background:
+
+        linear-gradient(
+            to left,
+
+            transparent 0%,
+            transparent 94%,
+
+            rgba(255,255,255,.90) 97%,
+
+            rgba(0,0,0,.12) 100%
+        ),
+
+        repeating-linear-gradient(
+            to bottom,
+
+            transparent 0,
+            transparent 1.75rem,
+
+            #d8ebff 1.75rem,
+            #d8ebff 1.82rem
+        ),
+
+        linear-gradient(
+            to right,
+
+            transparent 0,
+            transparent 3.8rem,
+
+            #d76b6b 3.8rem,
+            #d76b6b 3.9rem,
+
+            transparent 3.9rem
+        );
+
+
+
+
+    /* border-top: 1px ridge #d7ccb6; */
+
+    border-left: solid 10px rgb(202, 202, 202);  
+    /* border-left: solid 10px #b8905d; */
+    
+
+    /* border-radius: 30px 0 0 0px; */
+
+}
+
+.book::after
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+
+    right: 0;
+
+    width: 20px;
+
+    background:
+
+    repeating-linear-gradient(
+        to right,
+
+        #c8a67b 0px,
+        #c8a67b 1px,
+
+        #fdf7eb 1px,
+        #fdf7eb 2px,
+
+        #e8d4b3 2px,
+        #e8d4b3 3px
+    );
+}

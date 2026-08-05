@@ -1,176 +1,156 @@
+
 .lesson-content-theory
 {
     display: flex;
-
-    align-items: flex-start;
-
-    margin-top: 2px;
-    margin-left: 2px;    
-    margin-bottom: 0.5em;
-
-    padding-top: 2rem;
-
-    border: 1px solid #d7ccb6;
-    border-radius: 12px;
-
-    background-color: #fffefb;
-
-    background-image:
-        linear-gradient(
-            to right,
-            transparent 0,
-            transparent 3.8rem,
-
-            #d76b6b 3.8rem,
-            #d76b6b 3.9rem,
-
-            transparent 3.9rem
-        ),
-
-        repeating-linear-gradient(
-            to bottom,
-            transparent 0,
-            transparent 1.75rem,
-
-            #d8ebff 1.75rem,
-            #d8ebff 1.82rem
-        );
-
-    box-shadow:
-        5px 5px 6px rgba(0,0,0,.5),
-        inset 0 1px 0 rgba(255,255,255,.8);
-
 }
-.lesson-content-theory .content
-{
-    flex: 1;
 
-    padding-left: 2.8em;        
-}
+
+/******************************************************************************
+ * Titre
+ ******************************************************************************/
 
 .lesson-content-theory h2
 {
-    display: inline-flex;
+    display:inline-flex;
 
-    position: relative;
+    align-items:center;
 
-    z-index: 2;
-
-    gap: 0;
-
-
-
-    background: #f7eccc;    
-
-    align-items: center;
-
-    margin: 0 0 0.8rem;
-
-    border: 1px solid #958971;
-
-    border-radius: 6px;
-
-    box-shadow: 0 2px 4px rgba(0,0,0,.3);
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 1.8rem;
-
-    font-weight: normal;
-
-    color: #2d2d2d;
-
-
-    text-decoration: none;
+    margin-top:0;
 }
-.lesson-content-theory .title-text
+
+.title-text
 {
-    padding: .3rem .9rem .3rem .3rem;
+    padding-left:0.1em;
+    margin: 0;
+
+    font-family:"IM Fell", serif;
+
+    font-size:3rem;
 
     text-decoration: underline;
+    text-decoration-color:#c8932d;
+    text-decoration-thickness:3px;
 }
+
+
+/******************************************************************************
+ * Lettrine
+ ******************************************************************************/
+
 .dropcap
 {
-    display: inline-block;
+    display:flex;
 
-    background: #f9f9f9;    
+    justify-content:center;
+    align-items:center;
 
-    border-radius: 6px;    
+    width:72px;
+    height:72px;
 
-    border-right: solid 3px #2d2d2d;
+    padding:5px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family:"Jacquard";
+    font-size:4rem;
 
-    font-size: 2.4em;
+    color:#c06f12;
 
-    font-weight: bold;
+    background:#fdf5e2;
 
-    color: #b86a17;
+    border:3px solid #fdf5e2;
+    border-radius:10px;
 
-    line-height: 1;
-
-    vertical-align: middle;
-
-
+    background-image:url("/img/medieval_lettrine_frame.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 
     text-shadow:
-        1px 1px 0 white,
-        0 2px 3px rgba(0,0,0,.15);
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black,
+         0 2px 3px rgba(0,0,0,.8);
+
+    box-shadow:
+        -1px -1px 2px #e5a855,
+         2px  2px 3px #634924;
 }
+
+/******************************************************************************
+ * Texte
+ ******************************************************************************/
+
 .lesson-content-theory ul
 {
-    padding-left: 0em;    
+    padding:0;
 
-
+    margin:0;
 }
 
 .lesson-content-theory li
 {
-    padding-left: 0.5em;
-    margin-bottom: 1rem;
-    list-style: none;        
+    list-style:none;
 
-    line-height: 1.7;
+    margin-bottom:1rem;
 
-    font-size: 1.1rem;
+    padding-left:.5rem;
+
+    line-height:1.7;
+
+    font-family:"EB Garamond", serif;
+
+    font-size:2rem;
 }
-.lesson-content-theory .image
+
+
+/******************************************************************************
+ * Illustration
+ ******************************************************************************/
+
+.lesson-figure
 {
-    align-self: center;
+    margin:0;
 
-    padding-right: 3.0em;
+    text-align:center;
 
-    width: 520px;
-
-    flex-shrink: 0;
-
-    text-align: center;
 }
-.lesson-content-theory .image img
+
+.lesson-figure img
 {
-    max-width: 100%;
+    max-width:80%;
 
-    height: auto;
+    height:auto;
 
-    padding: 1rem;
+    padding:1rem;
 
-    background: white;
+    background:white;
 
-    border: 2px solid #b49a5a;
+    border:2px solid #b49a5a;
 
-    border-radius: 10px;
+    border-radius:10px;
 
-    box-shadow: 0 4px 12px rgba(0,0,0,.10);
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
 }
-@media (max-width: 1000px)
+
+
+/******************************************************************************
+ * Mobile
+ ******************************************************************************/
+
+@media (max-width:1000px)
 {
-    .lesson-content-theory
+    .book
     {
-        flex-direction: column;
+        flex-direction:column;
     }
 
-    .lesson-content-theory .image
+    .book::before
     {
-        width: 100%;
+        display:none;
+    }
+
+    .page
+    {
+        padding:2rem;
     }
 }
