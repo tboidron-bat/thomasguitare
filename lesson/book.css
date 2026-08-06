@@ -5,9 +5,9 @@
 
     margin-top: 0.4em;    
     margin-left: 0.5em;
-    margin-right: 0.7em;   
+    margin-right: 0.0em;   
     
-    padding-top: 1em;
+    padding-top: 0.5em;
 
     border-radius: 1.0em 2em 0em 0em;    
 
@@ -17,80 +17,10 @@
  
     overflow: hidden;
 
-
     background-image:
         url("/img/paper_noise.png");
 
 }
-
-/******************************************************************************
- * Pages
- ******************************************************************************/
-
-.page
-{
-    flex: 1;
-
-    min-width: 0;
-
-    padding-top:2rem;
-
-}
-
-.page-left
-{
-    position: relative;
-
-    padding-left: 1.8em;
-
-    margin-left: 20px;
-
-    background:
-
-        /* reflet au bord de la reliure */
-        linear-gradient(
-            to right,
-
-            transparent 0%,
-            transparent 94%,
-
-            rgba(255,255,255,.90) 97%,
-
-            rgba(0,0,0,.12) 100%
-        ),
-
-        /* lignes du cahier */
-        repeating-linear-gradient(
-            to bottom,
-
-            transparent 0,
-            transparent 1.75rem,
-
-            #d8ebff 1.75rem,
-            #d8ebff 1.82rem
-        ),
-
-        /* marge rouge */
-        linear-gradient(
-            to right,
-
-            transparent 0,
-            transparent 2.8rem,
-
-            #d76b6b 2.8rem,
-
-            #d76b6b 2.9rem,
-
-            transparent 2.9rem
-        );
-
-    /* border-top: 1px ridge #d7ccb6; */
-
-    border-right: solid 3px rgb(119, 119, 119);
-
-    /* border-radius: 0 20px 0px 0; */
-}
-
 .book::before
 {
     content: "";
@@ -119,23 +49,124 @@
             #ece2d0 3px
         );        
 }
-.page-right
+.book::after
 {
-    margin-left:1px;
+    z-index: 10;
+}
+/******************************************************************************
+ * Pages
+ ******************************************************************************/
+
+.page
+{
+    flex: 1;
+
+    min-width: 0;
+
+    padding-top:0.5rem;
+    padding-bottom: 2.5em;
+
+}
+
+.page-left
+{
+    position: relative;
+    overflow: hidden;    
+
+    padding-left: 1.8em;
+
+    margin-left: 20px;
+
+    border-radius:0px 7px 0px 0px;
 
 
     background:
 
+
+        /* marge rouge */
+        linear-gradient(
+            to right,
+
+            transparent 0,
+            transparent 3.0rem,
+
+            #ec8282 3.0rem,
+            #f89292 3.1rem,
+
+            transparent 3.1rem
+        ),
+                /* lignes du cahier */
+        repeating-linear-gradient(
+            to bottom,
+
+            transparent 0,
+            transparent 1.75rem,
+
+            #d8ebff 1.75rem,
+            #d8ebff 1.82rem
+        );
+
+
+}
+.page-left::after
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    right: 0px;
+
+    width: 10px;
+    bottom: 0;
+
+    background:
         linear-gradient(
             to left,
+            rgba(155, 147, 110, 0.4),            
+            rgba(255, 255, 255, 0),
+            transparent
+        );
 
-            transparent 0%,
-            transparent 94%,
+    pointer-events: none;
+}
+.page-left::before
+{
+    content: "";
 
-            rgba(255,255,255,.90) 97%,
+    position: absolute;
 
-            rgba(0,0,0,.12) 100%
-        ),
+    bottom: 0px;
+    right: 10px;
+
+    width: 300px;
+    height: 200px;
+
+    background: url("/img/fleuron_left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:bottom;    
+}
+
+.page-right
+{
+    position: relative;    
+    overflow: hidden;    
+    z-index: 1;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
+    text-align:center;    
+
+    margin-right: -20px;    
+    
+    border-radius: 7px;
+
+    padding-left: 0.5em;
+
+    background:
 
         repeating-linear-gradient(
             to bottom,
@@ -145,32 +176,49 @@
 
             #d8ebff 1.75rem,
             #d8ebff 1.82rem
-        ),
-
-        linear-gradient(
-            to right,
-
-            transparent 0,
-            transparent 3.8rem,
-
-            #d76b6b 3.8rem,
-            #d76b6b 3.9rem,
-
-            transparent 3.9rem
         );
-
-
-
-
-    /* border-top: 1px ridge #d7ccb6; */
-
-    border-left: solid 10px rgb(202, 202, 202);  
-    /* border-left: solid 10px #b8905d; */
-    
-
-    /* border-radius: 30px 0 0 0px; */
-
 }
+.page-right::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 1px;
+
+    width: 50px;
+    bottom: 0;
+
+    background:
+        linear-gradient(
+            to left,
+            rgba(245, 242, 224, 0.08),
+            rgba(155, 147, 110, 0.5)
+        );           
+
+
+
+    pointer-events: none;
+}
+.page-right::after
+{
+    content: "";
+
+    position: absolute;
+
+    bottom: 0px;
+    left: 10px;
+
+    width: 300px;
+    height: 200px;
+
+    background: url("/img/fleuron_right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:bottom;    
+}
+
 
 .book::after
 {
@@ -199,4 +247,25 @@
         #e8d4b3 2px,
         #e8d4b3 3px
     );
+}
+
+.inset
+{
+    display: inline-flex;
+
+    padding: 5px;    
+ 
+    align-content: center;
+
+    margin-right: 5em;
+
+    font-size: 0.8em;
+
+    background: rgba(245, 219, 193, 0.8);
+
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+    box-shadow:
+        0 2px 6px rgba(0,0,0,.08);
 }
