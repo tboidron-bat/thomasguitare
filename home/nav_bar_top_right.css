@@ -1,26 +1,24 @@
 .nav-bar-top-right
 {
-    position: absolute;
-
-    right: 200px;
-    bottom: 140px;
+    justify-self: end;
+    align-self: center;
 }
 .nav-bar-top-right li
 {
     margin: 0;
 
 
-background-image:
-    linear-gradient(
-        to bottom,
-        transparent,
-        rgba(255,255,255,.9),
-        transparent
-    );
+    background-image:
+        linear-gradient(
+            to bottom,
+            transparent,
+            rgba(255,255,255,.9),
+            transparent
+        );
 
-background-repeat: no-repeat;
-background-position: right center;
-background-size: 2px 28px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 2px 28px;
 }
 .nav-bar-top-right ul
 {
@@ -78,11 +76,10 @@ background-size: 2px 28px;
 
 
 }
-
 .nav-bar-top-right a:hover
 {
     background: rgba(255,255,255,.25);
-    border-bottom: solid 4px #000000;        
+    /* border-bottom: solid 4px #000000;         */
     border-radius: 8px;
 }
 
@@ -91,5 +88,9 @@ background-size: 2px 28px;
     border-right: none;
     margin-right: 0;
     padding-right: 0;
+}
+.nav-bar-top-right a.active
+{
+    border-bottom:4px solid #ffbb00;
 }
 
