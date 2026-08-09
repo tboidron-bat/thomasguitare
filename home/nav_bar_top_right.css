@@ -79,8 +79,8 @@
 .nav-bar-top-right a:hover
 {
     background: rgba(255,255,255,.25);
-    /* border-bottom: solid 4px #000000;         */
-    border-radius: 8px;
+    border-radius: 8px 8px 0px 0px;    
+    border-bottom: solid 2px #00ff5e;            
 }
 
 .nav-bar-top-right li:last-child

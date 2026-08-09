@@ -1,4 +1,4 @@
-fetch("../__sidebar/sidebar.html")
+fetch("/lesson/classique/__sidebar/sidebar.html")
 .then(response => response.text())
 .then(html =>
 {

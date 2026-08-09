@@ -1,9 +1,13 @@
-
 .lesson-content-theory
 {
     display: flex;    
-}
+    width: 100%;    
 
+    /* border-left: ridge 5px rgb(134, 94, 6);         */
+    border-left: ridge 3px rgb(245, 213, 145);            
+    /* border-right: ridge -3px rgb(245, 213, 145);                 */
+
+}
 
 /******************************************************************************
  * Titre
@@ -18,14 +22,14 @@
     margin-top:0;
 }
 
-.title-text
+.lesson-content-theory .title-text
 {
     padding-left:0.1em;
     margin: 0;
 
     font-family:"IM Fell", serif;
 
-    font-size:3rem;
+    font-size:4rem; 
 
     color:#565454;
 
@@ -42,25 +46,26 @@
 
 }
 
-
 /******************************************************************************
  * Lettrine
  ******************************************************************************/
-
+ 
 .dropcap
 {
-    display:flex;
+    display: flex;
 
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 
-    width:72px;
-    height:72px;
+    width: 72px;
+    height: 72px;
 
-    padding:5px;
+    box-sizing: border-box;
 
-    font-family:"Jacquard";
-    font-size:4rem;
+    padding: 0;
+
+    font-family: "Jacquard";
+    font-size: 6rem;
 
     color:#c06f12;
 
@@ -99,17 +104,16 @@
 
 .lesson-content-theory li
 {
+    font-family:"EB Garamond", serif;
+
+    font-size:2rem;
+
+
     list-style:none;
 
     margin-bottom:1rem;
 
     padding-left:.5rem;
-
-    /* line-height:1.0; */
-
-    font-family:"EB Garamond", serif;
-
-    font-size:2rem;
 }
 
 
@@ -127,9 +131,6 @@
     max-width:80%;
 
     height:auto;
-
-    /* padding:1rem; */
-    margin-bottom: 4rem;
 
     background:white;
 
@@ -151,11 +152,7 @@
 
     border-left: 4px solid #c8932d;
 
-    border-radius: 0;
-
     box-shadow: none;
-
-    border-radius: 3px;
 }
 .lesson-sublist p
 {
@@ -178,150 +175,7 @@
     list-style: circle;
 
 }
-.inset-wax
-{
-    position: relative;
-
-    margin-top: 2.8em;
-    margin-left: 2.5em;
-    margin-right: 1.5em;    
-
-    font-size: 1.5em;
-
-    border-radius: 0.7em;
-    border: 1px solid #d7b28c;
-    border-left: 6px solid #d29a42;
-    border-right: 6px solid #d29a42;    
-
-    background-color: #faeacd;
-    /* background:
-    linear-gradient(
-        to bottom,
-        #f9ebd5,
-        #f3dfbf
-    );     */
-
-    background-image:
-        url("/img/paper_noise_02.png");
-
-
-    box-shadow:0 4px 12px rgba(0,0,0,.2);
-}
-.inset-wax-content
-{
-    padding: 1.0em;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2.0em;
-
-    border-radius: 0.7em;
-    border:solid 3px #d7b28c;    
-}
-.inset-wax-seal
-{
-    position: absolute;
-
-    width: 100px;
-
-    top: -30px;
-    left: -30px;
-
-    z-index: 20;
-}
-.inset-wax-paper
-{
-    padding: 0.5em;
-
-    position: relative;
-
-    border-radius: inherit;
-    overflow: hidden;
-
-
-}
-.inset-wax-corner
-{
-    position: absolute;
-
-    width: 80px;
-    height: 80px;
-
-    pointer-events: none;
-}
-.inset-wax-corner-top-right
-{
-    top: 3px;
-    right: 6px;
-
-    background: url("/img/ornement_corner_00.png") center / contain no-repeat;
-
-    transform: rotate(0deg);
-}
-.inset-wax-corner-bottom-right
-{
-    bottom: 6px;
-    right: 2px;
-
-    background: url("/img/ornement_corner_00.png") center / contain no-repeat;    
-
-    transform: rotate(90deg);
-}
-.inset-wax-corner-bottom-left
-{
-    bottom: 3px;
-    left: 6px;
-
-    background: url("/img/ornement_corner_00.png") center / contain no-repeat;        
-
-    transform: rotate(180deg);
-}
-.dropcap-small
-{
-    float: left;
-
-    margin-right: 0.10em;
-    margin-top: -0.05em;
-
-
-    font-family:"IM Fell", serif;
-
-    /* font-family: "Goudy Initials";     */
-    font-size: 4.0em;
-    line-height: 0.85;
-
-    color: #ac3d23;
-
-    text-shadow:
-        -1px -1px 0 black,
-         1px -1px 0 black,
-        -1px  1px 0 black,
-         1px  1px 0 black,
-         0 2px 3px rgba(0,0,0,.8);
-
-
-    /* text-shadow:
-        1px 1px 0px #f6d5b8,
-        2px 2px 2px rgba(0,0,0,.18); */
-}
 
 /******************************************************************************
  * Mobile
  ******************************************************************************/
-
-@media (max-width:1000px)
-{
-    .book
-    {
-        flex-direction:column;
-    }
-
-    .book::before
-    {
-        display:none;
-    }
-
-    .page
-    {
-        padding:2rem;
-    }
-}

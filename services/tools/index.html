@@ -12,38 +12,29 @@
   <link href="/home/nav_bar_top_right.css" rel="stylesheet" />  
   <link href="header.css" rel="stylesheet" />
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0NG1Q9YY5K"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag()
+        {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-0NG1Q9YY5K');
+    </script>
+
+
 </head>
 
 <body>
 
-<header class="tools-header">
+<header>
 
-    <nav class="nav-bar-top-right">
-        <ul>
-            <li>
-                <a href="/index.html">
-                    <img src="/img/icon_home.png" class="icon" alt="">
-                    Accueil
-                </a>
-            </li>
-
-            <li>
-                <a href="/services/contact/index.html">
-                    <img src="/img/icon_contact.png" class="icon" alt="">
-                    Contact
-                </a>
-            </li>
-            <li>
-                <a href="/services/tools/index.html" class="active"">
-                    <img src="/img/icon_wrench.png" class="icon" alt="">
-                    Outils
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-
-    <div class="header-overlay">
+    <div class="header-content no-guitar"> 
 
         <div class="header-title">
 
@@ -64,7 +55,32 @@
             </div>
 
         </div>
-    </div>
+
+        <nav class="nav-bar-top-right">
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        <img src="/img/icon_home.png" class="icon" alt="">
+                        Accueil
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/services/contact/index.html">
+                        <img src="/img/icon_contact.png" class="icon" alt="">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="/services/tools/index.html" class="active"">
+                        <img src="/img/icon_wrench.png" class="icon" alt="">
+                        Outils
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>    
 
 </header>
 <main>

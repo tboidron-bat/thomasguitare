@@ -1,153 +1,118 @@
 .lesson-content-exercise
 {
     display: flex;
-
-    align-items: flex-start;
-
-    margin-top: 2px;
-    margin-left: 2px;
-    margin-bottom: .7em;
-
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
-    border: 1px solid #d7ccb6;
-    border-left: 10px solid #6b8e3b;
-
-    border-radius: 12px;
-
-    background-color: #fffefb;
-
-    background-image:
-        linear-gradient(
-            to right,
-            transparent 0,
-            transparent 3.8rem,
-
-            #d76b6b 3.8rem,
-            #d76b6b 3.9rem,
-
-            transparent 3.9rem
-        ),
-
-        repeating-linear-gradient(
-            to bottom,
-            transparent 0,
-            transparent 1.75rem,
-
-            #d8ebff 1.75rem,
-            #d8ebff 1.82rem
-        );
-
-    box-shadow:
-        5px 5px 6px rgba(0,0,0,.15),
-        inset 0 1px 0 rgba(255,255,255,.8);
+    padding-bottom: 2.0em;
 }
 
-.lesson-content-exercise .content
-{
-    flex: 1;
-
-    padding-left: 2.8rem;
-}
+/******************************************************************************
+ * Titre
+ ******************************************************************************/
 
 .lesson-content-exercise h2
 {
-    display: inline-flex;
+    display:inline-flex;
+    
 
-    align-items: center;
+    align-items:center;
 
-    margin: 0 0 1rem;
+    margin-top:0;
 
-    border: 1px solid #a6b46b;
-
-    border-radius: 6px;
-
-    background: #f7f3dc;
-
-    box-shadow: 0 2px 4px rgba(0,0,0,.25);
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 1.7rem;
-
-    font-weight: normal;
-
-    color: #2d2d2d;
+}
+.lesson-content-exercise h3
+{
+    padding: 0;
+    margin: 0;
+    font-size:2rem;    
 }
 
 .lesson-content-exercise .title-text
 {
-    padding: .3rem .9rem .3rem .35rem;
+
+    padding-left:0.1em;
+    margin: 0;
+
+    font-family:"IM Fell", serif;
+
+    font-size:5rem;
+
+    color:#4b5f23;
 
     text-decoration: underline;
-}
-
-.lesson-content-exercise .dropcap
-{
-    display: inline-flex;
-
-    justify-content: center;
-    align-items: center;
-
-    width: 58px;
-    height: 58px;
-
-    background: #faf8f0;
-
-    border-right: 3px solid #4f6d2d;
-
-    border-radius: 6px;
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 2.4em;
-
-    font-weight: bold;
-
-    color: #6b8e3b;
+    text-decoration-color:#67842d;
+    text-decoration-thickness:3px;
 
     text-shadow:
-        1px 1px 0 white,
-        0 2px 3px rgba(0,0,0,.15);
+        -1px -1px 0 rgb(255, 255, 255),
+         1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+         1px  1px 0 rgb(255, 255, 255),
+         0 2px 3px rgba(0,0,0,.5);
+}
+
+/******************************************************************************
+ * Lettrine
+ ******************************************************************************/
+ 
+.lesson-content-exercise .dropcap
+{
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    padding:1.5rem;
+    padding-top: 1.9rem;
+
+    font-family:"Lombardi";
+    font-family:"Gothic Leaf";    
+    font-family:"IM Fell";        
+    font-size:6rem;
+
+    color:#a6ecae;
+
+    background:#ffffff;
+
+    border:3px solid #11057c;
+    border-radius:10px;
+
+    background-image:url("/img/medieval_lettrine_frame_green.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black,
+         0 2px 3px rgba(0,0,0,.8);
+
+    box-shadow:
+        -1px -1px 2px #e5a855,
+         2px  2px 3px #634924;
 }
 
 .lesson-content-exercise p
 {
     margin-bottom: 1.3rem;
 
-    font-size: 1.15rem;
+
 }
 
 .lesson-content-exercise ul
 {
     padding-left: 0;
+
 }
 
 .lesson-content-exercise li
 {
     list-style: none;
 
-    margin-bottom: .8rem;
-
-    padding-left: .6rem;
-
     line-height: 1.7;
 
-    font-size: 1.1rem;
+    font-size: 2rem;        
 }
-
-.lesson-content-exercise li::before
-{
-    content: "•";
-
-    color: #6b8e3b;
-
-    font-size: 1.25em;
-
-    margin-right: .5em;
-}
-
 .lesson-content-exercise audio
 {
     margin-top: 1.5rem;
