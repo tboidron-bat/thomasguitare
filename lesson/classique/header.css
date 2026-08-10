@@ -1,89 +1,498 @@
-.site-header
+header
 {
-    display: flex;
+    position: relative;
 
-    align-items: center;
+    height: 120px;
 
-    gap: 8px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
 
-    height: 90px;
+    margin-bottom: 8px;
 
-    padding: 0 22px;
-    margin-bottom: 0.3em;
+    box-sizing: border-box;
 
-    background:
-        linear-gradient(to bottom,
-            #fbf5e8 0%,
-            #f6ecd8 45%,
-            #efe0c4 100%);
+    border: 2px solid #b99b6b;
+    /* border: 2px solid black;     */
 
-    border: 2px solid #c7b18a;
+   /* background-image:
+        url("/img/paper_noise_02.png"); */
 
     border-radius: 10px;
 
+    background-color:#f7ead5;
+
     box-shadow:
-        5px 5px 6px rgba(0,0,0,.2),
-        inset 0 1px 0 rgba(255,255,255,.8);
+        4px 4px 6px rgba(0,0,0,.20),
+        inset 0 1px 0 rgba(255,255,255,.85);
 }
 
-.logo
+/* =========================================================
+   CONTENU
+   ========================================================= */
+
+.content
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;    
+    border: 2px solid #b99b6b;    
+    /* border: 2px solid #a42f2f;         */
+
+    width: 100%;
+    height: 100%;
+
+
+    /* border: 3px ridge rgb(255,255,255);     */
+
+   background-image:
+        url("/img/paper_noise_header.png"),
+        linear-gradient(
+            to bottom,
+            #fbf5e8 0%,
+            #f5ead4 50%,
+            #ead8b8 100%
+        );
+
+    background-repeat:
+        repeat,
+        no-repeat;
+
+    background-position:
+        0 0,
+        0 0;
+
+    background-size:
+        auto,
+        100% 100%;
+
+    background-blend-mode: multiply;
+
+}
+.header-corner
+{
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+
+    background-image:
+        url("/img/corner_silver_02.png");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    z-index: 20;
+
+    pointer-events: none;
+
+    filter:
+        drop-shadow(2px 2px 2px rgba(144, 144, 144, 0.6  ));
+
+}
+.corner-tl
+{
+    top: -1px;
+    left: -1px ;
+
+}
+.corner-tr
+{
+    top: -1px;
+    right: -1px;
+
+    transform: scaleX(-1);
+}
+
+.corner-bl
+{
+    bottom: -1px;
+    left: -1px;
+
+    transform: scaleY(-1);
+}
+
+.corner-br
+{
+    bottom: -1px;
+    right: -1px;
+
+    transform: scale(-1);
+}
+
+/* =========================================================
+   GAUCHE
+   ========================================================= */
+
+.header-left
 {
     display: flex;
 
-    align-items: center;
+    height: 100%;
 
-    gap: 14px;
-
-    text-decoration: none;
-
-    color: #2f2f2f;
+    flex: 1;
 }
 
-.logo img
-{
-    width: 54px;
 
-    height: 54px;
+.guitar-logo
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+    width: 70px;
+    height: 100%;
+
+    margin-top: 5px;
+    margin-right: 10px;    
+}
+
+
+.guitar-logo img
+{
+    width: 58px;
+    height: 78px;
 
     object-fit: contain;
 
-    filter: drop-shadow(2px 3px 3px rgba(0,0,0,.30));
+    filter:
+        drop-shadow(2px 3px 3px rgba(0,0,0,.28));
 }
 
-.logo span
+
+/* =========================================================
+   TITRE
+   ========================================================= */
+
+.header-title
 {
-    font-family: Georgia, "Times New Roman", serif;
+    position: relative;    
+    display: flex;
 
-    font-size: 3rem;
+    flex-direction: column;
+    /* justify-content: center; */
+}
 
+
+.header-title-main
+{
+    display: flex;
+    align-items: baseline;
+
+    white-space: nowrap;
+}
+.site-name
+{
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 3.7rem;
     font-weight: bold;
 
-    color: #2f2f2f;
+    color: #603907;
 
     text-shadow:
-        0 1px 0 #ffffff,
-        0 2px 3px rgba(0,0,0,.18);
-}
+        /* contour clair */
+        -1px -1px 0 #f4dbb9,
+         1px -1px 0 #f4dbb9,
+        -1px  1px 0 #f4dbb9,
+         1px  1px 0 #f4dbb9,
 
-.section
-{
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 3rem;
-
-    color: #b56a18;
-
-    text-shadow:
-        1px 1px 0 white,
-        0 0 2px rgba(0,0,0,.25);
+        /* petit relief sombre */
+         1px  1px 0 #8b5a24,
+         2px  2px 0 #754714,
+         3px  3px 2px rgba(50,30,10,.45);
 }
 .separator
 {
-    font-family: Georgia, "Times New Roman", serif;
+    margin-left: 0.35em;
+    margin-right: 0.20em;
 
-    font-size: 2.8rem;
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
 
-    color: #7a7a7a;
+    font-size: 2.1rem;
 
-    margin: 0 -5px;
+    color: #8b7358;
+
+    text-shadow:
+        1px 1px 0 #f4dbb9,
+        0 1px 2px rgba(60,40,20,.25);
+}
+.section-name
+{
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 2.3rem;
+    font-weight: normal;
+
+    color: #a54d24;
+
+    text-shadow:
+        -1px -1px 0 #f4dbb9,
+         1px -1px 0 #f4dbb9,
+        -1px  1px 0 #f4dbb9,
+         1px  1px 0 #f4dbb9,
+
+         1px 1px 0 #8b4425,
+         2px 2px 2px rgba(60,30,10,.25);
+}
+.header-subtitle
+{
+    position: absolute;
+
+    left: 50%;
+    top: 60%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+
+    white-space: nowrap;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.1rem;
+    font-style: italic;
+
+    color: #67452b;
+
+    text-shadow:
+        1px 1px 0 #f4dbb9;
+}
+.header-subtitle::before,
+.header-subtitle::after
+{
+    content: "";
+
+    display: block;
+
+    width: 55px;
+    height: 22px;
+
+    background-image:
+        url("/img/ornament_needle.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    flex-shrink: 0;
+}
+.header-subtitle::before
+{
+    margin-right: 8px;
+}
+.header-subtitle::after
+{
+    transform: scaleX(-1);    
+    margin-left: 8px;
+}
+
+/* =========================================================
+   BANNIERE CENTRAL
+   ========================================================= */
+.header-center
+{
+    position: absolute;
+
+    left: 59%;
+    top: 55%;
+
+    width: 500px;
+    height: 100px;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-center img
+{
+    width: 280px;
+    height: auto;
+
+    /* surtout pas de margin-left ici */
+
+    filter:
+        drop-shadow(2px 2px 2px rgba(0,0,0,1));
+
+    opacity: 0.8;
+}
+.button
+{
+    appearance: none;
+
+    border: none;
+    padding: 0;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+
+    background-image:
+        url("/img/button_leather_00.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    color: #f4dbb9;
+
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: bold;
+
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #300000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+
+    filter:
+        drop-shadow(1px 2px 3px rgba(0,0,0,.45));
+
+        opacity: 0.9;
+}
+.button:hover
+{
+    /* transform: translateY(-2px); */
+    opacity: 1;    
+}
+.prev
+{
+    margin-right: -10px;
+    transform: translateY(-5px);        
+}
+
+.next
+{
+    margin-left: -13px;
+    transform: translateY(-5px);            
+}
+
+/* =========================================================
+   DROITE
+   ========================================================= */
+
+.header-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 100%;
+
+    flex: 1;
+
+    gap: 0px;    
+}
+
+
+/* =========================================================
+   ORNEMENTS
+   ========================================================= */
+
+.header-ornament
+{
+    width: 75px;
+    height: 45px;
+
+    background-image:
+        url("/img/ornament.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/* =========================================================
+   PLUME
+   ========================================================= */
+
+.header-quill
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* right:0px; */
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+    /* padding-left: 20px; */
+
+
+    width: 65px;
+    height: 100%;
+
+    transform: translateY(4px);    
+}
+
+
+.header-quill img
+{
+    width: 60px;
+    height: auto;
+
+    /* object-fit: contain; */
+
+    filter:
+        drop-shadow(2px 3px 3px rgba(0,0,0,.5   ));
+}
+
+/* Ornement gauche */
+
+.header-ornament-quill-left
+{
+    width: 130px;
+    height: 50px;
+
+    background-image: url("/img/ornament_00.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    transform: scaleX(-1);
+
+    margin-bottom: 5%;
+}
+/* Ornement droit */
+
+.header-ornament-quill-right
+{
+    width: 80px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+
+    margin-top: 4%;    
+
+    background-image: url("/img/ornament_00.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }

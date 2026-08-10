@@ -1,6 +1,7 @@
 .sidebar
 {
-    width: 300px;
+    width: 300px; 
+    /* width: 87%;TODO: Je ne veux pas que la place prise à l'écran retrissse. Je veux que ca prenne toujours environ 1.4 de la largeur */
     height: fit-content;    
 
     flex-shrink: 0;
