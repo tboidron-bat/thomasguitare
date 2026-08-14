@@ -78,9 +78,24 @@
 }
 .nav-bar-top-right a:hover
 {
-    background: rgba(255,255,255,.25);
-    border-radius: 8px 8px 0px 0px;    
-    border-bottom: solid 2px #00ff5e;            
+    /* color: #ffbb00; */
+    /* color: #edd9ac; */
+
+    text-decoration: underline;
+
+/*     text-shadow:
+        0px 1px 0 #ffbb00;
+
+         1px -1px 0 #ffbb00,
+        -1px  1px 0 #ffbb00,
+         1px  1px 0 #ffbb00;
+
+    text-shadow:
+        0 2px 3px rgba(0,0,0,.8);          */
+
+
+    background: rgba(255,255,255,.1);
+    /* border-radius: 8px 8px 8px 80px;     */
 }
 
 .nav-bar-top-right li:last-child

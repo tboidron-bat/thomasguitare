@@ -1,0 +1,192 @@
+/* ============================================================
+   COINS EN CUIR DU MENU
+   ============================================================ */
+
+.sidebar-corner
+{
+    position: absolute;
+
+
+    background-image:
+        url("img/metal_corner_300x257.png");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    z-index: 40;
+
+    pointer-events: none;
+}
+
+
+/* ============================================================
+   COIN SUPÉRIEUR GAUCHE
+   ============================================================ */
+
+.sidebar-corner-top-left
+{
+    top: 0px;
+    left: 0px;
+
+    width: 70px;
+    height: 70px;
+
+
+    transform: rotate(0deg);
+}
+
+
+/* ============================================================
+   COIN SUPÉRIEUR DROIT
+   ============================================================ */
+
+.sidebar-corner-top-right
+{
+    top: 0;
+    right: 0;
+
+    width: 70px;
+    height: 70px;
+
+
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+
+/* ============================================================
+   COIN INFÉRIEUR GAUCHE
+   ============================================================ */
+
+.sidebar-corner-bottom-left
+{
+    bottom: 0;
+    left: 0;
+
+    width: 70px;
+    height: 70px;
+
+
+    transform-origin: center;
+    transform: rotate(270deg);
+}
+
+
+/* ============================================================
+   COIN INFÉRIEUR DROIT
+   ============================================================ */
+
+.sidebar-corner-bottom-right
+{
+    bottom: 0;
+    right: 0;
+
+    transform-origin: center;
+    transform: rotate(180deg);
+
+    width: 70px;
+    height: 70px;
+
+}
+
+
+/* ============================================================
+   CADRE SUPÉRIEUR
+   ============================================================ */
+
+.sidebar-frame-top
+{
+    position: absolute;
+
+    top: 0;
+    left: 21px;
+    right: 21px;
+
+    height: 22px;
+
+    background-image:
+        url("img/leather_border_horizontal_68x22.png");
+
+    background-repeat: repeat-x;
+    /* background-position: top left; */
+    /* background-size: auto 22px; */
+
+    z-index: 30;
+}
+
+
+/* ============================================================
+   CADRE GAUCHE
+   ============================================================ */
+
+.sidebar-frame-left
+{
+    position: absolute;
+
+    top: 21px;
+    bottom: 21px;
+    left: 0px;
+
+    width: 22px;
+
+    background-image:
+        url("img/leather_border_vertical_32x94.png");
+
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-size: 22px auto;
+
+    z-index: 30;
+}
+
+
+/* ============================================================
+   CADRE DROIT
+   ============================================================ */
+
+.sidebar-frame-right
+{
+    position: absolute;
+
+    top: 21px;
+    bottom: 21px;
+    right: 0;
+
+    width: 22px;
+
+    background-image:
+        url("img/leather_border_vertical_32x94.png");
+
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-size: 22px auto;
+
+    transform: scaleX(-1);
+
+    z-index: 30;
+}
+
+
+/* ============================================================
+   CADRE INFÉRIEUR
+   ============================================================ */
+
+.sidebar-frame-bottom
+{
+    position: absolute;
+
+    left: 21px;
+    right: 21px;
+    bottom: 0px;
+
+    height: 22px;
+
+    background-image:
+        url("img/leather_border_horizontal_68x22.png");
+
+    background-repeat: repeat-x;
+    /* background-position: top left; */
+    /* background-size: auto 32px; */
+
+    z-index: 30;
+}

@@ -13,10 +13,6 @@ header
     box-sizing: border-box;
 
     border: 2px solid #b99b6b;
-    /* border: 2px solid black;     */
-
-   /* background-image:
-        url("/img/paper_noise_02.png"); */
 
     border-radius: 10px;
 
@@ -49,7 +45,7 @@ header
     /* border: 3px ridge rgb(255,255,255);     */
 
    background-image:
-        url("/img/paper_noise_header.png"),
+        url("/img/texture/paper_noise_parchment.png"),
         linear-gradient(
             to bottom,
             #fbf5e8 0%,
@@ -80,7 +76,7 @@ header
     height: 30px;
 
     background-image:
-        url("/img/corner_silver_02.png");
+        url("/img/ornament/corner_silver.png");
 
     background-repeat: no-repeat;
     background-size: contain;
@@ -89,8 +85,8 @@ header
 
     pointer-events: none;
 
-    filter:
-        drop-shadow(2px 2px 2px rgba(144, 144, 144, 0.6  ));
+    /* filter:
+        drop-shadow(2px 2px 2px rgba(144, 144, 144, 0.6  )); */
 
 }
 .corner-tl
@@ -285,7 +281,7 @@ header
     height: 22px;
 
     background-image:
-        url("/img/ornament_needle.png");
+        url("/img/ornament/needle.png");
 
     background-repeat: no-repeat;
     background-position: center;
@@ -468,7 +464,7 @@ header
     width: 130px;
     height: 50px;
 
-    background-image: url("/img/ornament_00.png");
+    background-image: url("/img/ornament/flourish.png");
 
     background-repeat: no-repeat;
     background-position: center;
@@ -490,7 +486,7 @@ header
 
     margin-top: 4%;    
 
-    background-image: url("/img/ornament_00.png");
+    background-image: url("/img/ornament/flourish.png");
 
     background-repeat: no-repeat;
     background-position: center;

@@ -1,55 +1,135 @@
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
+
 .sidebar
 {
-    width: 300px; 
-    /* width: 87%;TODO: Je ne veux pas que la place prise à l'écran retrissse. Je veux que ca prenne toujours environ 1.4 de la largeur */
-    height: fit-content;    
+    margin: 0;
+    padding: 25px;
+
+    position: relative;
+
+    width: 320px;
+    height: fit-content;
 
     flex-shrink: 0;
 
-    margin-top: 2px;
-
-    margin-left: 2px;
-    margin-right: .2em;    
-
-    padding: 18px;
-
-    background: #faf7ef;
-
-    border: 1px solid #d7ccb6;
-
-    border-radius: 12px;
-
+    /* background: #972626; */
+    background: #f9e6c5;
     box-shadow:
-        5px 5px 6px rgba(0,0,0,.5),
-        inset 0 1px 0 rgba(255,255,255,.8);
+        5px 5px 6px rgba(0,0,0,.5);
 }
+
+
+/* ============================================================
+   CONTENU DU SIDEBAR
+   ============================================================ */
+
+.sidebar-content
+{
+    position: relative;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 12px;
+
+    background-image: url("/img/texture/parchment_500x750.png");
+
+    border:
+        ridge 1px #000000;
+
+    border-radius: 15px;
+}
+
+
+/* ============================================================
+   TITRE
+   ============================================================ */
 .sidebar-title
 {
     margin: 0 0 18px;
 
+    /* padding-bottom: 12px; */
+
     text-align: center;
 
     font-family: Georgia, serif;
-
     font-size: 2rem;
 
-    color: #00267f; 
+    color: #4a2b16;
 
-    border-bottom: 1px solid #d8c8ae;
+    /* border-bottom: solid 1px #f9e6c5; */
 
-    padding-bottom: 10px;
+    position: relative;
 }
+.sidebar-title::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+
+    width: 55px;
+    height: 55px;
+
+    background:
+        url("/img/ornament/corner_00.png")
+        top left / contain
+        no-repeat;
+
+    transform: rotate(270deg);        
+
+
+
+    pointer-events: none;
+}
+.sidebar-title::after
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0px;
+    right: 0px;
+
+    width: 55px;
+    height: 55px;
+
+    background:
+        url("/img/ornament/corner_00.png")
+        top left / contain
+        no-repeat;
+
+
+    pointer-events: none;
+}
+
+
+/* ============================================================
+   MENU
+   ============================================================ */
+
 .lesson-menu details
 {
     margin-bottom: 14px;
 }
+
+
+/* ============================================================
+   CHAPITRES
+   ============================================================ */
+
 .lesson-menu summary
 {
-    padding: 10px 12px;
+    position: relative;
 
-    border-radius: 8px;
-
-    background: #efe5d2;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 9px;
+    padding-left: 32px;
 
     color: #5d4632;
 
@@ -57,12 +137,87 @@
 
     cursor: pointer;
 
-    transition: .2s;
+    transition: .1s;
 }
+
+
+/* ============================================================
+   SURVOL
+   ============================================================ */
+
 .lesson-menu summary:hover
 {
-    background: #e6d7bc;
+    background-color: rgba(237, 176, 61, .20);
 }
+
+.lesson-menu summary::after
+{
+    content: "";
+
+    position: absolute;
+
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent,
+            #b58a45,
+            transparent
+        );
+}
+/* ============================================================
+   FLEUR DE LYS
+   ============================================================ */
+
+.lesson-menu summary::before
+{
+    content: "";
+
+    position: absolute;
+
+    left: 8px;
+    top: 35%;
+
+    width: 16px;
+    height: 16px;
+
+    transform: translateY(-50%);
+
+    background-image:
+        url("/img/chip/fleur-de-lys.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* ============================================================
+   LISTE DES LEÇONS
+   ============================================================ */
+
+.lesson-menu ul
+{
+    list-style:none;
+
+    margin: 8px 0 0 18px;
+
+    padding: 0;
+}
+
+.lesson-menu li
+{
+    margin: 5px 0;
+}
+
+
+/* ============================================================
+   LIENS
+   ============================================================ */
+
 .lesson-menu a
 {
     display: block;
@@ -77,38 +232,34 @@
 
     transition: .15s;
 }
+
 .lesson-menu a:hover
 {
     background: #eef4ff;
 }
-.lesson-menu ul
-{
-    list-style: none;
 
-    margin: 8px 0 0 18px;
 
-    padding: 0;
-}
+/* /* ============================================================
+   LEÇON COURANTE
+   ============================================================ */
 
-.lesson-menu li
-{
-    margin: 5px 0;
-}
-
-.lesson-menu a.current
+/*.lesson-menu a.current
 {
     display: block;
 
-    background: linear-gradient(#de9639, #d58420);
+    background:
+        linear-gradient(
+            #de9639,
+            #d58420
+        );
 
     color: white;
 
     font-weight: bold;
-
 
     border-radius: 6px;
 
     box-shadow:
         inset 0 1px 1px rgba(255,255,255,.35),
         0 1px 3px rgba(0,0,0,.15);
-}
+} */
