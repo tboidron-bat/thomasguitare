@@ -8,11 +8,11 @@ header
     padding-top: 5px;
     padding-left: 5px;
 
-    margin-bottom: 8px;
+    /* margin-bottom: 5px; */
 
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
-    border: 2px solid #b99b6b;
+    border: 5px double #b99b6b;
 
     border-radius: 10px;
 
@@ -135,22 +135,22 @@ header
 
 .guitar-logo
 {
+    margin-left: 1.0em;
+    margin-bottom: 1.0em;
+    margin-right: 0px;
+    padding-right: 0px;
+
     display: flex;
-    /* align-items: center; */
-    justify-content: center;
+    align-items: center;
 
-    width: 70px;
-    height: 100%;
-
-    margin-top: 5px;
-    margin-right: 10px;    
+    /* margin-top: 10px; */
 }
 
 
 .guitar-logo img
 {
-    width: 58px;
-    height: 78px;
+    width: 15   0px;
+    height: 150px;
 
     object-fit: contain;
 
@@ -182,12 +182,17 @@ header
 }
 .site-name
 {
-    font-family:
+    /* font-family:
         Georgia,
         "Times New Roman",
-        serif;
+        serif; */
 
-    font-size: 3.7rem;
+    /* font-family: "Lombardi";
+    font-family: "Goudy Initials";            
+    font-family: "Gothic Leaf"; */
+    font-family: "Jacquard";    
+
+    font-size: 4.7rem;
     font-weight: bold;
 
     color: #603907;
@@ -203,6 +208,8 @@ header
          1px  1px 0 #8b5a24,
          2px  2px 0 #754714,
          3px  3px 2px rgba(50,30,10,.45);
+
+    text-decoration: none;
 }
 .separator
 {
@@ -224,10 +231,15 @@ header
 }
 .section-name
 {
-    font-family:
+    /* font-family:
         Georgia,
         "Times New Roman",
-        serif;
+        serif; */
+
+    /* font-family: "Jacquard";                     
+    font-family: "Lombardi";        */
+    font-family: "Goudy Initials";            
+
 
     font-size: 2.3rem;
     font-weight: normal;

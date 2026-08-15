@@ -6,7 +6,9 @@
     margin-left: 2.5em;
     margin-right: 1.5em;    
 
-    font-size: 2em;
+    /* font-size: 2em; */
+
+    font-size: inherit;
 
     border-radius: 0.7em;
     border: 1px solid #d7b28c;

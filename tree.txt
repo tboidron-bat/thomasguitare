@@ -32,7 +32,7 @@
 │   ├── img
 │   └── nav_bar_top_right.css
 ├── img
-│   ├── classique_guitare.png
+│   ├── guitare/classique.png
 │   ├── fretboard.svg
 │   ├── guitare_electric.png
 │   ├── icon_calendar.svg

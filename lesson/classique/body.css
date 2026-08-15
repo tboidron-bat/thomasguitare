@@ -1,7 +1,12 @@
-body 
+body
 {
     margin: 10px;
 
-    background: #fffdf8;
-}
+    background-color: #151b3a;
 
+    background-image:
+        url("/img/background/medieval_castle_pixelart_00.webp");
+
+    background-size: cover;
+    background-attachment: fixed;
+}

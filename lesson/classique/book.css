@@ -9,8 +9,9 @@
 
     position: relative;
 
-    /* margin-top: 0.4em; */
-    margin-left: 0.5em;
+    margin-top: 4px;
+    margin-right: 3px;
+    margin-left: 1px;
 
     padding-top: 35px;
     padding-left: 35px;    
@@ -20,10 +21,7 @@
     box-sizing: border-box;
 
     background: #6b3518;
-    /* background: #a3a3a3;     */
-
-    /* box-shadow: 2px 2px 4px rgba(80, 60, 30, 1);      */
-
+    /* background: #a70404; */
 
     border-radius: 1em 1em 1em 1em;
 }
@@ -31,7 +29,7 @@
 
 
 /* ============================================================
-   COINS EN CUIR DU LIVRE
+   COINS EN METAL DU LIVRE
    ============================================================ */
 
 .book-corner
@@ -42,7 +40,7 @@
     background-size: contain;
 
     background-image:
-        url("/lesson/classique/__sidebar/img/metal_corner_300x257.png");
+        url("/img/medieval_book/metal_corner_300x257.png");
 
 
     width: 90px;
@@ -116,15 +114,16 @@
 
     height: 32px;
 
-    background-image: url("/img/book_leather_top.png");
+    background-image: url("/img/medieval_book/frame_leather_vertical.png");
     background-repeat: repeat-x;
     background-position: top left;
-    background-size: auto 32px;
+    background-size: auto 35px;
     z-index: 30;
 
     /* border-radius: 1.0em; */
 
-    box-shadow: 0px 5px 5px #6b3518;
+    /* box-shadow: 0px 5px 5px #6b3518; */
+    box-shadow: 0px 5px 5px #827269;    
 }
 
 
@@ -143,7 +142,7 @@
     width: 35px;
 
     background-image:
-        url("/img/book_leather_left.png");
+        url("/img/medieval_book/frame_leather_horizontal.png");
 
     background-repeat: repeat-y;
     background-position: top left;
@@ -169,7 +168,7 @@
 
 
     background-image:
-        url("/img/book_leather_left.png");
+        url("/img/medieval_book/frame_leather_horizontal.png");
 
     background-repeat: repeat-y;
     background-position: top right;
@@ -195,9 +194,8 @@
     height: 35px;
 
     /* background: #d7c29f; */
-    background-image: url("/img/book_leather_top.png");    
+    background-image: url("/img/medieval_book/frame_leather_vertical.png");    
 
-    background-image: url("/img/book_leather_top.png");
     background-repeat: repeat-x;
     background-position: top left;
     background-size: auto 32px;
@@ -300,10 +298,12 @@
 
     min-width: 0;
 
+    font-size: 1.5rem;    
+
     box-sizing: border-box;
 
-    padding-top: 0.5rem;
-    padding-bottom: 2.5em;
+    padding-top: 1.5rem;
+    padding-bottom: 3.5em;
 }
 
 
@@ -403,12 +403,12 @@
 {
     right: 40px;
 
-    background-image: url("/img/fleuron_left.png");
+    background-image: url("/img/ornament/fleuron_left.png");
 }
 
 .fleurons-right
 {
     left: 25px;
 
-    background-image: url("/img/fleuron_right.png");
+    background-image: url("/img/ornament/fleuron_right.png");
 }
