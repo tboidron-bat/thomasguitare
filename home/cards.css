@@ -1,0 +1,22 @@
+.cards
+{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: stretch;    
+}
+
+.course-group.classique .cards
+{
+    gap: 2em;
+}
+
+.course-group.blues .cards
+{
+    gap: 3em;
+}
+
+

@@ -1,0 +1,399 @@
+/* ============================================================
+   CARTES — CLASSIQUE
+   ============================================================ */
+
+.card-classique
+{
+    position: relative;
+
+    display: flex;    
+
+    flex: 1 1 30%;
+
+    text-decoration: none;
+    color: inherit;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,.18),
+            transparent 12%,
+            transparent 88%,
+            rgba(255,255,255,.10)
+        ),
+        url("/img/texture/paper_noise_parchment.png");
+
+    background-color: #f5e7c9;
+
+    /* border: 4px solid #83755e; */
+    border: 4px solid rgb(87, 20, 20);    
+    border-left: 1px solid rgb(87, 20, 20);
+    border-right: 2px solid rgb(87, 20, 20);    
+
+    border-radius: 10px 10px 10px 10px;
+
+    box-shadow:
+        5px 5px 10px rgba(70,45,20,.4),
+        /* inset 15px 0px 0px #bb6409; */
+        inset 15px 0px 0px rgb(87, 20, 20);        
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+
+        opacity: 0.85;
+}
+
+
+/*--------------------------------------------------------------
+    Boucles de reliure
+--------------------------------------------------------------*/
+
+.card-classique::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 10px;
+    bottom: 10px;
+
+    left: -5px;
+
+    width: 18px;
+
+    background-image:
+        url("/img/buckle_130x59.png");
+
+    background-repeat: repeat-y;
+
+    background-size: 18px auto;
+
+    background-position: center top;
+
+    z-index: 3;
+
+    pointer-events: none;
+}
+
+
+/*--------------------------------------------------------------
+    Survol
+--------------------------------------------------------------*/
+
+.card-classique:hover
+{
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 9px 18px rgba(70,45,20,.28),
+        inset 15px 0px 0px rgba(235, 213, 213, 0.8);
+        /* inset 15px 0px 0px rgba(255, 155, 155, 0.8); */
+}
+
+
+/*--------------------------------------------------------------
+    Conteneur intérieur
+--------------------------------------------------------------*/
+
+.card-classique .card-container
+{
+    display: flex;
+    align-items: center;
+
+    margin: 4px;
+
+    margin-left: 15px;
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;    
+
+    background-image:
+        url("/img/texture/paper_noise_00.png");
+
+
+
+    border-radius: 0px 10px 10px 0px;        
+
+    border-top: 3px double #c9a66a;
+    border-right: 1px solid #000000;    
+    border-bottom: 3px double #c9a66a;        
+    border-left: 5px solid #000000;            
+
+    z-index: 1;
+}
+
+
+/*--------------------------------------------------------------
+    Contenu
+--------------------------------------------------------------*/
+
+.card-classique .card-content
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: 1.6em;
+
+    width: 100%;
+
+    /* min-height: 0;     */
+}
+
+
+/*--------------------------------------------------------------
+    Icône
+--------------------------------------------------------------*/
+
+.card-classique .card-icon
+{
+    width: 115px;
+    height: 115px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow: visible;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #f8ecd2 0%,
+            #ead5aa 100%
+        );
+
+    border: 1px solid rgba(160,115,55,.30);
+
+    box-shadow:
+        inset 0 0 12px rgba(100,70,30,.12),
+        0 1px 3px rgba(70,45,20,.10);
+}
+
+
+.card-classique .card-icon img
+{
+    max-width: 115%;
+    max-height: 115%;
+
+    width: auto;
+    height: auto;
+
+    transform: translateY(-10px);    
+
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,.5));    
+}
+
+
+/*--------------------------------------------------------------
+    Texte
+--------------------------------------------------------------*/
+
+.card-classique .card-text
+{
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+
+    min-width: 0;
+    /* min-height: 0; */
+
+    font-family: "EB Garamond";
+
+    font-size: 1.8em;
+}
+
+
+/*--------------------------------------------------------------
+    Titre
+--------------------------------------------------------------*/
+
+.card-classique .card-text h3
+{
+    margin: 0;
+
+    white-space: nowrap;    
+
+    font-family: "Jacquard";
+
+    font-size: 2.5rem;
+
+    color: #3e2816;
+}
+
+
+/*--------------------------------------------------------------
+    Description
+--------------------------------------------------------------*/
+
+.card-classique .card-text p
+{
+    margin: .4em 0 0.7em;
+
+    line-height: 1.3;
+
+    color: #493522;
+
+    min-height: 5.1em;
+
+    line-height: 1.3;    
+}
+
+
+/*--------------------------------------------------------------
+    Lien
+--------------------------------------------------------------*/
+
+.card-classique .card-text .card-link
+{
+    align-self: flex-start;
+
+    font-weight: bold;
+
+    color: #8c451b;
+}
+
+
+/* ============================================================
+   COINS DÉCORATIFS DU CADRE
+   ============================================================ */
+
+.card-classique .card-container
+{
+    position: relative;
+}
+
+
+/*--------------------------------------------------------------
+    Coin commun
+--------------------------------------------------------------*/
+
+.card-classique .card-container-corner
+{
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+
+    z-index: 3;
+
+    pointer-events: none;
+
+    background-image:
+        url("/img/ornament/corner_arabic_00.png")
+        , 
+        url("/img/ornament/corner_silver_00.png")
+        ;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*--------------------------------------------------------------
+    Haut gauche
+--------------------------------------------------------------*/
+
+.card-classique .card-container-corner.top-left
+{
+    top: -4px;
+    left: -4px;
+
+    /* rotate: -90deg; */
+}
+
+
+/*--------------------------------------------------------------
+    Haut droit
+--------------------------------------------------------------*/
+
+.card-classique .card-container-corner.top-right
+{
+    top: -4px;
+    right: -4px;
+
+    transform: scaleX(-1);
+}
+
+
+/*--------------------------------------------------------------
+    Bas gauche
+--------------------------------------------------------------*/
+
+.card-classique .card-container-corner.bottom-left
+{
+    bottom: -4px;
+    left: -4px;
+
+    transform: scaleY(-1);
+}
+
+
+/*--------------------------------------------------------------
+    Bas droit
+--------------------------------------------------------------*/
+
+.card-classique .card-container-corner.bottom-right
+{
+    bottom: -4px;
+    right: -4px;
+
+    /* transform: scaleY(1); */
+    /* transform: scaleX(-1);     */
+    rotate: 180deg;
+}
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/
+
+@media (max-width: 700px)
+{
+    .card-classique
+    {
+        flex: 1 1 100%;
+
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 500px)
+{
+    .card-classique .card-container
+    {
+        min-height: 160px;
+
+        padding: .8em;
+    }
+
+    .card-classique .card-content
+    {
+        gap: 1em;
+    }
+
+    .card-classique .card-icon
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card-classique .card-text
+    {
+        font-size: 1.2em;
+    }
+
+    .card-classique .card-text h3
+    {
+        font-size: 1.8rem;
+    }
+}
