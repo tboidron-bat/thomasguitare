@@ -65,37 +65,37 @@
 {
     position: absolute;
 
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+
+    background:
+        /* url("/img/ornament/corner_00.png") center / contain no-repeat, */
+        url("/img/ornament/corner_arabic_00.png") center / contain no-repeat;
 
     pointer-events: none;
 }
 .inset-wax-corner-top-right
 {
-    top: 3px;
-    right: 6px;
+    top: 7px;
+    right: 3px;
 
-    background: url("/img/ornament/corner_00.png") center / contain no-repeat;
 
-    transform: rotate(0deg);
+
+    transform:scaleX(-1);
 }
 .inset-wax-corner-bottom-right
 {
-    bottom: 6px;
-    right: 2px;
+    bottom: 7px;
+    right: 3px;
 
-    background: url("/img/ornament/corner_00.png") center / contain no-repeat;    
-
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 .inset-wax-corner-bottom-left
 {
-    bottom: 3px;
-    left: 6px;
+    bottom: 7px;
+    left: 3px;
 
-    background: url("/img/ornament/corner_00.png") center / contain no-repeat;        
-
-    transform: rotate(180deg);
+    transform: scaleY(-1);
 }
 .dropcap-small
 {

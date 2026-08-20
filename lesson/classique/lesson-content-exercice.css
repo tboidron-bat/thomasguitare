@@ -1,12 +1,51 @@
+/******************************************************************************
+ * Structure de la page exercice
+ ******************************************************************************/
+
 .lesson-content-exercise
 {
     display: flex;
-    padding-bottom: 2.0em;
+
+    width: 100%;
+
+    border-left: ridge 3px rgb(245, 213, 145);
+
+    box-sizing: border-box;
 }
 
+
 /******************************************************************************
- * Titre
+ * Pages gauche / droite
  ******************************************************************************/
+
+.lesson-content-exercise .page-left,
+.lesson-content-exercise .page-right
+{
+    position: relative;
+
+    box-sizing: border-box;
+
+    min-width: 0;
+}
+
+
+/* Page gauche */
+
+.lesson-content-exercise .page-left
+{
+    flex: 1 1 50%;
+}
+
+
+/* Page droite */
+
+.lesson-content-exercise .page-right
+{
+    flex: 1 1 50%;
+
+    position: relative;
+}
+
 
 .lesson-content-exercise h2
 {
@@ -18,100 +57,132 @@
     margin-top:0;
 
 }
-.lesson-content-exercise h3
+
+/******************************************************************************
+ * Lettrine et Ruban vert du titre Exercice
+ ******************************************************************************/
+
+.lesson-content-exercise .dropcap
 {
-    padding: 0;
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 85px;
+    height: 135px;
+
     margin: 0;
-    font-size:2rem;    
+    /* padding: 8px 0 0 0; */
+    padding-bottom: .2em;
+
+    box-sizing: border-box;
+
+    font-family: "IM Fell", serif;
+    font-size: 4.5rem;
+
+    color: #f8f5e8;
+
+    background:
+        url("/img/ornament/ribbon_green.png")
+        center / 100% 100%
+        no-repeat;        
+
+    border: none;
+    border-radius: 0;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.35),
+        2px 2px 2px rgba(0,0,0,.45);
+
+    box-shadow: none;
+
+    z-index: 3;
 }
+
+
+/******************************************************************************
+ * Titre
+ ******************************************************************************/
+
 
 .lesson-content-exercise .title-text
 {
+    position: relative;
+    display: flex;
+    
+   
+    top: -8px;      
+    left: -2px;
 
-    padding-left:0.1em;
-    margin: 0;
+    padding-bottom: 10px;
+    padding-right: 5px;
 
-    font-family:"IM Fell", serif;
+    font-size:3rem;
 
-    font-size:5rem;
+    color:#14427d;
 
-    color:#4b5f23;
+    background-color: #f5ebcb;
 
-    text-decoration: underline;
-    text-decoration-color:#67842d;
-    text-decoration-thickness:3px;
+    border-top: 2px solid #96a453 ;
+    border-bottom: 2px solid #96a453 ;    
+    border-right: 2px solid #96a453 ;        
 
-    text-shadow:
+    border-radius: 0 10px 10px 0;
+
+    /* text-shadow:
         -1px -1px 0 rgb(255, 255, 255),
          1px -1px 0 rgb(255, 255, 255),
         -1px  1px 0 rgb(255, 255, 255),
          1px  1px 0 rgb(255, 255, 255),
-         0 2px 3px rgba(0,0,0,.5);
-}
-
-/******************************************************************************
- * Lettrine
- ******************************************************************************/
- 
-.lesson-content-exercise .dropcap
-{
-    display:flex;
-
-    justify-content:center;
-    align-items:center;
-
-    padding:1.5rem;
-    padding-top: 1.9rem;
-
-    font-family:"Lombardi";
-    font-family:"Gothic Leaf";    
-    font-family:"IM Fell";        
-    font-size:6rem;
-
-    color:#a6ecae;
-
-    background:#ffffff;
-
-    border:3px solid #11057c;
-    border-radius:10px;
-
-    background-image:url("/img/medieval_book/lettrine_frame_green.png");
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
-
-    text-shadow:
-        -1px -1px 0 black,
-         1px -1px 0 black,
-        -1px  1px 0 black,
-         1px  1px 0 black,
-         0 2px 3px rgba(0,0,0,.8);
+         0 2px 3px rgba(0,0,0,.5); */
 
     box-shadow:
-        -1px -1px 2px #e5a855,
-         2px  2px 3px #634924;
+        inset 0 0 0 1px rgba(255,255,255,.65),
+        inset 0 0 0 4px rgba(150,164,83,.12),
+        2px 2px 4px rgba(0,0,0,.25);         
 }
 
-.lesson-content-exercise p
+
+.lesson-content-exercise h3
 {
-    margin-bottom: 1.3rem;
-
-
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-size:1rem;    
 }
+
 
 .lesson-content-exercise ul
 {
-    padding-left: 0;
+    padding:0;
+
+
+    margin: 0;
+    padding-left: 1.9em;    
+
+    border-left: solid 10px rgba(0,155,0,0.3);
+    border-radius: 3px 0 0 3px;
 
 }
 
 .lesson-content-exercise li
 {
-    list-style: none;
+    padding:0;
+    margin: 0;
+    margin-bottom: 0.5em;
 
-    line-height: 1.7;
+    color: #252525;    
 
-    font-size: 2rem;        
+    font-family: "EB Garamond", serif;    
+
+    list-style: url("/img/chip/star_green.png");
+
+    line-height: 1.2;
+
+    font-size: 1.3em;        
 }
 .lesson-content-exercise audio
 {
@@ -120,36 +191,142 @@
     width: 260px;
 }
 
-.lesson-content-exercise .image
+.lesson-content-exercise .lesson-figure
 {
-    align-self: center;
+    position: relative;
 
-    width: 520px;
+    width: 100%;
 
-    padding-right: 3rem;
+    margin: 0;
 
-    flex-shrink: 0;
-
-    text-align: center;
+    transition: transform .25s ease;
 }
 
-.lesson-content-exercise .image img
-{
-    max-width: 100%;
 
+.lesson-content-exercise .figure-frame
+{
+    position: relative;
+
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+
+.lesson-content-exercise .figure-frame img
+{
+    display: block;
+
+    width: 100%;
     height: auto;
+
+    box-sizing: border-box;
 
     padding: 1rem;
 
-    background: #fffdf8;
+    background: #f0f8ed;
 
-    border: 2px solid #b49a5a;
+    border: 3px double #4c763f;
 
     border-radius: 12px;
 
     box-shadow:
-        0 2px 8px rgba(0,0,0,.08),
+        2px 8px 16px rgba(0,0,0,.4),
         inset 0 1px 0 rgba(255,255,255,.8);
+}
+
+/******************************************************************************
+ * Coins décoratifs de l'illustration — Exercices
+ ******************************************************************************/
+
+.lesson-content-exercise .figure-corner
+{
+    position: absolute;
+
+    width: 35px;
+    height: 35px;
+
+    pointer-events: none;
+
+    background:
+        url("/img/ornament/corner_green.png")
+        center / contain
+        no-repeat;
+
+    z-index: 5;
+}
+
+
+/* ─────────────────────────────
+   Coin haut gauche
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-tl
+{
+    top: 4px;
+    left: 4px;
+}
+
+
+/* ─────────────────────────────
+   Coin haut droit
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-tr
+{
+    top: 4px;
+    right: 4px;
+
+    transform: scaleX(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas gauche
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-bl
+{
+    bottom: 4px;
+    left: 4px;
+
+    transform: scaleY(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas droit
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-br
+{
+    bottom: 4px;
+    right: 4px;
+
+    transform: rotate(180deg);
+}
+
+/******************************************************************************
+ * Fleuron — largeur complète de la page droite
+ ******************************************************************************/
+
+.lesson-content-exercise .fleurons-exerice-right
+{
+    position: absolute;
+
+    left: 10px;
+
+    width: 96%;
+    height: 45px;
+
+    background:
+        url("/img/ornament/fleuron_exerice_right_02.png")
+        center / contain
+        repeat;
+
+    pointer-events: none;
+
+    z-index: 4;
 }
 
 @media (max-width:1000px)
@@ -168,3 +345,7 @@
         margin-top: 1.5rem;
     }
 }
+
+
+
+

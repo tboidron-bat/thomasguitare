@@ -17,40 +17,66 @@
 {
     display:inline-flex;
 
-    align-items:center;
+    align-items:center;    
 
     margin-top:0;
 }
 
 .lesson-content-theory .title-text
 {
-    padding-left:0.1em;
+    position: relative;
+
+    padding-left: 0.1em;
     margin: 0;
 
     font-family:"IM Fell", serif;
-
-    font-size:4rem; 
+    font-size:3rem;
 
     color:#565454;
-
-    text-decoration: underline;
+    
+    /* text-decoration:underline;
     text-decoration-color:#c8932d;
-    text-decoration-thickness:3px;
+    text-decoration-thickness:0px;
+    text-underline-offset: 0.40em;     */
+
 
     text-shadow:
-        -1px -1px 0 rgb(255, 245, 245),
-         1px -1px 0 rgb(255, 255, 255),
-        -1px  1px 0 rgb(255, 255, 255),
-         1px  1px 0 rgb(255, 255, 255),
-         0 2px 3px rgba(0,0,0,.2);
+        1px 1px 0 rgba(255, 248, 225, 0.95),
+        2px 2px 0 rgba(180, 150, 105, 0.35),
+        0 3px 4px rgba(70, 45, 20, 0.22);    
+}
+.lesson-content-theory .title-text::after
+{
+    content: "";
 
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    left: 52%;
+    bottom: -126px;
+
+    transform: translateX(-50%);
+
+    background:
+        url("/img/ornament/fleuron_under_title_01.png")
+        center / contain
+        no-repeat;
+
+    z-index: 2;
+
+    pointer-events: none;
+
+    filter:
+        drop-shadow(0 2px 2px rgba(70, 45, 20, 0.1));
 }
 
 /******************************************************************************
  * Lettrine
  ******************************************************************************/
  
-.dropcap
+.lesson-content-theory .dropcap
 {
     display: flex;
 
@@ -65,7 +91,7 @@
     padding: 0;
 
     font-family: "Jacquard";
-    font-size: 6rem;
+    font-size: 5rem;
 
     color:#c06f12;
 
@@ -89,6 +115,8 @@
     box-shadow:
         -1px -1px 2px #e5a855,
          2px  2px 3px #634924;
+
+    z-index: 3;         
 }
 
 /******************************************************************************
@@ -98,6 +126,9 @@
 .lesson-content-theory ul
 {
     padding:0;
+    padding-left: 1.0em;
+
+
 
     margin:0;
 }
@@ -106,14 +137,15 @@
 {
     font-family:"EB Garamond", serif;
 
-    font-size:2rem;
+    font-size:1.5rem;
 
+    list-style:disc;    
 
-    list-style:none;
+    list-style: url("/img/chip/disc_orange_01.png");
 
-    margin-bottom:1rem;
+    margin-bottom: 0.5em;    
 
-    padding-left:.5rem;
+    line-height: 1.3;
 }
 
 
@@ -121,59 +153,163 @@
  * Illustration
  ******************************************************************************/
 
-.lesson-figure
+.lesson-content-theory .lesson-figure
 {
     margin:0;
+    position: relative;    
+
+    transition: transform .25s ease;    
 }
-
-.lesson-figure img
+.lesson-content-theory .figure-frame
 {
-    max-width:70%;
+    position: relative;
 
-    height:auto;
+    width: 70%;
 
-    background:white;
+    margin: 0 auto;
+}
+.lesson-content-theory .figure-frame img
+{
+    display: block;
 
-    border:2px solid #b49a5a;
+    width: 100%;
+    height: auto;
 
-    border-radius:10px;
+    background: white;
 
-    box-shadow:0 4px 12px rgba(0,0,0,.2);
+    background:
+        url("/img/texture/paper_noise_white_granular.png");    
+
+    border: 5px double #b49a5a;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
 
     transition:
         transform .25s ease,
-        box-shadow .25s ease;    
+        box-shadow .25s ease;
 }
 
-.lesson-figure img:hover
+.lesson-content-theory .figure-corner
+{
+    position: absolute;
+
+    width: 55px;
+    height: 55px;
+
+    pointer-events: none;
+
+    background:
+        /* url("/img/ornament/needle.png") center / contain no-repeat, */
+        url("/img/ornament/corner_silver_01.png") center / contain no-repeat;
+
+    z-index: 5;
+}
+
+
+/* ─────────────────────────────
+   Coin haut gauche
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-tl
+{
+    top: 0px;
+    left: 4px;
+}
+
+
+/* ─────────────────────────────
+   Coin haut droit
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-tr
+{
+    top: 0px;
+    right: -5px;
+
+    transform: scaleX(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas gauche
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-bl
+{
+    bottom: 0px;
+    left: 5px;
+
+    transform: scaleY(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas droit
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-br
+{
+    bottom: 0px;
+    right: -5px;
+
+    transform: rotate(180deg);
+}
+
+.lesson-content-theory .figure-ornament-top
+{
+    position: absolute;
+
+    width: 180px;
+    height: 50px;
+
+    top: -30px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background:
+        url("/img/ornament/top_00.png") center / contain no-repeat;
+
+    z-index: 6;
+    pointer-events: none;        
+}
+
+.lesson-content-theory .lesson-figure:hover
 {
     transform: scale(1.15);
 
-    box-shadow:
-        0 6px 16px rgba(0,0,0,.28);    
+    /* box-shadow:
+        0 6px 16px rgba(0,0,0,.28);     */
 }
 
 
-.lesson-sublist
+.lesson-content-theory .lesson-sublist
 {
     margin: 1rem 0 0 2rem;
 
-    padding-left: 10px;
+    padding: 10px;
+    padding-top: 1px;
 
-    background: transparent;
+    border-radius: 1.0em;
 
-    border-left: 4px solid #c8932d;
+    /* background: transparent; */
+    border: solid 3px rgba(229, 168, 85, 0.2);
+
+    background: rgba(255,155,0,.05);
+
+    /* border-left: 5px double rgba(0,0,0,0.1); */
 
     box-shadow: none;
 }
-.lesson-sublist p
+.lesson-content-theory .lesson-sublist p
 {
     margin: 0 0 .7rem 0;
 
     font-family: "EB Garamond", serif;
     font-size: 1.7rem;
 }
-.lesson-sublist ul
+.lesson-content-theory .lesson-sublist ul
 {
     margin-top: .8rem;
     margin-bottom: 0;
@@ -181,12 +317,14 @@
     padding-left: 1.4rem;
 }
 
-.lesson-sublist li
+.lesson-content-theory .lesson-sublist li
 {
     font-size: 1.7rem;    
-    list-style: circle;
+    list-style:url(/img/chip/disc_orange.png);
 
 }
+
+
 
 /******************************************************************************
  * Mobile

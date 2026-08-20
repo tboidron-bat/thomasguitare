@@ -1,20 +1,39 @@
-/* Charte des couleurs pour la leçon de musique */
+/* Concepts fondamentaux de la leçon
+ * Notions absolument essentielles
+ * ex : la portée, la note, la mesure...
+ */
+.color-fondamental
+{
+    color: #6f4a18;
 
-/* Mots importants, titres, notions clés */
-.color-important {
+    font-size: 1.15em;
+
+    font-weight: bold;
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(200, 147, 45, 0.75);
+    text-underline-offset: 0.20em;        
+
+    text-shadow:
+        1px 1px 0 rgba(255, 248, 225, 0.95),
+        0 1px 1px rgba(90, 55, 20, 0.25);
+}
+
+
+/* .color-important {
 
   font-weight: bold;
   text-decoration: underline;
+} */
 
-}
 
 /* Concepts, idées, définitions */
 .color-concept {
 
   font-size: 1.1em;
-  /* font-weight:  bold;   */
-  /* color: #1a73e8; */
-  /* color: #f3e6ad;  */
+  font-weight:  bold;  
+
   font-style: italic;
 
     /* text-shadow:
@@ -22,8 +41,8 @@
          1px -1px 0 black,
         -1px  1px 0 black,
          1px  1px 0 black,
-         0 2px 3px rgba(0,0,0,.8); */
-
+         0 2px 3px rgba(0,0,0,.8);
+ */
 
 }
 
@@ -43,14 +62,6 @@
     /* text-decoration-thickness: 1px; */
     /* text-decoration-color: rgba(136, 55, 55, 0.2);     */
     /* font-family:'Times New Roman', Times, serif; */
-
-    text-shadow: 
-        /* -1px -1px 0 rgb(255, 191, 0) */
-        /* ,1px -1px 0 black
-        ,-1px  1px 0 black
-        ,1px  1px 0 black */
-        /* 0 2px 3px rgba(0,0,0,.8) */
-      ;    
 }
 
 /* Compléments, notes supplémentaires, styles alternés */
@@ -78,3 +89,66 @@ ul.charte-list {
   box-sizing: border-box;
 }
 
+
+
+
+
+
+/******************************************************************************
+ * Charte des couleurs — Exercices
+ ******************************************************************************/
+
+/*
+ * Texte courant
+ */
+.exercise-text
+{
+    color: #252525;
+}
+
+
+/*
+ * Consignes / actions
+ * Exemple : "Écrire le nom des notes"
+ */
+.exercise-action
+{
+    color: #14427d;
+    font-weight: 600;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.7),
+        0 1px 1px rgba(0,0,0,.12);
+}
+
+
+
+/******************************************************************************
+ * lesson-content-exercise
+ ******************************************************************************/
+
+
+/*
+ * Notions essentielles
+ * Exemple : "Si à Sol", "ascendant", "note suivante"
+ */
+
+.exercise-important
+{
+    color: #153384;
+    font-weight: 600;
+}
+
+
+.exercise-concept
+{
+    color: #4c763f;
+
+   text-shadow:
+         -1px -1px 0 #c6f4d7,
+        -1px  1px 0 #c6f4d7,
+         /*1px -1px 0 #153384,        
+         1px  1px 0 #153384, */
+         1px 1px 3px rgba(0,0,0,.8);
+
+}
