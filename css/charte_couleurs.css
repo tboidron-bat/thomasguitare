@@ -36,20 +36,24 @@
 
   font-style: italic;
 
+
+}
+
+/* 
+Actions, verbes, consignes 
+*/
+.color-action 
+{
+    color: #7a4a24;
+
     /* text-shadow:
         -1px -1px 0 black,
          1px -1px 0 black,
         -1px  1px 0 black,
          1px  1px 0 black,
-         0 2px 3px rgba(0,0,0,.8);
- */
+         0px 1px 2px rgba(255, 191, 191, 0.8); */
 
-}
 
-/* Actions, verbes, consignes */
-.color-action {
-  color: #000077;
-  font-weight: 500;
 }
 
 /* Termes techniques, exemples spécifiques */
