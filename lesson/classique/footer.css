@@ -1,56 +1,47 @@
 .site-footer
 {
-    margin-top: 1rem;
+    width: fit-content;
 
-    padding: 0.5rem 0.5rem;
+    margin: 0 auto;
+    padding: 10px 25px;
 
     text-align: center;
 
-    background: linear-gradient(#f9f4e8,#efe3c7);
+    background: rgba(232, 226, 221, 0.5);
 
+    border: solid 1px #000;
     border-top: 2px solid #b49a5a;
-    border-bottom: 2px solid #b49a5a;    
+    border-bottom: 2px solid #b49a5a;
 
     border-radius: 10px;
 
     box-shadow:
         inset 0 1px 0 rgba(255,255,255,.8);
-
-    color: #4b4334;
 }
 
 .footer-decoration
 {
     font-size: 1.8rem;
 
-    color: #b49a5a;
-
-    margin-bottom: .4rem;
+    /* color: #b49a5a; */
+    color: #000;    
 }
 
 .footer-title
 {
+    padding: 0;
+    margin: 0;
+
     font-family: Georgia, "Times New Roman", serif;
 
-    font-size: 1.7rem;
+    font-size: 2.7rem;
 
     color: #8a5d18;
 
     font-weight: bold;
 
-    letter-spacing: .05em;
 }
 
-.footer-subtitle
-{
-    margin-top: .3rem;
-
-    color: #666;
-
-    font-style: italic;
-
-    font-size: .95rem;
-}
 
 .footer-links
 {
@@ -95,4 +86,38 @@
     font-size: .85rem;
 
     color: #666;
+}
+
+.footer-support
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 35px;
+
+    margin-top: 15px;
+}
+
+.footer-support-text
+{
+    text-align: right;
+}
+
+.footer-support-button
+{
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    text-decoration: none;
+
+    /* à adapter à ta charte */
+    border: 2px solid #000;
+    border-radius: 6px;
+
+    color: #6f4a18;
+    color: #000;
+
+    background: rgba(185, 155, 107, 1);
 }

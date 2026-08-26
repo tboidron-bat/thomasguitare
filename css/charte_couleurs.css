@@ -21,14 +21,19 @@
 }
 
 
-/* .color-important {
-
-  font-weight: bold;
-  text-decoration: underline;
-} */
-
-
-/* Concepts, idées, définitions */
+/*
+ * 
+ */
+.color-important
+{
+    font-family:cursive;
+    font-size: 1.08em;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+}
+/* 
+* Concepts, idées, définitions 
+*/
 .color-concept {
 
   font-size: 1.1em;
@@ -146,13 +151,14 @@ ul.charte-list {
 
 .exercise-concept
 {
+    font-family: "IM Fell";
+    /* font-family:; */
     color: #4c763f;
+    /* font-weight: bolder; */
 
    text-shadow:
-         -1px -1px 0 #c6f4d7,
-        -1px  1px 0 #c6f4d7,
-         /*1px -1px 0 #153384,        
-         1px  1px 0 #153384, */
-         1px 1px 3px rgba(0,0,0,.8);
+         -1px 0px 2px #e2fadb,
+        1px  1px 2px #daf4d2,
+        1px 1px 2px #000000;        
 
 }

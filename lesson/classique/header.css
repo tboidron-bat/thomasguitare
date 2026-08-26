@@ -16,13 +16,35 @@ header
 
     border-radius: 10px;
 
-    background-color:#f7ead5;
+    /* background-color:#f7ead5; */
+
+   /* background-image:
+        url("/img/texture/paper_noise_00.png"); */
+
+    /* background-color:rgba(246, 248, 200, 0.8); */
 
     box-shadow:
         4px 4px 6px rgba(0,0,0,.20),
         inset 0 1px 0 rgba(255,255,255,.85);
 }
+header::before
+{
+    content: "";
 
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        url("/img/texture/paper_noise_02.png");
+
+    background-repeat: repeat;
+
+    opacity: 0.30;
+
+    pointer-events: none;
+
+    border-radius: 5px;
+}
 /* =========================================================
    CONTENU
    ========================================================= */
@@ -43,30 +65,7 @@ header
 
 
     /* border: 3px ridge rgb(255,255,255);     */
-
-   background-image:
-        url("/img/texture/paper_noise_parchment.png"),
-        linear-gradient(
-            to bottom,
-            #fbf5e8 0%,
-            #f5ead4 50%,
-            #ead8b8 100%
-        );
-
-    background-repeat:
-        repeat,
-        no-repeat;
-
-    background-position:
-        0 0,
-        0 0;
-
-    background-size:
-        auto,
-        100% 100%;
-
-    background-blend-mode: multiply;
-
+    z-index: 1;
 }
 .header-corner
 {
@@ -170,9 +169,8 @@ header
 
     flex-direction: column;
     /* justify-content: center; */
+
 }
-
-
 .header-title-main
 {
     display: flex;
@@ -207,7 +205,8 @@ header
         /* petit relief sombre */
          1px  1px 0 #8b5a24,
          2px  2px 0 #754714,
-         3px  3px 2px rgba(50,30,10,.45);
+         3px  3px 2px rgba(50,30,10,.45),
+        0px 0px 30px rgba(255, 255, 255, 1);
 
     text-decoration: none;
 }
@@ -227,7 +226,8 @@ header
 
     text-shadow:
         1px 1px 0 #f4dbb9,
-        0 1px 2px rgba(60,40,20,.25);
+        0 1px 2px rgba(60,40,20,.25),
+        0px 5px 5px rgba(255, 255, 255, 1);
 }
 .section-name
 {
@@ -253,14 +253,15 @@ header
          1px  1px 0 #f4dbb9,
 
          1px 1px 0 #8b4425,
-         2px 2px 2px rgba(60,30,10,.25);
+         2px 2px 2px rgba(60,30,10,.25),
+        0px 0px 30px rgba(255, 255, 255, 1);
 }
 .header-subtitle
 {
     position: absolute;
 
     left: 50%;
-    top: 60%;
+    top: 45%;
 
     transform: translateX(-50%);
 
@@ -274,13 +275,14 @@ header
         "Times New Roman",
         serif;
 
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     font-style: italic;
 
     color: #67452b;
 
     text-shadow:
-        1px 1px 0 #f4dbb9;
+        1px 1px 0 #f4dbb9,
+        0px 0px 10px rgba(255, 255, 255, 1);
 }
 .header-subtitle::before,
 .header-subtitle::after
@@ -289,7 +291,7 @@ header
 
     display: block;
 
-    width: 55px;
+    width: 80px;
     height: 22px;
 
     background-image:
