@@ -4,10 +4,9 @@
 
     max-width: 140vh;
 
-
     margin-top: -6vh;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 
     padding: 2em 3em 2em 0;
 
@@ -39,6 +38,8 @@
             #fcfaf6 27px
         );
 }
+
+
 .hero-intro
 {
     position: relative;
@@ -53,6 +54,8 @@
 
     max-width: 820px;
 }
+
+
 .hero-letter
 {
     width: 70px;
@@ -76,12 +79,16 @@
 
     box-shadow: 0 4px 10px rgba(0,0,0,.12);
 }
+
+
 .hero-content
 {
     display: flex;
 
     flex-direction: column;
 }
+
+
 .hero h2
 {
     margin: 0;
@@ -90,19 +97,52 @@
 
     color: #40210d;
 }
-.hero-button
+
+
+/******************************************************************************
+ * Donation
+ ******************************************************************************/
+
+.hero-donation
+{
+    margin-top: 1.2em;
+    padding-top: .8em;
+    padding-left: 30px;
+
+    border-left: 5px double rgba(160, 120, 70, .45);
+
+    border-radius: 0em 0 0 0;
+
+    text-align: left;
+}
+
+
+.hero-donation p
+{
+    margin: 0;
+
+    color: #6f4a18;
+
+    font-size: 1.20em;
+
+    font-style: italic;
+}
+
+
+.donation-button
 {
     display: inline-block;
 
-    align-self: center;
+    margin-top: .7em;
 
-    margin-top: 20px;
+    padding: .55rem 1.4rem;
 
-    padding: .9rem 2.2rem;
+    border-radius: 8px;
 
-    border-radius: 10px;
-
-    background: linear-gradient(#d89637,#c97611);
+    background: linear-gradient(
+        #d8a04d,
+        #c57b20
+    );
 
     color: white;
 
@@ -110,17 +150,24 @@
 
     font-weight: bold;
 
-    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    box-shadow:
+        0 3px 7px rgba(0,0,0,.18),
+        inset 0 1px 0 rgba(255,255,255,.35);
 
     transition: .2s;
 }
 
-.hero-button:hover
+
+.donation-button:hover
 {
     transform: translateY(-2px);
 
-    box-shadow: 0 7px 18px rgba(0,0,0,.25);
+    box-shadow:
+        0 5px 12px rgba(0,0,0,.23),
+        inset 0 1px 0 rgba(255,255,255,.35);
 }
+
+
 .hero-decoration
 {
     position: absolute;

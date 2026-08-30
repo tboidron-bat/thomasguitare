@@ -1,5 +1,7 @@
 header
 {
+    position: relative;
+
     height: clamp(260px, 18vw, 320px);
 
     overflow: hidden;
@@ -9,18 +11,18 @@ header
 
 .header-content
 {
-    display:grid;
+    display: grid;
 
-    grid-template-columns:300px 1fr auto;
+    grid-template-columns: 300px 1fr auto;
 
-    align-items:center;
+    align-items: center;
 
-    /* gap:40px; */
+    height: 100%;
+    box-sizing: border-box;
 
-    /* max-width:1400px; */
-    margin:auto;
+    margin: auto;
 
-    padding:0px 80px 25px 0;
+    padding: 0 80px 25px 0;
 }
 
 /*I) premier élément de la grille du header*/

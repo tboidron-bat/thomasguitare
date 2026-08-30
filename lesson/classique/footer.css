@@ -1,123 +1,273 @@
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
 .site-footer
 {
+    position: relative;
+
     width: fit-content;
 
-    margin: 0 auto;
-    padding: 10px 25px;
+    margin-top: -5px;
+    margin-bottom: 0;    
+    margin-left: calc(50% - 95px);
+    margin-right: auto;
+
+    padding: 14px 25px 10px 25px;
 
     text-align: center;
 
-    background: rgba(232, 226, 221, 0.5);
 
-    border: solid 1px #000;
-    border-top: 2px solid #b49a5a;
-    border-bottom: 2px solid #b49a5a;
+    /* Effet verre / parchemin */
 
-    border-radius: 10px;
+    background-image: url("/img/texture/paper_noise_01.png");
+
+    /* Bordure médiévale */
+    border: 2px solid #6f2828;
+    border-top: 5px solid #5c4b21;
+    border-bottom: 5px solid #5c4b21;
+
+    /* border-radius: 8px; */
 
     box-shadow:
-        inset 0 1px 0 rgba(255,255,255,.8);
-}
-
-.footer-decoration
-{
-    font-size: 1.8rem;
-
-    /* color: #b49a5a; */
-    color: #000;    
-}
-
-.footer-title
-{
-    padding: 0;
-    margin: 0;
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 2.7rem;
-
-    color: #8a5d18;
-
-    font-weight: bold;
+        inset 0 1px 0 rgba(255,255,255,.75),
+        inset 0 -1px 0 rgba(90,60,20,.18),
+        0 4px 12px rgba(0,0,0,.25);
 
 }
 
 
-.footer-links
-{
-    margin: 1.2rem 0;
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
 
+.footer-navigation
+{
     display: flex;
 
     justify-content: center;
-
     align-items: center;
 
-    gap: .8rem;
+    gap: 10px;
 
-    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
-.footer-links a
-{
-    text-decoration: none;
 
-    color: #234a87;
+/* ============================================================
+   BOUTONS
+   ============================================================ */
 
-    font-weight: 600;
-
-    transition: color .2s;
-}
-
-.footer-links a:hover
-{
-    color: #b86a17;
-}
-
-.footer-links span
-{
-    color: #b49a5a;
-}
-
-.footer-copy
-{
-    margin-top: 1rem;
-
-    font-size: .85rem;
-
-    color: #666;
-}
-
-.footer-support
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 35px;
-
-    margin-top: 15px;
-}
-
-.footer-support-text
-{
-    text-align: right;
-}
-
-.footer-support-button
+.footer-button
 {
     display: inline-block;
 
-    padding: 8px 18px;
+    padding: 8px 17px;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: #6f4a18;
 
     text-decoration: none;
 
-    /* à adapter à ta charte */
-    border: 2px solid #000;
+
+    background-image: url("/img/texture/paper_noise_granular.png");
+
+    border: 1px solid #b49a5a;
+
     border-radius: 6px;
 
-    color: #6f4a18;
-    color: #000;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.8),
+        inset 0 -1px 0 rgba(100,70,25,.12),
+        0 2px 5px rgba(0,0,0,.22);
 
-    background: rgba(185, 155, 107, 1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    transition:
+        background .15s ease,
+        box-shadow .15s ease,
+        transform .15s ease;
+}
+
+
+/* ============================================================
+   SURVOL DES BOUTONS
+   ============================================================ */
+
+.footer-button:hover
+{
+    color: #4f3210;
+
+    background: rgba(255,248,220,.92);
+
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.9),
+        0 4px 9px rgba(0,0,0,.28);
+
+    transform: translateY(-1px);
+}
+
+
+/* ============================================================
+   TITRE
+   ============================================================ */
+
+.footer-title
+{
+    margin: 5px 0 0 0;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.8rem;
+
+    font-weight: bold;
+
+    color: #8a5d18;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.8),
+        2px 2px 3px rgba(0,0,0,.15);
+}
+
+
+/* ============================================================
+   SOUS-TITRE / COPYRIGHT
+   ============================================================ */
+
+.footer-subtitle
+{
+    margin-top: 2px;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: .8rem;
+
+    font-style: italic;
+
+    color: #6f5a3a;
+}
+
+
+/* ============================================================
+   PETIT ORNEMENT MÉDIÉVAL
+   ============================================================ */
+
+.site-footer::before,
+.site-footer::after
+{
+    position: absolute;
+
+    top: 50%;
+
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+
+    color: #b49a5a;
+
+    transform: translateY(-50%);
+
+    opacity: .75;
+}
+
+
+/* Tous les coins */
+
+.site-footer .corner-tl,
+.site-footer .corner-tr,
+.site-footer .corner-bl,
+.site-footer .corner-br
+{
+    position: absolute;
+
+    width: 36px;
+    height: 36px;
+
+    background-image: url("/img/medieval_book/metal_corner_300x257.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+
+}
+
+
+/* ============================================================
+   BANNIÈRES MÉDIÉVALES DU FOOTER
+   ============================================================ */
+
+.site-footer .banner-left,
+.site-footer .banner-right
+{
+    position: absolute;
+
+    top: 50%;
+
+    width: 130px;
+    height: 130px;
+
+    background-image: url("/img/ornament/banner_00.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    pointer-events: none;
+
+    z-index: 0;
+
+    transform: translateY(-50%);
+}
+
+
+/* ============================================================
+   BANNIÈRE GAUCHE
+   ============================================================ */
+
+.site-footer .banner-left
+{
+    left: -90px;
+
+    transform:
+        translateY(-50%)
+        scaleX(-1);
+}
+
+
+/* ============================================================
+   BANNIÈRE DROITE
+   ============================================================ */
+
+.site-footer .banner-right
+{
+    right: -90px;
+
+    transform:
+        translateY(-50%);
+}
+
+
+/* ============================================================
+   CONTENU DU FOOTER AU-DESSUS DES BANNIÈRES
+   ============================================================ */
+
+.site-footer .footer-navigation,
+.site-footer .footer-title,
+.site-footer .footer-subtitle
+{
+    position: relative;
+
+    z-index: 2;
 }

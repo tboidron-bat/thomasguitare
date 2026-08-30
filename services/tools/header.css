@@ -1,5 +1,7 @@
 header
 {
+    position: relative;
+
     height: clamp(260px, 18vw, 320px);
 
     overflow: hidden;
@@ -25,8 +27,6 @@ header
 
     align-items: center;
 
-    height: 100%;
-
     margin: auto;
 
     padding: 0 80px 25px 0;
@@ -46,6 +46,8 @@ header
 
 .header-content.no-guitar .header-title
 {
+    margin-top: 4em;   
+
     display: flex;
 
     align-items: center;
