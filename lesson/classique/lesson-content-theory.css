@@ -262,15 +262,13 @@
 
 .lesson-content-theory .lesson-sublist
 {
+    width: fit-content;
+
     margin: 0;
     margin-left: 3.0em;
     margin-right: 1.0em;
-
-    width: fit-content;
-
-
-    padding: 0;
-    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;    
 
     border-radius: 1.0em;
 
@@ -294,10 +292,6 @@
     list-style:url(/img/chip/disc_orange.png);
     list-style:square;    
     line-height: 1;
-}
-.lesson-content-theory .lesson-sublist li::before
-{
-
 }
 
 /******************************************************************************

@@ -1,0 +1,66 @@
+.lesson-advice
+{
+
+    margin-top: 1em;    
+    margin-left: 3em;
+    margin-right: 20px;
+    padding: 0;    
+    padding-top: 0px;
+    padding-left: .7em;
+    /* padding-bottom: 0.5em; */
+
+    /* padding: 12px 20px 12px 25px; */
+
+
+    /* border-left: 5px solid #d8bd8a; */
+    border-left: 3px solid #aaa6a6; 
+    border-top: 1px dashed #aaa6a6;     
+    border-bottom: 1px dashed #aaa6a6;         
+    border-radius: 15px 0 0 5px;
+    
+    /* background: rgba(255, 248, 225, 0.35); */
+    background: rgba(255, 248, 225, 0.3);
+
+}
+
+
+
+.lesson-advice .title
+{
+    /* padding: .2em; */
+    margin: 0;
+    margin-top: 10px;
+    width: fit-content;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: 1.15em;
+    text-decoration: underline;
+
+    /* background-image: url("/img/texture/paper_noise_canson.png");     */
+}
+
+
+.lesson-advice .list
+{
+    margin: 0;
+    padding-left: 22px;
+
+    font-family: cursive;    
+    font-size: 1.2em;    
+}
+
+
+.lesson-advice .list li
+{
+    margin-bottom: 12px;
+
+    line-height: 1;
+
+    list-style:decimal;
+}
+
+
+.lesson-advice .list li:last-child
+{
+    margin-bottom: 0;
+}

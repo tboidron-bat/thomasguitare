@@ -1,0 +1,610 @@
+/******************************************************************************
+ *
+ * PAGE MORCEAU
+ *
+ ******************************************************************************/
+
+.lesson-content-piece
+{
+    display: flex;
+
+    width: 100%;
+
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+
+            rgba(190, 215, 235, 0.55) 1.75rem,
+            rgba(190, 215, 235, 0.55) 1.82rem
+        ),
+
+        linear-gradient(
+            to right,
+            rgba(255, 250, 250, 0.65),
+            rgba(255, 255, 255, 0.65)
+        ),
+
+        url("/img/texture/paper_solfege_02.png");
+
+
+    border-left: ridge 3px rgb(245, 213, 145);
+    border-right: ridge 3px rgb(245, 213, 145);
+
+    border-top: solid 2px rgba(0,0,150,0.38);
+}
+
+
+/******************************************************************************
+ * PAGE
+ ******************************************************************************/
+
+.lesson-content-piece .page
+{
+    flex: 0 0 50%;
+
+    width: 50%;
+
+    min-width: 0;
+
+    box-sizing: border-box;
+
+    /* font-size: 1.0rem; */
+
+    /* padding-top: 1.5rem; */
+    padding-bottom: 3.5em;
+}
+
+
+/******************************************************************************
+ * PAGE GAUCHE
+ ******************************************************************************/
+
+.lesson-content-piece .page-left
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin: 0;
+
+    padding-left: 1.6em;
+    padding-right: 2.5em;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent 0,
+            transparent 3rem,
+
+            #d98989 3rem,
+            #e59a9a 3.1rem,
+
+            transparent 3.1rem
+        );
+
+        /* url("/img/texture/paper_noise_canson.png"); */
+}
+
+
+/******************************************************************************
+ * IDENTITÉ DU BLOC — MORCEAU
+ ******************************************************************************/
+
+.lesson-content-piece .hero
+{
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    width: fit-content;
+
+    height: 82px;
+
+    margin: 0 0 0 0;
+
+    z-index: 4;
+
+    /* opacity: 0.8; */
+}
+
+
+/******************************************************************************
+ * HERO — MORCEAU
+ ******************************************************************************/
+
+
+.lesson-content-piece .hero
+{
+    position: relative;
+
+    width: 100%;
+    height: 140px;
+
+    margin: 0;
+
+    background:
+        url("/img/background/parchment_00.png")
+        left center / contain
+        no-repeat;
+}
+
+
+/******************************************************************************
+ * Texte du HERO
+ ******************************************************************************/
+
+
+
+
+
+.lesson-content-piece .hero h2
+{
+    position: absolute;
+
+    margin: 0;
+
+    left: 30%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+
+    align-items: center;
+
+    font-family: "IM Fell", serif;    
+   font-family: "Jacquard";
+    font-family: "Camelot";
+    font-family: "Lombardi";
+    /* font-family: "Gothic Leaf";         */
+
+
+
+    font-size: 3em;
+
+    text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 whitesmoke,
+        -1px  1px 0 wheat,
+         1px  1px 0 white,
+         0px 1px 2px rgba(255, 191, 191, 0.8);
+
+ 
+
+
+
+    z-index: 2;
+}
+
+
+
+/******************************************************************************
+ * PAGE DROITE
+ ******************************************************************************/
+
+.lesson-content-piece .page-right
+{
+    position: relative;
+
+    overflow: visible;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+
+    /* background:
+        url("/img/texture/paper_noise_canson.png"); */
+
+}
+
+
+
+
+/******************************************************************************
+ * LETTRINE
+ ******************************************************************************/
+
+.lesson-content-piece .hero .dropcap
+{
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 72px;
+    height: 72px;
+
+    font-family: "Lombardi";    
+    /* font-family: "IM Fell", serif;     */
+
+
+    font-family: "Goudy Initials";            
+
+    font-size: 5rem;
+
+    color: #000000;
+
+    /* text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 whitesmoke,
+        -1px  1px 0 wheat,
+         1px  1px 0 white,
+         0px 1px 2px rgba(255, 191, 191, 0.8); */
+
+
+    z-index: 3;
+}
+
+
+/******************************************************************************
+ * PETIT FLEURON SOUS LE TITRE
+ ******************************************************************************/
+
+.lesson-content-piece .title-text::after
+{
+    content: "";
+
+    position: absolute;
+
+    width: 180px;
+    height: 80px;
+
+    left: 50%;
+    bottom: -55px;
+
+    transform: translateX(-50%);
+
+    background:
+        url("/img/ornament/needle.png")
+        center / contain
+        no-repeat;
+
+    opacity: .65;
+
+    pointer-events: none;
+
+    z-index: 2;
+}
+
+
+/******************************************************************************
+ * TEXTE DU MORCEAU
+ ******************************************************************************/
+
+.lesson-content-piece .piece-text
+{
+    padding: 0;
+
+    padding-top: 1em;
+    padding-left: 2em;
+
+    margin: 0;
+    margin-right: 1em;
+}
+
+
+.lesson-content-piece .piece-text li
+{
+    padding: 0;
+
+    margin: 0;
+    margin-bottom: .65em;
+
+    color: #252525;
+
+    font-family: "EB Garamond", serif;
+
+    font-size: 1.3em;
+
+    line-height: 1.25;
+
+    /* list-style: url("/img/chip//star_green.png"); */
+    list-style: no;
+}
+
+
+/******************************************************************************
+ * PARTITION
+ ******************************************************************************/
+
+.lesson-content-piece .lesson-figure
+{
+    position: relative;
+
+    width: 100%;
+
+    margin: 0;
+
+    transition:
+        transform .3s ease;
+}
+
+
+.lesson-content-piece .figure-frame
+{
+    position: relative;
+
+    width: 82%;
+
+    margin: 0 auto;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.7),
+            rgba(220,205,160,.3)
+        );
+
+    border: 1px solid rgba(76,118,63,.55);
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 12px rgba(0,0,0,.18),
+        inset 0 0 0 3px rgba(255,255,255,.45);
+}
+
+
+/******************************************************************************
+ * PARTITION ELLE-MÊME
+ ******************************************************************************/
+
+.lesson-content-piece .piece-score
+{
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    box-sizing: border-box;
+
+    padding: 1rem;
+
+    background:
+        url("/img/texture/paper_noise_granular.png");
+
+    border: 3px double #4c763f;
+
+    border-radius: 9px;
+
+    box-shadow:
+        inset 0 0 10px rgba(80,50,20,.12);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+
+/******************************************************************************
+ * EFFET SURVOL DE LA PARTITION
+ ******************************************************************************/
+
+.lesson-content-piece .lesson-figure:hover
+{
+    transform: scale(1.08);
+}
+
+
+.lesson-content-piece .lesson-figure:hover .piece-score
+{
+    box-shadow:
+        0 8px 18px rgba(0,0,0,.25),
+        inset 0 0 10px rgba(80,50,20,.12);
+}
+
+
+/******************************************************************************
+ * COINS DE LA PARTITION
+ ******************************************************************************/
+
+.lesson-content-piece .piece-corner
+{
+    position: absolute;
+
+    width: 42px;
+    height: 42px;
+
+    pointer-events: none;
+
+    background:
+        url("/img/ornament/corner_silver_00.png")
+        center / contain
+        no-repeat;
+
+    z-index: 5;
+}
+
+
+.lesson-content-piece .piece-corner-tl
+{
+    top: 0;
+    left: 0;
+}
+
+
+.lesson-content-piece .piece-corner-tr
+{
+    top: 0;
+    right: 0;
+
+    transform: scaleX(-1);
+}
+
+
+.lesson-content-piece .piece-corner-bl
+{
+    bottom: 0;
+    left: 0;
+
+    transform: scaleY(-1);
+}
+
+
+.lesson-content-piece .piece-corner-br
+{
+    bottom: 0;
+    right: 0;
+
+    transform: rotate(180deg);
+}
+
+
+/******************************************************************************
+ * LECTEUR AUDIO
+ ******************************************************************************/
+
+.lesson-content-piece .piece-audio
+{
+    display: flex;
+
+    align-items: center;
+
+    width: 92%;
+
+    min-height: 58px;
+
+    margin: 1.5rem auto 0;
+
+    padding: 7px 12px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255,255,255,.35),
+            rgba(220,205,160,.12)
+        ),
+
+        #e4c562;
+
+    border: 2px solid #96a453;
+
+    border-radius: 10px;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.65),
+        inset 0 0 0 4px rgba(150,164,83,.12),
+        2px 3px 5px rgba(0,0,0,.22);
+}
+
+
+/******************************************************************************
+ * LABEL AUDIO
+ ******************************************************************************/
+
+.lesson-content-piece .piece-audio-label
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: .55rem;
+
+    flex: 0 0 auto;
+
+    margin-right: 1rem;
+
+    color: #536b2e;
+
+    font-family: "EB Garamond", serif;
+
+    font-size: 1.25rem;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+
+/******************************************************************************
+ * LECTEUR NATIF
+ ******************************************************************************/
+
+.lesson-content-piece .piece-audio audio
+{
+    display: block;
+
+    flex: 1 1 auto;
+
+    width: auto;
+    min-width: 0;
+
+    height: 42px;
+
+    margin: 0;
+
+    accent-color: #536b2e;
+}
+
+
+/******************************************************************************
+ * FLEURON BAS DE PAGE
+ ******************************************************************************/
+
+.lesson-content-piece .page-right .fleurons-piece
+{
+    position: absolute;
+
+    right: 10px;
+    bottom: 0;
+
+    width: 96%;
+    height: 45px;
+
+    background:
+        url("/img/ornament/fleuron_piece.png")
+        center / contain
+        repeat;
+
+    pointer-events: none;
+
+    z-index: 4;
+}
+
+
+
+
+/******************************************************************************
+ * MOBILE
+ ******************************************************************************/
+
+@media (max-width: 1000px)
+{
+    .lesson-content-piece
+    {
+        flex-direction: column;
+    }
+
+    .lesson-content-piece .page
+    {
+        width: 100%;
+
+        flex: 0 0 100%;
+    }
+
+    .lesson-content-piece .page-right
+    {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .lesson-content-piece .figure-frame
+    {
+        width: 80%;
+    }
+}
