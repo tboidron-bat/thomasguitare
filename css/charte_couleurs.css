@@ -50,7 +50,10 @@ Actions, verbes, consignes
 */
 .color-action 
 {
-    color: #7a4a24;
+    font-family:cursive;    
+    font-size: 1.5em;    
+    color: #861e1e;
+    text-decoration:underline;
 
     /* text-shadow:
         -1px -1px 0 black,

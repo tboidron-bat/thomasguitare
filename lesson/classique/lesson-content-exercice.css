@@ -24,7 +24,9 @@
 
 .lesson-content-exercise .page
 {
-    flex: 1;
+    flex: 0 0 50%;
+
+    width: 50%;
 
     min-width: 0;
 

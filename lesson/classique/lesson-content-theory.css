@@ -25,9 +25,9 @@
 
 .lesson-content-theory .page
 {
-    flex: 1;
+    flex: 0 0 50%;
 
-    min-width: 0;
+    width: 50%;
 
     font-size: 1.5rem;
 
@@ -48,8 +48,8 @@
 
     overflow: hidden;
 
-    padding-left: 1.8em;
-    padding-right: 3.5em;
+    padding-left: .5em;
+    padding-right: 1.5em;
 
     margin: 0;
 
@@ -237,7 +237,7 @@
 {
     padding:0;
     padding-top: 1.0em;
-    padding-left: 1.0em;
+    padding-left: 2.0em;
 
     margin:0;
 }
@@ -245,11 +245,11 @@
 .lesson-content-theory li
 {
     list-style: none;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.6em;
     line-height: 1.5;
 }
 
-.lesson-content-theory li::before
+.lesson-content-theory > .page > ul > li::before
 {
     content: "-";
 
@@ -259,6 +259,47 @@
 ☞   ➤          */
     /* margin-right: 0.5em; */
 }
+
+.lesson-content-theory .lesson-sublist
+{
+    margin: 0;
+    margin-left: 3.0em;
+    margin-right: 1.0em;
+
+    width: fit-content;
+
+
+    padding: 0;
+    padding-top: 0.5em;
+
+    border-radius: 1.0em;
+
+    border: solid 2px rgba(229, 168, 85, 0.2);
+
+    background: rgba(255,155,0,.05);
+
+    box-shadow: none;
+}
+.lesson-content-theory .lesson-sublist ul
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 1.4em;
+    margin-right: .1em;    
+}
+
+.lesson-content-theory .lesson-sublist li
+{
+    font-size: 1.2rem;    
+    list-style:url(/img/chip/disc_orange.png);
+    list-style:square;    
+    line-height: 1;
+}
+.lesson-content-theory .lesson-sublist li::before
+{
+
+}
+
 /******************************************************************************
  * Illustration
  ******************************************************************************/
@@ -393,36 +434,6 @@
         0 6px 16px rgba(0,0,0,.28);     */
 }
 
-
-.lesson-content-theory .lesson-sublist
-{
-    margin: 0;
-    margin-left: 1.0em;
-    margin-right: 1.0em;
-
-    padding: 0;
-
-    border-radius: 1.0em;
-
-    border: solid 3px rgba(229, 168, 85, 0.2);
-
-    background: rgba(255,155,0,.05);
-
-    box-shadow: none;
-}
-.lesson-content-theory .lesson-sublist ul
-{
-    margin: 0;
-    padding: 0;
-    margin-left: 1.4em;
-}
-
-.lesson-content-theory .lesson-sublist li
-{
-    font-size: 1.5rem;    
-    list-style:url(/img/chip/disc_orange.png);
-}
-
 .lesson-content-theory .fleuron
 {
     position: absolute;
@@ -450,7 +461,7 @@
 
 .lesson-content-theory .fleurons-right
 {
-    left: 25px;
+    left: 40px;
 
     background-image: url("/img/ornament/fleuron_right.png");
 }
