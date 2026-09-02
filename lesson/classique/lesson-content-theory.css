@@ -245,7 +245,7 @@
 .lesson-content-theory li
 {
     list-style: none;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.4em; /*espacement entre les lignes de la liste*/
     line-height: 1.5;
 }
 

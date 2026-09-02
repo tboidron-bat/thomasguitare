@@ -1,68 +1,32 @@
-/* Concepts fondamentaux de la leçon
- * Notions absolument essentielles
- * ex : la portée, la note, la mesure...
- */
 .color-fondamental
 {
     color: #6f4a18;
-
-    font-size: 1.15em;
-
     font-weight: bold;
 
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: rgba(200, 147, 45, 0.75);
-    text-underline-offset: 0.20em;        
+    text-underline-offset: 0.20em;
 
     text-shadow:
         1px 1px 0 rgba(255, 248, 225, 0.95),
         0 1px 1px rgba(90, 55, 20, 0.25);
 }
-
-
-/*
- * 
- */
 .color-important
 {
     font-family:cursive;
-    font-size: 1.5em;
-    /* font-weight: 700; */
-    line-height: 1.0;
-    /* letter-spacing: 0.015em; */
 }
-/* 
-* Concepts, idées, définitions 
-*/
-.color-concept {
-
-  font-size: 1.1em;
-  font-weight:  bold;  
-
-  font-style: italic;
-
-
-}
-
-/* 
-Actions, verbes, consignes 
-*/
-.color-action 
+.color-concept
 {
-    font-family:cursive;    
-    font-size: 1.5em;    
+    font-weight: bold;
+    font-style: italic;
+}
+
+.color-action
+{
+    font-family: cursive;
     color: #861e1e;
-    text-decoration:underline;
-
-    /* text-shadow:
-        -1px -1px 0 black,
-         1px -1px 0 black,
-        -1px  1px 0 black,
-         1px  1px 0 black,
-         0px 1px 2px rgba(255, 191, 191, 0.8); */
-
-
+    text-decoration: underline;
 }
 
 /* Termes techniques, exemples spécifiques */
@@ -78,19 +42,19 @@ Actions, verbes, consignes
 }
 
 /* Compléments, notes supplémentaires, styles alternés */
-.color-complement 
+/* .color-complement 
 {
   color: #8e44ad;
   font-style: italic;
-}
+} */
 
-ul.charte-list 
+/* ul.charte-list 
 {
   font-size: 0.9em;
   padding-left: 1.2em;
   margin-top: 0.5em;
 
-}
+} */
 /* Symboles musicaux inline (reprises, fine, DC, etc.) */
 .music-symbol 
 {
@@ -224,4 +188,9 @@ ul.charte-list
     color: #14427d;
 
     font-weight: 600;
+}
+
+.piece-technique
+{
+    color: #7c3030;
 }
