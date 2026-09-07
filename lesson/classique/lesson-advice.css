@@ -23,14 +23,15 @@
 
 .lesson-advice .title
 {
-    margin: 4px 0 0 0;
+    margin: 0;
     padding: 0;
+    padding-top: 0.3em;
 
     width: fit-content;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.15em;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
@@ -40,9 +41,6 @@
     padding: 0;
     padding-top: 0.5em;
     padding-left: 22px;
-
-    font-family: cursive;
-    font-size: 1.2em;
 }
 
 
@@ -51,6 +49,9 @@
     margin-bottom: 12px;
 
     line-height: 1;
+
+    font-family: cursive;    
+    font-size: 1.2em;    
 
     list-style:decimal;
 }
