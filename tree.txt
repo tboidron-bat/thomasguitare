@@ -243,7 +243,7 @@
 │   │   │   │       ├── corde_a_vide_multiple.svg
 │   │   │   │       ├── rythmique_mi_mineur.svg
 │   │   │   │       └── rythmique_mim_lam.svg
-│   │   │   ├── 08_liaison
+│   │   │   ├── liaison
 │   │   │   │   ├── lesson.html
 │   │   │   │   ├── mp3
 │   │   │   │   │   ├── ex_ryhtmique_liaison.mp3
@@ -252,7 +252,7 @@
 │   │   │   │       ├── ex_rythmique.svg
 │   │   │   │       ├── liaison.svg
 │   │   │   │       └── oh_when_the_saints.svg
-│   │   │   ├── 09_croche
+│   │   │   ├── first_rythm/02_croche
 │   │   │   │   ├── lesson.html
 │   │   │   │   ├── mp3
 │   │   │   │   │   ├── a_la_claire_fontaine.mp3

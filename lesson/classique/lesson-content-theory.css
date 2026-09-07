@@ -245,8 +245,41 @@
 .lesson-content-theory li
 {
     list-style: none;
-    margin-bottom: 0.4em; /*espacement entre les lignes de la liste*/
-    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 0.4em;
+    line-height: 1.5em;
+
+    position: relative;
+
+    /* border-right: 3px ridge rgba(0, 0, 0, 1); */
+    /* border-left: 1px ridge rgba(255, 255, 255, 0.1);     */
+}
+
+.lesson-content-theory li:not(:last-child)::after
+{
+    content: "";
+
+    display: block;
+
+    width: 40%;
+    height: 2px;
+
+    margin: 0.45em auto 0;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(176, 104, 48, 0.65),
+        rgba(205, 135, 70, 0.75),
+        rgba(176, 104, 48, 0.65),
+        transparent
+    );
+}
+
+
+.lesson-content-theory li:last-child
+{
+    border-bottom: none;
 }
 
 .lesson-content-theory > .page > ul > li::before
