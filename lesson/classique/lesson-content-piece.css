@@ -265,26 +265,51 @@
 
     margin: 0;
     margin-right: 1em;
+
+    /* color: #252525; */
+
+    /* font-family: "EB Garamond", serif; */
+
+    /* line-height: 1.15; */
+
+    /* font-size: 1.3em; */
+
 }
 
 
 .lesson-content-piece .piece-text li
 {
+    position: relative;
+
     padding: 0;
+    padding-left: .8em;
 
     margin: 0;
-    margin-bottom: .65em;
+    margin-bottom: .05em;
 
     color: #252525;
 
     font-family: "EB Garamond", serif;
 
-    font-size: 1.3em;
+    font-size: 1.7em;
 
     line-height: 1.25;
 
-    /* list-style: url("/img/chip//star_green.png"); */
-    list-style: no;
+    list-style: none;
+}
+
+.lesson-content-piece .piece-text li::before
+{
+    content: "✦";
+
+    position: absolute;
+
+    left: -0.7em;
+    top: 0;
+
+    color: #252525;
+
+    font-family: "EB Garamond", serif;
 }
 /******************************************************************************
  * LECTEUR AUDIO

@@ -227,7 +227,7 @@
 │   │   │   │       ├── gamme_do.svg
 │   │   │   │       ├── note_mi_la.svg
 │   │   │   │       └── une_poule_sur_un_mur.svg
-│   │   │   ├── 08_5_accord
+│   │   │   ├── 09_accord
 │   │   │   │   ├── lesson.html
 │   │   │   │   ├── mp3
 │   │   │   │   │   ├── corde_a_vide_multiple.mp3
