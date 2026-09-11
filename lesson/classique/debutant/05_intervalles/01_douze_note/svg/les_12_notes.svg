@@ -25,11 +25,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.34119669"
-     inkscape:cx="445.49084"
-     inkscape:cy="492.38461"
-     inkscape:window-width="1104"
-     inkscape:window-height="552"
+     inkscape:zoom="0.68239338"
+     inkscape:cx="477.73031"
+     inkscape:cy="287.95707"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
@@ -616,5 +616,16 @@
        x="-56.403035"
        y="-27.722737"
        id="rect18887" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.8167px;font-family:C059;-inkscape-font-specification:C059;fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+       x="31.800415"
+       y="19.716679"
+       id="text380"><tspan
+         sodipodi:role="line"
+         id="tspan378"
+         style="font-size:14.8167px;stroke-width:0.6"
+         x="31.800415"
+         y="19.716679">Distance entre les notes naturelles</tspan></text>
   </g>
 </svg>

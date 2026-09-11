@@ -237,7 +237,7 @@
 {
     padding:0;
     padding-top: 1.0em;
-    padding-left: 2.0em;
+    padding-left: 52px;
 
     margin:0;
 }
@@ -250,6 +250,8 @@
     line-height: 1.5em;
 
     position: relative;
+
+    list-style: url(/img/chip/disc_orange_01.png);
 
     /* border-right: 3px ridge rgba(0, 0, 0, 1); */
     /* border-left: 1px ridge rgba(255, 255, 255, 0.1);     */
@@ -284,7 +286,7 @@
 
 .lesson-content-theory > .page > ul > li::before
 {
-    content: "-";
+    /* content: "➥"; */
 
     /*    ❯ › ➣ ➢   →   ➜
        –   —  - ·   •
