@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37mm"
+   height="26mm"
+   viewBox="0 0 37 26"
+   version="1.1"
+   id="svg344"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="reprise.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview346"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.9300999"
+     inkscape:cx="53.88322"
+     inkscape:cy="80.82483"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs341" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <polyline
+       class="StaffLines"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.73"
+       stroke-linejoin="bevel"
+       points="212.598,1316.2 2764.6,1316.2"
+       id="polyline6"
+       transform="matrix(0.00545437,0,0,0.20396601,10.592181,-265.71214)" />
+    <polyline
+       class="StaffLines"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.73"
+       stroke-linejoin="bevel"
+       points="212.598,1341 2764.6,1341"
+       id="polyline7"
+       transform="matrix(0.00545437,0,0,0.20396601,10.592181,-265.71214)" />
+    <polyline
+       class="StaffLines"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.73"
+       stroke-linejoin="bevel"
+       points="212.598,1365.8 2764.6,1365.8"
+       id="polyline8"
+       transform="matrix(0.00545437,0,0,0.20396601,10.592181,-265.71214)" />
+    <polyline
+       class="StaffLines"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.73"
+       stroke-linejoin="bevel"
+       points="212.598,1390.6 2764.6,1390.6"
+       id="polyline9"
+       transform="matrix(0.00545437,0,0,0.20396601,10.592181,-265.71214)" />
+    <polyline
+       class="StaffLines"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.73"
+       stroke-linejoin="bevel"
+       points="212.598,1415.4 2764.6,1415.4"
+       id="polyline10"
+       transform="matrix(0.00545437,0,0,0.20396601,10.592181,-265.71214)" />
+    <path
+       class="BarLine"
+       d="m 19.856402,10.335476 c 0,-0.5880434 -0.366004,-1.0717362 -0.823492,-1.0717362 -0.459989,0 -0.823491,0.4836928 -0.823491,1.0717362 0,0.588026 0.363502,1.071736 0.823491,1.071736 0.457488,0 0.823492,-0.48371 0.823492,-1.071736"
+       id="path12"
+       style="stroke-width:0.17895" />
+    <path
+       class="BarLine"
+       d="m 19.856402,15.393827 c 0,-0.588044 -0.366004,-1.071755 -0.823492,-1.071755 -0.459989,0 -0.823491,0.483711 -0.823491,1.071755 0,0.588043 0.363502,1.071735 0.823491,1.071735 0.457488,0 0.823492,-0.483692 0.823492,-1.071735"
+       id="path13"
+       style="stroke-width:0.17895" />
+    <polyline
+       class="BarLine"
+       fill="none"
+       stroke="#000000"
+       stroke-width="4.46"
+       stroke-linejoin="bevel"
+       points="2739.55,1314.83 2739.55,1416.76"
+       id="polyline13"
+       transform="matrix(0.15954594,0,0,0.20396601,-415.40937,-265.71214)" />
+    <polyline
+       class="BarLine"
+       fill="none"
+       stroke="#000000"
+       stroke-width="13.64"
+       stroke-linejoin="bevel"
+       points="2757.78,1314.83 2757.78,1416.76"
+       id="polyline14"
+       transform="matrix(0.15954594,0,0,0.20396601,-415.40937,-265.71214)" />
+  </g>
+</svg>

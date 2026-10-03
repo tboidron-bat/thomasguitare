@@ -1,0 +1,376 @@
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
+
+.sidebar
+{
+    /* margin-: 0; */
+    margin-top: 9px;
+    margin-left: 5px;
+    margin-right: 0px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;    
+    /* padding-right: 12px;
+    padding-left: 17px;     */
+
+    position: relative;
+
+    width: 320px;
+    height: fit-content;
+
+    flex-shrink: 0;
+
+    /* background: #972626; */
+    background: #f9e6c5;
+    box-shadow:
+        3px 3px 3px rgba(0,0,0,.4);
+
+    opacity: 0.92;        
+}
+
+
+/* ============================================================
+   CONTENU DU SIDEBAR
+   ============================================================ */
+
+.sidebar-content
+{
+    position: relative;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding-left: 1.0em;
+
+    /* background-image: url("/img/texture/parchment_500x750.png"); */
+    background-image: url("/img/texture/paper_noise_00.png");    
+
+    border-top:
+        solid 1px #000000;
+
+    border-bottom:
+        solid 1px #000000;
+
+    /* border-left: solid 15px #000000; */
+
+    border-radius: 15px;
+
+
+
+}
+
+
+/* ============================================================
+   TITRE
+   ============================================================ */
+.sidebar-title
+{
+    margin: 0 0 18px;
+    /* padding-bottom: 12px; */
+
+    text-align: center;
+
+    font-family: Georgia, serif;
+    font-size: 2rem;
+
+    color: #4a2b16;
+
+    /* border-bottom: solid 1px #f9e6c5; */
+
+    position: relative;
+}
+.sidebar-title::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0px;
+    left: -5px;
+
+    width: 75px;
+    height: 75px;
+
+    background:
+        url("/img/ornament/corner_arabic_00.png")
+        top left / contain
+        no-repeat;
+
+
+
+
+
+    pointer-events: none;
+}
+.sidebar-title::after
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0px;
+    right: 10px;
+
+    width: 75px;
+    height: 75px;
+
+    background:
+        url("/img/ornament/corner_arabic_00.png")
+        top left / contain
+        no-repeat;
+
+
+    transform: rotate(90deg);        
+
+    pointer-events: none;
+}
+
+
+/* ============================================================
+   MENU
+   ============================================================ */
+
+.lesson-menu details
+{
+    margin-bottom: 14px;
+}
+
+
+/* ============================================================
+   CHAPITRES
+   ============================================================ */
+
+/* ============================================================
+   CHAPITRES
+   ============================================================ */
+
+.lesson-menu summary
+{
+    position: relative;
+
+    box-sizing: border-box;
+
+    padding:
+        2px
+        8px
+        9px
+        34px;
+
+    color: #5d4632;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    list-style: none;
+
+    transition:
+        background-color .15s ease,
+        color .15s ease;
+}
+
+
+/* ============================================================
+   SUPPRESSION DU TRIANGLE NATIF
+   ============================================================ */
+
+.lesson-menu summary::marker
+{
+    display: none;
+}
+
+.lesson-menu summary::-webkit-details-marker
+{
+    display: none;
+}
+
+
+/* ============================================================
+   SURVOL
+   ============================================================ */
+
+.lesson-menu summary:hover
+{
+    background-color: rgba(237, 176, 61, .20);
+}
+
+.lesson-menu summary::after
+{
+    content: "";
+
+    position: absolute;
+
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+
+    height: 1px;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent,
+            #b58a45,
+            transparent
+        );
+}
+/* ============================================================
+   FLEUR DE LYS
+   ============================================================ */
+
+.lesson-menu summary::before
+{
+    content: "";
+
+    position: absolute;
+
+    left: 8px;
+    top: 35%;
+
+    width: 25px;
+    height: 25px;
+
+    transform: translateY(-50%);
+
+    background-image:
+        url("/img/chip/fleur-de-lys.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* ============================================================
+   LISTE DES LEÇONS
+   ============================================================ */
+
+.lesson-menu ul
+{
+    list-style:none;
+
+    margin: 8px 0 0 18px;
+
+    padding: 0;
+    padding-left: 1.8em;
+}
+
+.lesson-menu li
+{
+    margin: 5px 0;
+}
+
+
+/* ============================================================
+   LIENS
+   ============================================================ */
+
+.lesson-menu a
+{
+    display: block;
+
+    padding: 6px 10px;
+
+    border-radius: 4px;
+
+    color: #76512f;
+
+    text-decoration: none;
+
+    transition:
+        background-color .15s ease,
+        color .15s ease;
+}
+
+.lesson-menu a:hover
+{
+    color: #4a2b16;
+
+    background:
+        rgba(181, 138, 69, .12);
+}
+
+
+
+/* ============================================================
+   LEÇON COURANTE — BANDEAU
+   ============================================================ */
+
+.lesson-menu a.current
+{
+    position: relative;
+
+    margin-left: -12px;
+    margin-right: -18px;
+
+    padding: 7px 18px;
+
+    color: #fff8e7;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #a94b2d,
+            #87351e
+        );
+
+    border-radius: 2px 0 0 2px;
+
+    box-shadow:
+        2px 3px 4px rgba(0, 0, 0, .28);
+
+    text-shadow:
+        1px 1px 1px rgba(0, 0, 0, .45);
+
+    z-index: 2;
+}
+
+
+/* Pointe du bandeau */
+
+.lesson-menu a.current::after
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    right: -22px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 22px solid #87351e;
+}
+
+
+/* Petit pli à droite */
+
+.lesson-menu a.current::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    right: -22px;
+
+    width: 22px;
+    height: 36px;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255,255,255,.12),
+            transparent
+        );
+
+    clip-path: polygon(
+        0 0,
+        100% 18px,
+        0 36px
+    );
+
+    z-index: 3;
+}

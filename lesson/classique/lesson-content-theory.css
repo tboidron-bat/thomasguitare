@@ -1,0 +1,588 @@
+/******************************************************************************
+ * Structure de la page theory
+ ******************************************************************************/
+
+.lesson-content-theory
+{
+    display: flex;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    background-color: white;
+
+    border-left: ridge 3px rgb(245, 213, 145);
+    border-right: ridge 3px rgb(245, 213, 145);
+
+    border-top: 2px dotted black;
+}
+
+
+/******************************************************************************
+ * PAGE
+ ******************************************************************************/
+
+.lesson-content-theory .page
+{
+    flex: 0 0 50%;
+
+    width: 50%;
+
+    font-size: 1.5rem;
+
+    box-sizing: border-box;
+
+    padding-top: 1.5rem;
+    padding-bottom: 3.5em;
+}
+
+
+/******************************************************************************
+ * PAGE GAUCHE
+ ******************************************************************************/
+
+.lesson-content-theory .page-left
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding-left: .5em;
+    padding-right: 1.5em;
+
+    margin: 0;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent 0,
+            transparent 3rem,
+
+            #ec8282 3rem,
+            #f89292 3.1rem,
+
+            transparent 3.1rem
+        ),
+
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+
+            rgba(190, 215, 235, 0.55) 1.75rem,
+            rgba(190, 215, 235, 0.55) 1.82rem
+        ),
+
+        linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.65)
+        ),
+
+        url("/img/texture/paper_noise_02.png");
+}
+
+
+/******************************************************************************
+ * PAGE DROITE
+ ******************************************************************************/
+
+.lesson-content-theory .page-right
+{
+    position: relative;
+
+    overflow: visible;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0;
+
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+
+            rgba(190, 215, 235, 0.55) 1.75rem,
+            rgba(190, 215, 235, 0.55) 1.82rem
+        ),
+
+        linear-gradient(
+            to right,
+            rgba(255, 250, 250, 0.45),
+            rgba(255, 255, 255, 0.65)
+        ),
+
+        url("/img/texture/paper_noise_02.png");
+}
+
+
+
+/******************************************************************************
+ * Titre
+ ******************************************************************************/
+
+.lesson-content-theory h2
+{
+    display: flex;
+
+    align-items: center;
+
+    margin: 0;
+}
+
+.lesson-content-theory .title-text
+{
+    position: relative;
+
+    padding-left: 0.1em;
+    margin: 0;
+
+    font-family:"IM Fell", serif;
+    font-size:3rem;
+
+    color:#565454;
+    
+
+    text-shadow:
+        1px 1px 0 rgba(255, 248, 225, 0.95),
+        2px 2px 0 rgba(180, 150, 105, 0.35),
+        0 3px 4px rgba(70, 45, 20, 0.22);    
+}
+.lesson-content-theory .title-text::after
+{
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    left: 52%;
+    bottom: -126px;
+
+    transform: translateX(-50%);
+
+    background:
+        url("/img/ornament/fleuron_under_title_01.png")
+        center / contain
+        no-repeat;
+
+    z-index: 2;
+
+    pointer-events: none;
+
+    filter:
+        drop-shadow(0 2px 2px rgba(70, 45, 20, 0.1));
+}
+
+/******************************************************************************
+ * Lettrine
+ ******************************************************************************/
+ 
+.lesson-content-theory .dropcap
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 72px;
+    height: 72px;
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+    font-family: "Jacquard";
+    font-size: 5rem;
+
+    color:#c06f12;
+
+    background:#fdf5e2;
+
+    border:3px solid #fdf5e2;
+    border-radius:10px;
+
+    background-image:url("/img/medieval_book/lettrine_frame.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black,
+         0 2px 3px rgba(0,0,0,.8);
+
+    box-shadow:
+        -1px -1px 2px #e5a855,
+         2px  2px 3px #634924;
+
+    z-index: 3;         
+}
+
+/******************************************************************************
+ * Texte
+ ******************************************************************************/
+
+.lesson-content-theory ul
+{
+    padding:0;
+    padding-top: 1.0em;
+    padding-left: 52px;
+
+    margin:0;
+}
+
+.lesson-content-theory li
+{
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0.4em;
+    line-height: 1.5em;
+
+    position: relative;
+
+    list-style: url(/img/chip/disc_orange_01.png);
+
+    /* border-right: 3px ridge rgba(0, 0, 0, 1); */
+    /* border-left: 1px ridge rgba(255, 255, 255, 0.1);     */
+}
+
+.lesson-content-theory li:not(:last-child)::after
+{
+    content: "";
+
+    display: block;
+
+    width: 40%;
+    height: 2px;
+
+    margin: 0.45em auto 0;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(176, 104, 48, 0.65),
+        rgba(205, 135, 70, 0.75),
+        rgba(176, 104, 48, 0.65),
+        transparent
+    );
+}
+
+
+.lesson-content-theory li:last-child
+{
+    border-bottom: none;
+}
+
+.lesson-content-theory > .page > ul > li::before
+{
+    /* content: "➥"; */
+
+    /*    ❯ › ➣ ➢   →   ➜
+       –   —  - ·   •
+            ➥ ❧   
+☞   ➤          */
+    /* margin-right: 0.5em; */
+}
+
+.lesson-content-theory .lesson-sublist
+{
+    width: fit-content;
+
+    margin: 0;
+    margin-left: 3.0em;
+    margin-right: 1.0em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;    
+
+    border-radius: 1.0em;
+
+    border: solid 2px rgba(229, 168, 85, 0.2);
+
+    background: rgba(255,155,0,.05);
+
+    box-shadow: none;
+}
+.lesson-content-theory .lesson-sublist ul
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 1.4em;
+    margin-right: .1em;    
+}
+
+.lesson-content-theory .lesson-sublist li
+{
+    font-size: 1.2rem;    
+    list-style:url(/img/chip/disc_orange.png);
+    list-style:square;    
+    line-height: 1;
+}
+
+/******************************************************************************
+ * Illustration
+ ******************************************************************************/
+
+.lesson-content-theory .lesson-figure
+{
+    margin:0;
+    position: relative;    
+
+    transition: transform .25s ease;    
+}
+.lesson-content-theory .figure-frame
+{
+    position: relative;
+
+    width: 70%;
+
+    margin: 0 auto;
+}
+.lesson-content-theory .figure-frame img
+{
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    background: white;
+
+    background:
+        url("/img/texture/paper_noise_white_granular.png");    
+
+    border: 5px double #b49a5a;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.lesson-content-theory .figure-corner
+{
+    position: absolute;
+
+    width: 55px;
+    height: 55px;
+
+    pointer-events: none;
+
+    background:
+        /* url("/img/ornament/needle.png") center / contain no-repeat, */
+        url("/img/ornament/corner_silver_01.png") center / contain no-repeat;
+
+    z-index: 5;
+}
+
+
+/* ─────────────────────────────
+   Coin haut gauche
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-tl
+{
+    top: 0px;
+    left: 4px;
+}
+
+
+/* ─────────────────────────────
+   Coin haut droit
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-tr
+{
+    top: 0px;
+    right: -5px;
+
+    transform: scaleX(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas gauche
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-bl
+{
+    bottom: 0px;
+    left: 5px;
+
+    transform: scaleY(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas droit
+   ───────────────────────────── */
+
+.lesson-content-theory .figure-corner-br
+{
+    bottom: 0px;
+    right: -5px;
+
+    transform: rotate(180deg);
+}
+
+.lesson-content-theory .figure-ornament-top
+{
+    position: absolute;
+
+    width: 180px;
+    height: 50px;
+
+    top: -30px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background:
+        url("/img/ornament/top_00.png") center / contain no-repeat;
+
+    z-index: 6;
+    pointer-events: none;        
+}
+
+.lesson-content-theory .lesson-figure:hover
+{
+    transform: scale(1.15);
+
+    /* box-shadow:
+        0 6px 16px rgba(0,0,0,.28);     */
+}
+
+.lesson-content-theory .fleuron
+{
+    position: absolute;
+
+    bottom: 0;
+
+    width: 300px;
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+    pointer-events: none;
+
+    z-index: 2;
+}
+
+.lesson-content-theory .fleurons-left
+{
+    right: 40px;
+
+    background-image: url("/img/ornament/fleuron_left.png");
+}
+
+.lesson-content-theory .fleurons-right
+{
+    left: 40px;
+
+    background-image: url("/img/ornament/fleuron_right.png");
+}
+
+/******************************************************************************
+ * LECTEUR AUDIO
+ ******************************************************************************/
+
+.lesson-content-theory .theory-audio
+{
+    display: flex;
+
+    align-items: center;
+
+    width: 92%;
+
+    min-height: 58px;
+
+    margin: 1.5rem auto 0;
+
+    padding: 7px 12px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255,255,255,.35),
+            rgba(220,205,160,.12)
+        ),
+
+        #000000;
+
+    border: 2px solid #141703;
+
+    border-radius: 10px;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.65),
+        inset 0 0 0 4px rgba(150,164,83,.12),
+        2px 3px 5px rgba(0,0,0,.22);
+}
+
+
+/******************************************************************************
+ * LABEL AUDIO
+ ******************************************************************************/
+
+.lesson-content-theory .theory-audio-label
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: .55rem;
+
+    flex: 0 0 auto;
+
+    margin-right: 1rem;
+
+    color: #536b2e;
+
+    font-family: "EB Garamond", serif;
+
+    font-size: 1.25rem;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+
+/******************************************************************************
+ * LECTEUR NATIF
+ ******************************************************************************/
+
+.lesson-content-theory .theory-audio audio
+{
+    display: block;
+
+    flex: 1 1 auto;
+
+    width: auto;
+    min-width: 0;
+
+    height: 42px;
+
+    margin: 0;
+
+    accent-color: #536b2e;
+}
+
+
+
+

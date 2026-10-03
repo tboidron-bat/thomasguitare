@@ -1,0 +1,303 @@
+/* =========================================================
+   LIVRE — BLUES
+   ========================================================= */
+
+.book {
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    padding: 16px;
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            90deg,
+            #171f24 0%,
+            #26343b 3%,
+            #172127 50%,
+            #26343b 97%,
+            #171f24 100%
+        );
+
+    border: 2px solid #745532;
+    border-radius: 8px;
+
+    box-shadow:
+        inset 0 0 0 2px rgba(0,0,0,.45),
+        inset 0 0 18px rgba(0,0,0,.65),
+        0 4px 10px rgba(0,0,0,.35);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   CONTOURS
+   ========================================================= */
+
+.book-contour-top,
+.book-contour-left,
+.book-contour-right,
+.book-contour-bottom {
+    position: absolute;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.book-contour-top {
+    top: 7px;
+    left: 8px;
+    right: 8px;
+    height: 2px;
+    background: #a27a48;
+}
+
+.book-contour-bottom {
+    bottom: 7px;
+    left: 8px;
+    right: 8px;
+    height: 2px;
+    background: #a27a48;
+}
+
+.book-contour-left {
+    top: 8px;
+    bottom: 8px;
+    left: 7px;
+    width: 2px;
+    background: #a27a48;
+}
+
+.book-contour-right {
+    top: 8px;
+    bottom: 8px;
+    right: 7px;
+    width: 2px;
+    background: #a27a48;
+}
+
+
+/* =========================================================
+   COINS
+   ========================================================= */
+
+.book-corner {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 6;
+    pointer-events: none;
+
+    border-color: #b08a55;
+    border-style: solid;
+    opacity: .9;
+}
+
+.book-corner-top-left {
+    top: 5px;
+    left: 5px;
+    border-width: 3px 0 0 3px;
+}
+
+.book-corner-top-right {
+    top: 5px;
+    right: 5px;
+    border-width: 3px 3px 0 0;
+}
+
+.book-corner-bottom-left {
+    bottom: 5px;
+    left: 5px;
+    border-width: 0 0 3px 3px;
+}
+
+.book-corner-bottom-right {
+    bottom: 5px;
+    right: 5px;
+    border-width: 0 3px 3px 0;
+}
+
+
+/* =========================================================
+   ZONE DES PAGES
+   ========================================================= */
+
+.book-page-area {
+    position: relative;
+    width: 100%;
+    min-height: 615px;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            to right,
+            #e8dfc8 0%,
+            #f5eedc 47%,
+            #d7c9aa 50%,
+            #f5eedc 53%,
+            #e8dfc8 100%
+        );
+
+    border: 1px solid #8a6b42;
+
+    box-shadow:
+        inset 0 0 25px rgba(80,55,25,.22);
+}
+
+
+/* lignes discrètes du papier */
+
+.book-page-area::before,
+.book-page-area::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    pointer-events: none;
+    z-index: 1;
+
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 30px,
+            rgba(70,105,115,.09) 31px,
+            transparent 32px
+        );
+}
+
+.book-page-area::before {
+    left: 0;
+}
+
+.book-page-area::after {
+    right: 0;
+}
+
+
+/* =========================================================
+   RELIURE CENTRALE
+   ========================================================= */
+
+/* .book-spine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 24px;
+
+    transform: translateX(-50%);
+
+    z-index: 10;
+
+    background:
+        linear-gradient(
+            to right,
+            #8b6338 0%,
+            #d0a66c 18%,
+            #704b2b 35%,
+            #c49a61 50%,
+            #704b2b 65%,
+            #d0a66c 82%,
+            #8b6338 100%
+        );
+
+    border-left: 1px solid #4a301d;
+    border-right: 1px solid #4a301d;
+
+    box-shadow:
+        0 0 8px rgba(0,0,0,.45);
+} */
+
+.book-spine::before {
+    content: "";
+
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 50%;
+
+    width: 14px;
+    transform: translateX(-50%);
+
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 18px,
+            #e1c184 18px,
+            #f0ddb8 21px,
+            #21084b 21px,
+            #19095a 25px,
+            transparent 25px,
+            transparent 34px
+        );
+
+    opacity: .9;
+}
+
+
+/* =========================================================
+   CONTENU
+   ========================================================= */
+
+.book-lesson-theory {
+    position: relative;
+    grid-column: 1 / -1;
+    z-index: 3;
+
+    min-width: 0;
+    padding: 28px 38px;
+}
+
+.book-lesson-theory h1,
+.book-lesson-theory h2,
+.book-lesson-theory h3,
+.book-lesson-theory p {
+    position: relative;
+    z-index: 4;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+    .book {
+        padding: 10px;
+        min-height: 550px;
+    }
+
+    .book-page-area {
+        min-height: 530px;
+    }
+
+    .book-lesson-theory {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 700px) {
+    .book {
+        min-height: 500px;
+    }
+
+    .book-page-area {
+        min-height: 480px;
+        grid-template-columns: 1fr;
+    }
+
+    .book-spine {
+        display: none;
+    }
+
+    .book-lesson-theory {
+        padding: 20px;
+    }
+}

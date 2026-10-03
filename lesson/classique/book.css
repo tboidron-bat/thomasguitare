@@ -1,0 +1,316 @@
+/* ============================================================
+   LIVRE
+   ============================================================ */
+
+.book
+{
+    flex: 1;
+    min-width: 0;
+
+    position: relative;
+
+    margin-top: 4px;
+    margin-left: 1px;
+
+    padding-top: 35px;
+    padding-left: 35px;    
+    padding-right: 35px;
+    padding-bottom: 35px;    
+
+    box-sizing: border-box;
+
+    /* background: #6b3518; */
+    /* background: #a70404; */
+
+    border-radius: 1em 1em 1em 1em;
+
+    opacity: 1;
+}
+
+
+
+/* ============================================================
+   COINS EN METAL DU LIVRE
+   ============================================================ */
+
+.book-corner
+{
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-image:
+        url("/img/medieval_book/metal_corner_300x257.png");
+
+
+    width: 90px;
+    height: 90px;
+
+
+    z-index: 40;
+
+    pointer-events: none;
+}
+.book-corner-top-left
+{
+    top: 0px;
+    left: 0;
+
+
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    transform: rotate(0deg);
+}
+.book-corner-top-right
+{
+    top: 90px;
+    right: 0px;
+
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    transform-origin: top right;
+    transform: rotate(90deg);
+}
+.book-corner-bottom-left
+{
+    bottom: 0;
+    left: 90px;
+
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    transform-origin: bottom left;
+    transform: rotate(270deg);
+}
+.book-corner-bottom-right
+{
+    bottom: 0px;
+    right: 0px;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    /* transform-origin: bottom right; */
+    transform: rotate(180deg);
+}
+/* ============================================================
+   CONTOUR SUPÉRIEUR
+   ============================================================ */
+
+.book-contour-top
+{
+    position: absolute;
+
+    top: 0px;
+    left: 10px;
+    right: 10px;
+
+    height: 32px;
+
+    background-image: url("/img/medieval_book/frame_leather_vertical.png");
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-size: auto 35px;
+    z-index: 30;
+
+    /* border-radius: 1.0em; */
+
+    /* box-shadow: 0px 5px 5px #6b3518; */
+    box-shadow: 0px 5px 5px #827269;    
+
+    opacity: 0.8;
+}
+
+
+/* ============================================================
+   CONTOUR GAUCHE
+   ============================================================ */
+
+.book-contour-left
+{
+    position: absolute;
+
+    top: 30px;
+    bottom: 0;
+    left: 0;
+
+    width: 35px;
+
+    background-image:
+        url("/img/medieval_book/frame_leather_horizontal.png");
+
+    background-repeat: repeat-y;
+    background-position: top left;
+    background-size: 35px auto;
+
+    z-index: 30;
+
+    opacity: 1;    
+}
+
+/* ============================================================
+   CONTOUR DROIT
+   ============================================================ */
+
+.book-contour-right
+{
+    position: absolute;
+
+    top: 30px;
+    bottom: 0;
+    right: 0;
+
+    width: 35px;
+
+
+
+    background-image:
+        url("/img/medieval_book/frame_leather_horizontal.png");
+
+    background-repeat: repeat-y;
+    background-position: top right;
+    background-size: 35px auto;
+
+    transform: rotate(180deg);    
+
+    z-index: 30;
+}
+
+/* ============================================================
+   CONTOUR INFÉRIEUR
+   ============================================================ */
+
+.book-contour-bottom
+{
+    position: absolute;
+
+    left: 10px;
+    right: 10px;
+    bottom: 1px;
+
+    height: 35px;
+
+    /* background: #d7c29f; */
+    background-image: url("/img/medieval_book/frame_leather_vertical.png");    
+
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-size: auto 32px;
+    z-index: 30;
+}
+
+/* ============================================================
+   ZONE DES PAGES
+   ============================================================ */
+
+.book-page-area
+{
+    position: relative;
+
+    /* overflow: hidden; */
+
+    min-height: 500px;
+}
+
+
+
+/* ============================================================
+   RELIURE CENTRALE
+   ============================================================ */
+
+.book-spine
+{
+    position: absolute;
+    overflow: visible;
+
+    top: -10px;
+    bottom: -10px;
+
+    left: 50%;
+
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+    width: 70px;
+
+    transform: translateX(-50%);
+
+    border-left: 2px dotted rgba(0, 0, 0, 0.55);
+    border-right: 2px dotted rgba(0, 0, 0, 0.55);    
+
+    background-image:
+        linear-gradient(
+            to right,
+
+            /* ------------------------------------------------
+               Côté gauche
+               ------------------------------------------------ */
+
+            rgba(251, 247, 240, 0.1) 0%,
+
+            rgba(190, 190, 190, 0.7) 40%,            
+
+            rgba(150, 150, 150, 1) 45%,
+
+
+            rgba(0, 0, 0, 1) 50%,
+
+
+            rgba(150, 150, 150, 1) 55%,                        
+
+            rgba(190, 190, 190, 0.7) 60%,
+
+
+
+            rgba(251, 247, 240, 0.1) 100%
+        );
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 100% 100%;
+
+    z-index: 20;
+
+    opacity: 0.95;
+}
+.book-spine::before
+{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    width: 36px;
+    height: 100%;
+
+    transform: translateX(-50%);
+
+    background-image:
+        url("/img/buckle.png");
+
+    background-repeat:
+        repeat-y;
+
+    background-position:
+        center top;
+
+    background-size:
+        36px 36px;
+
+    filter:
+        drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.55));
+
+    pointer-events: none;
+
+    z-index: 2;
+}

@@ -1,0 +1,203 @@
+.color-fondamental
+{
+    color: #6f4a18;
+    font-weight: bold;
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(200, 147, 45, 0.75);
+    text-underline-offset: 0.20em;
+
+    text-shadow:
+        1px 1px 0 rgba(255, 248, 225, 0.95),
+        0 1px 1px rgba(90, 55, 20, 0.25);
+}
+.color-important
+{
+    font-family:cursive;
+}
+.color-concept
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.color-action
+{
+    font-family: cursive;
+    color: #861e1e;
+    /* text-decoration: underline; */
+}
+
+/* Termes techniques, exemples spécifiques */
+.color-technique 
+{
+    color: #7c3030;
+    /* text-decoration: underline; */
+
+    /* text-decoration:underline; */
+    /* text-decoration-thickness: 1px; */
+    /* text-decoration-color: rgba(136, 55, 55, 0.2);     */
+    /* font-family:'Times New Roman', Times, serif; */
+}
+
+/* Compléments, notes supplémentaires, styles alternés */
+/* .color-complement 
+{
+  color: #8e44ad;
+  font-style: italic;
+} */
+
+/* ul.charte-list 
+{
+  font-size: 0.9em;
+  padding-left: 1.2em;
+  margin-top: 0.5em;
+
+} */
+/* Symboles musicaux inline (reprises, fine, DC, etc.) */
+.music-symbol 
+{
+  height: 2em;
+  vertical-align: middle;
+  margin: 0 0.2em;
+
+  border: 2px solid rgb(120,200,200);
+  background-color: rgba(0, 255, 255, 0.1);
+
+  /* Optionnel mais utile */
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/******************************************************************************
+ * Charte des couleurs — Exercices
+ ******************************************************************************/
+
+/* .exercise-text
+{
+    color: #252525;
+} */
+.exercise-fondamental
+{
+    color: #087523;
+    font-weight: 700;
+    /* font-weight: bold; */
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(175, 194, 235, 0.7);
+    text-underline-offset: 0.17em;
+
+    text-shadow:
+        1px 1px 0 rgba(243, 243, 243, 0.95),
+        0 1px 1px rgba(255, 255, 255, 0.3);
+    
+}
+.exercise-important
+{
+    color: #5a4300;
+    font-weight: 700;
+
+    background: rgba(255, 241, 168, 0.65);
+
+    border-radius: 3px;
+
+    padding: 0.05em 0.25em;
+
+    box-shadow:
+        0 0 0 1px rgba(255, 248, 205, 0.75),
+        1px 1px 2px rgba(80, 55, 10, 0.20);
+
+    text-shadow:
+        1px 1px 0 rgba(255, 250, 220, 0.85),
+        0 1px 1px rgba(70, 50, 10, 0.20);
+}
+.exercise-technique
+{
+    /* font-family: "IM Fell"; */
+    /* font-family:; */
+    color: #1c63a5;
+    /* font-weight: bolder; */
+
+   text-shadow:
+         -1px 0px 2px #e2fadb,
+        1px  1px 2px #daf4d2,
+        1px 1px 2px #000000;        
+}
+.exercise-action
+{
+    color: #14427d;
+    font-weight: 600;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.7),
+        0 1px 1px rgba(0,0,0,.12);
+}
+.exercise-concept
+{
+    font-family: "IM Fell";
+    /* font-family:; */
+    color: #4c763f;
+    /* font-weight: bolder; */
+
+   text-shadow:
+         -1px 0px 2px #e2fadb,
+        1px  1px 2px #daf4d2,
+        1px 1px 2px #000000;        
+
+}
+
+
+/******************************************************************************
+ * CHARTE — MORCEAUX
+ ******************************************************************************/
+.piece-fondamental
+{
+    color: #6f4a18;
+    font-weight: bold;
+
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(200, 147, 45, 0.75);
+    text-underline-offset: 0.20em;
+
+    text-shadow:
+        1px 1px 0 rgba(255, 248, 225, 0.95),
+        0 1px 1px rgba(90, 55, 20, 0.25);
+}
+ .piece-important
+{
+    color: #8b2f2f;
+
+    font-weight: 600;
+}
+.piece-action
+{
+    color: #96535e;
+
+    font-weight: 600;
+}
+.piece-action
+{
+    color: #6f4f68;
+    font-weight: 600;
+
+    text-shadow:
+        1px 1px 0 rgba(255, 248, 225, 0.90),
+        0 1px 1px rgba(70, 45, 65, 0.25);
+}
+.piece-concept
+{
+    color: #14427d;
+
+    font-weight: 600;
+}
+.piece-technique
+{
+    color: #7c3030;
+}

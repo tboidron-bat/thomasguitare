@@ -1,0 +1,111 @@
+
+/*=============================================================================
+  IM Fell English
+=============================================================================*/
+
+@font-face
+{
+    font-family: "IM Fell";
+
+    src: url("imfellenglish-regular.ttf") format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+}
+
+@font-face
+{
+    font-family: "IM Fell";
+
+    src: url("imfellenglish-Italic.ttf") format("truetype");
+
+    font-weight: normal;
+    font-style: italic;
+
+    font-display: swap;
+}
+
+
+/*=============================================================================
+  Goudy Initials
+=============================================================================*/
+
+@font-face
+{
+    font-family: "Goudy Initials";
+
+    src: url("goudy_ini.ttf") format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+}
+
+
+/*=============================================================================
+  Lombardi
+=============================================================================*/
+
+@font-face
+{
+    font-family: "Lombardi";
+
+    src: url("lombardi.TTF") format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+}
+
+
+/*=============================================================================
+  Camelot Caps
+=============================================================================*/
+
+@font-face
+{
+    font-family: "Camelot";
+
+    src: url("camelotcaps.ttf") format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+}
+
+
+/*=============================================================================
+  Gothic Leaf
+=============================================================================*/
+
+@font-face
+{
+    font-family: "Gothic Leaf";
+
+    src: url("gothicleaf-veay.ttf") format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+}
+
+
+/*=============================================================================
+  Jacquard 24
+=============================================================================*/
+
+@font-face
+{
+    font-family: "Jacquard";
+
+    src:
+        url("jacquard/jacquard-24-v4-latin-regular.woff2") format("woff2"),    
+        url("jacquard/jacquard_24_regular.ttf") format("truetype");
+
+}

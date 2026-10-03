@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37mm"
+   height="26mm"
+   viewBox="0 0 37 26"
+   version="1.1"
+   id="svg2712"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="double_croche_1_3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2714"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.9300999"
+     inkscape:cx="46.62971"
+     inkscape:cy="48.702141"
+     inkscape:window-width="1104"
+     inkscape:window-height="552"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2709" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="1456.98,687.965 1456.98,758.198"
+       id="polyline38"
+       transform="matrix(0.21145144,0,0,0.21145144,-304.06869,-138.23441)" />
+    <polyline
+       class="Stem"
+       fill="none"
+       stroke="#000000"
+       stroke-width="2.48"
+       stroke-linejoin="bevel"
+       points="1549.92,687.965 1549.92,758.198"
+       id="polyline44"
+       transform="matrix(0.21145144,0,0,0.21145144,-304.06869,-138.23441)" />
+    <path
+       class="Note"
+       d="m 3.7496189,7.2373059 c 0,0.901311 0.6489445,1.9075077 2.3499605,1.9075077 2.1795505,0 4.4672326,-1.7829625 4.4672326,-3.6281947 0,-1.2388941 -1.0487968,-1.9304408 -2.349959,-1.9304408 -2.0353207,0 -4.4672341,1.7206807 -4.4672341,3.6511278"
+       id="path50"
+       style="stroke-width:0.20976" />
+    <path
+       class="Note"
+       d="m 23.401916,7.2373059 c 0,0.901311 0.648944,1.9075077 2.349959,1.9075077 2.179552,0 4.467235,-1.7829625 4.467235,-3.6281947 0,-1.2388941 -1.048797,-1.9304408 -2.349958,-1.9304408 -2.035322,0 -4.467236,1.7206807 -4.467236,3.6511278"
+       id="path54"
+       style="stroke-width:0.20976" />
+    <path
+       class="Beam"
+       fill-rule="evenodd"
+       d="M 3.7496189,20.776644 H 23.926316 v 2.621999 H 3.7496189 v -2.621999"
+       id="path88"
+       style="stroke-width:0.211451" />
+    <path
+       class="Beam"
+       fill-rule="evenodd"
+       d="m 3.7496189,16.843648 h 5.7683963 v 2.621999 H 3.7496189 v -2.621999"
+       id="path90"
+       style="stroke-width:0.211451" />
+    <path
+       class="NoteDot"
+       d="m 32.838993,3.7336604 c 0,0.586673 0.462129,1.048799 1.0488,1.048799 0.586671,0 1.048798,-0.462126 1.048798,-1.048799 0,-0.5866731 -0.462127,-1.0487994 -1.048798,-1.0487994 -0.586671,0 -1.0488,0.4621263 -1.0488,1.0487994"
+       id="path98"
+       style="stroke-width:0.20976" />
+  </g>
+</svg>

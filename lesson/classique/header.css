@@ -1,0 +1,508 @@
+header
+{
+    position: relative;
+
+    height: 120px;
+
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+    /* margin-bottom: 5px; */
+
+    /* box-sizing: border-box; */
+
+    border: 5px double #b99b6b;
+
+    border-radius: 10px;
+
+    /* background-color:#f7ead5; */
+
+   /* background-image:
+        url("/img/texture/paper_noise_00.png"); */
+
+    /* background-color:rgba(246, 248, 200, 0.8); */
+
+    box-shadow:
+        4px 4px 6px rgba(0,0,0,.20),
+        inset 0 1px 0 rgba(255,255,255,.85);
+}
+header::before
+{
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        url("/img/texture/paper_noise_02.png");
+
+    background-repeat: repeat;
+
+    opacity: 0.30;
+
+    pointer-events: none;
+
+    border-radius: 5px;
+}
+/* =========================================================
+   CONTENU
+   ========================================================= */
+
+.content
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;    
+    border: 2px solid #b99b6b;    
+    /* border: 2px solid #a42f2f;         */
+
+    width: 100%;
+    height: 100%;
+
+
+    /* border: 3px ridge rgb(255,255,255);     */
+    z-index: 1;
+}
+.header-corner
+{
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+
+    background-image:
+        url("/img/ornament/corner_silver.png");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    z-index: 20;
+
+    pointer-events: none;
+
+    /* filter:
+        drop-shadow(2px 2px 2px rgba(144, 144, 144, 0.6  )); */
+
+}
+.corner-tl
+{
+    top: -1px;
+    left: -1px ;
+
+}
+.corner-tr
+{
+    top: -1px;
+    right: -1px;
+
+    transform: scaleX(-1);
+}
+
+.corner-bl
+{
+    bottom: -1px;
+    left: -1px;
+
+    transform: scaleY(-1);
+}
+
+.corner-br
+{
+    bottom: -1px;
+    right: -1px;
+
+    transform: scale(-1);
+}
+
+/* =========================================================
+   GAUCHE
+   ========================================================= */
+
+.header-left
+{
+    display: flex;
+
+    height: 100%;
+
+    flex: 1;
+}
+
+
+.guitar-logo
+{
+    margin-left: 1.0em;
+    margin-bottom: 1.0em;
+    margin-right: 0px;
+    padding-right: 0px;
+
+    display: flex;
+    align-items: center;
+
+    /* margin-top: 10px; */
+}
+
+
+.guitar-logo img
+{
+    width: 15   0px;
+    height: 150px;
+
+    object-fit: contain;
+
+    filter:
+        drop-shadow(2px 3px 3px rgba(0,0,0,.28));
+}
+
+
+/* =========================================================
+   TITRE
+   ========================================================= */
+
+.header-title
+{
+    position: relative;    
+    display: flex;
+
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+.header-title-main
+{
+    display: flex;
+    align-items: baseline;
+
+    white-space: nowrap;
+}
+.site-name
+{
+    /* font-family:
+        Georgia,
+        "Times New Roman",
+        serif; */
+
+    /* font-family: "Lombardi";
+    font-family: "Goudy Initials";            
+    font-family: "Gothic Leaf"; */
+    font-family: "Jacquard";    
+
+    font-size: 4.7rem;
+    font-weight: bold;
+
+    color: #603907;
+
+    text-shadow:
+        /* contour clair */
+        -1px -1px 0 #f4dbb9,
+         1px -1px 0 #f4dbb9,
+        -1px  1px 0 #f4dbb9,
+         1px  1px 0 #f4dbb9,
+
+        /* petit relief sombre */
+         1px  1px 0 #8b5a24,
+         2px  2px 0 #754714,
+         3px  3px 2px rgba(50,30,10,.45),
+        0px 0px 30px rgba(255, 255, 255, 1);
+
+    text-decoration: none;
+}
+.separator
+{
+    margin-left: 0.35em;
+    margin-right: 0.20em;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 2.1rem;
+
+    color: #8b7358;
+
+    text-shadow:
+        1px 1px 0 #f4dbb9,
+        0 1px 2px rgba(60,40,20,.25),
+        0px 5px 5px rgba(255, 255, 255, 1);
+}
+.section-name
+{
+    /* font-family:
+        Georgia,
+        "Times New Roman",
+        serif; */
+
+    /* font-family: "Jacquard";                     
+    font-family: "Lombardi";        */
+    font-family: "Goudy Initials";            
+
+
+    font-size: 2.3rem;
+    font-weight: normal;
+
+    color: #a54d24;
+
+    text-shadow:
+        -1px -1px 0 #f4dbb9,
+         1px -1px 0 #f4dbb9,
+        -1px  1px 0 #f4dbb9,
+         1px  1px 0 #f4dbb9,
+
+         1px 1px 0 #8b4425,
+         2px 2px 2px rgba(60,30,10,.25),
+        0px 0px 30px rgba(255, 255, 255, 1);
+}
+.header-subtitle
+{
+    position: absolute;
+
+    left: 50%;
+    top: 45%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+
+    white-space: nowrap;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.7rem;
+    font-style: italic;
+
+    color: #67452b;
+
+    text-shadow:
+        1px 1px 0 #f4dbb9,
+        0px 0px 10px rgba(255, 255, 255, 1);
+}
+.header-subtitle::before,
+.header-subtitle::after
+{
+    content: "";
+
+    display: block;
+
+    width: 80px;
+    height: 22px;
+
+    background-image:
+        url("/img/ornament/needle.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    flex-shrink: 0;
+}
+.header-subtitle::before
+{
+    margin-right: 8px;
+}
+.header-subtitle::after
+{
+    transform: scaleX(-1);    
+    margin-left: 8px;
+}
+
+/* =========================================================
+   BANNIERE CENTRAL
+   ========================================================= */
+.header-center
+{
+    position: absolute;
+
+    left: 59%;
+    top: 55%;
+
+    width: 500px;
+    height: 100px;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-center img
+{
+    width: 280px;
+    height: auto;
+
+    /* surtout pas de margin-left ici */
+
+    filter:
+        drop-shadow(2px 2px 2px rgba(0,0,0,1));
+
+    opacity: 0.8;
+}
+.button
+{
+    appearance: none;
+
+    border: none;
+    padding: 0;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+
+    background-image:
+        url("/img/button_leather_00.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    color: #f4dbb9;
+
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: bold;
+
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #300000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+
+    filter:
+        drop-shadow(1px 2px 3px rgba(0,0,0,.45));
+
+        opacity: 0.9;
+}
+.button:hover
+{
+    /* transform: translateY(-2px); */
+    opacity: 1;    
+}
+.prev
+{
+    margin-right: -10px;
+    transform: translateY(-5px);        
+}
+
+.next
+{
+    margin-left: -13px;
+    transform: translateY(-5px);            
+}
+
+/* =========================================================
+   DROITE
+   ========================================================= */
+
+.header-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 100%;
+
+    flex: 1;
+
+    gap: 0px;    
+}
+
+
+/* =========================================================
+   ORNEMENTS
+   ========================================================= */
+
+.header-ornament
+{
+    width: 75px;
+    height: 45px;
+
+    background-image:
+        url("/img/ornament.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/* =========================================================
+   PLUME
+   ========================================================= */
+
+.header-quill
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* right:0px; */
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+    /* padding-left: 20px; */
+
+
+    width: 65px;
+    height: 100%;
+
+    transform: translateY(4px);    
+}
+
+
+.header-quill img
+{
+    width: 60px;
+    height: auto;
+
+    /* object-fit: contain; */
+
+    filter:
+        drop-shadow(2px 3px 3px rgba(0,0,0,.5   ));
+}
+
+/* Ornement gauche */
+
+.header-ornament-quill-left
+{
+    width: 130px;
+    height: 50px;
+
+    background-image: url("/img/ornament/flourish.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    transform: scaleX(-1);
+
+    margin-bottom: 5%;
+}
+/* Ornement droit */
+
+.header-ornament-quill-right
+{
+    width: 80px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+
+    margin-top: 4%;    
+
+    background-image: url("/img/ornament/flourish.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

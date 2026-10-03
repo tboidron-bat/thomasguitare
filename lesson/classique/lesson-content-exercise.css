@@ -1,0 +1,547 @@
+/******************************************************************************
+ * Structure de la page exercice
+ ******************************************************************************/
+
+.lesson-content-exercise
+{
+    display: flex;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    background-color: white;
+
+    border-left: ridge 3px rgb(245, 213, 145);
+    border-right: ridge 3px rgb(245, 213, 145);
+
+
+}
+
+/******************************************************************************
+ * PAGE
+ ******************************************************************************/
+
+.lesson-content-exercise .page
+{
+    flex: 0 0 50%;
+
+    width: 50%;
+
+    min-width: 0;
+
+    font-size: 1.5rem;
+
+    box-sizing: border-box;
+
+    /* background-color: rgba(255,25,255,.12); */
+
+
+    padding-top: 1.5rem;
+    padding-bottom: 3.5em;
+
+    border-top: dotted 2px  #207d16  ;            
+    
+    border-radius: 5px 0px 0px 0px;
+
+    /* box-shadow: 0px -2px 2px rgba(0,0,0,1); */
+}
+
+/******************************************************************************
+ * PAGE GAUCHE
+ ******************************************************************************/
+
+.lesson-content-exercise .page-left
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding-left: 1.7em;
+    padding-right: 2.5em;
+
+
+    background:    
+        linear-gradient(
+            to right,
+            transparent 0,
+            transparent 3rem,
+
+            #ec8282 3rem,
+            #f89292 3.1rem,
+
+            transparent 3.1rem
+        ),
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+
+            rgba(190, 215, 235, 0.35) 1.75rem,
+            rgba(190, 215, 235, 0.35) 1.82rem
+        ), 
+
+        url("/img/texture/paper_noise_canson.webp");
+
+
+
+    margin: 0;
+
+}
+
+/******************************************************************************
+ * PAGE DROITE
+ ******************************************************************************/
+
+.lesson-content-exercise .page-right
+{
+    position: relative;
+
+    overflow: visible;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0;
+
+    background:    
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+
+            rgba(190, 215, 235, 0.35) 1.75rem,
+            rgba(190, 215, 235, 0.35) 1.82rem
+        ), 
+
+        url("/img/texture/paper_noise_canson.png");
+
+
+
+
+}
+
+
+
+.lesson-content-exercise h2
+{
+    display:inline-flex;
+    
+
+    align-items:center;
+
+    margin-top:0;
+
+}
+
+/******************************************************************************
+ * Lettrine et Ruban vert du titre Exercice
+ ******************************************************************************/
+
+.lesson-content-exercise .dropcap
+{
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 85px;
+    height: 135px;
+
+    margin: 0;
+    /* padding: 8px 0 0 0; */
+    padding-bottom: .2em;
+
+    box-sizing: border-box;
+
+    font-family: "IM Fell", serif;
+    font-size: 4.5rem;
+
+    color: #f8f5e8;
+
+    background:
+        url("/img/ornament/ribbon_green.webp")
+        center / 100% 100%
+        no-repeat;        
+
+    border: none;
+    border-radius: 0;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.35),
+        2px 2px 2px rgba(0,0,0,.45);
+
+    box-shadow: none;
+
+    z-index: 3;
+}
+
+
+/******************************************************************************
+ * Titre
+ ******************************************************************************/
+
+
+.lesson-content-exercise .title-text
+{
+    position: relative;
+    display: flex;
+    
+   
+    top: -8px;      
+    left: -2px;
+
+    padding-bottom: 10px;
+    padding-right: 5px;
+
+    font-size:3rem;
+
+    color:#14427d;
+
+    background-color: #f5ebcb;
+
+    background-image: url("/img/texture/paper_noise_canson.webp");
+
+    border-top: 2px solid #96a453 ;
+    border-bottom: 2px solid #96a453 ;    
+    border-right: 2px solid #96a453 ;        
+
+    border-radius: 0 10px 10px 0;
+
+    /* text-shadow:
+        -1px -1px 0 rgb(255, 255, 255),
+         1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+         1px  1px 0 rgb(255, 255, 255),
+         0 2px 3px rgba(0,0,0,.5); */
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.65),
+        inset 0 0 0 4px rgba(150,164,83,.12),
+        2px 2px 4px rgba(0,0,0,.25);         
+}
+
+
+.lesson-content-exercise h3
+{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-size:1rem;    
+}
+
+
+.lesson-content-exercise ul
+{
+    padding:0;
+
+
+    margin: 0;
+    margin-right: 1.0em;
+    /* padding-left: 0.1em;  */
+    margin-left: 1.3em;   
+
+
+    /* border-left: double 4px rgba(0,155,0,0.2); */
+    /* border-left: double 4px rgba(0,155,0,0.2);     */
+    border-radius: 20px;
+
+}
+
+.lesson-content-exercise li
+{
+    padding:0;
+    margin: 0;
+    margin-bottom: 0.4em;
+    /* padding-left: 0.em;         */
+
+    color: #252525;    
+
+    font-family: "EB Garamond", serif;    
+
+    list-style: url("/img/chip/star_green_02.png");
+
+    line-height: 1;
+
+    font-size: 1.3em;        
+}
+
+.lesson-content-exercise .lesson-figure
+{
+    position: relative;
+
+    width: 100%;
+
+    margin: 0;
+
+    transition: transform .25s ease;
+}
+
+
+.lesson-content-exercise .figure-frame
+{
+    position: relative;
+
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+
+.lesson-content-exercise .figure-frame img
+{
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    box-sizing: border-box;
+
+    padding: 1rem;
+
+    background: #f8edb6;
+
+    background-image: url("/img/texture/parchment_500x750.png");
+
+    border: 3px double #4c763f;
+
+    border-radius: 12px;
+
+    box-shadow:
+        2px 8px 16px rgba(0,0,0,.4),
+        inset 0 1px 0 rgba(255,255,255,.8);
+}
+
+/******************************************************************************
+ * Coins décoratifs de l'illustration — Exercices
+ ******************************************************************************/
+
+.lesson-content-exercise .figure-corner
+{
+    position: absolute;
+
+    width: 35px;
+    height: 35px;
+
+    pointer-events: none;
+
+    background:
+        url("/img/ornament/corner_green.png")
+        center / contain
+        no-repeat;
+
+    z-index: 5;
+}
+
+
+/* ─────────────────────────────
+   Coin haut gauche
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-tl
+{
+    top: 4px;
+    left: 4px;
+}
+
+
+/* ─────────────────────────────
+   Coin haut droit
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-tr
+{
+    top: 4px;
+    right: 4px;
+
+    transform: scaleX(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas gauche
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-bl
+{
+    bottom: 4px;
+    left: 4px;
+
+    transform: scaleY(-1);
+}
+
+
+/* ─────────────────────────────
+   Coin bas droit
+   ───────────────────────────── */
+
+.lesson-content-exercise .figure-corner-br
+{
+    bottom: 4px;
+    right: 4px;
+
+    transform: rotate(180deg);
+}
+
+/******************************************************************************
+ * Fleuron — largeur complète de la page droite
+ ******************************************************************************/
+
+.lesson-content-exercise .page-right .fleurons-exerice
+{
+    position: absolute;
+
+    bottom:0px;
+    right: 10px;
+
+    width: 96%;
+    height: 45px;
+
+    background:
+        url("/img/ornament/fleuron_exerice_right_02.png")
+        center / contain
+        repeat;
+
+    pointer-events: none;
+
+    z-index: 4;
+}
+
+
+
+
+/******************************************************************************
+ * Lecteur audio 
+ ******************************************************************************/
+
+.lesson-content-exercise .exercise-audio
+{
+    display: flex;
+
+    align-items: center;
+
+    width: 92%;
+
+    min-height: 58px;
+
+    margin: 1.2rem auto 0;
+
+    padding: 6px 12px 6px 10px;
+
+    box-sizing: border-box;
+
+
+    background: #f5ebcb;
+
+    border: 2px solid #96a453;
+
+    border-radius: 9px;
+
+    box-sizing: border-box;
+
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.65),
+        inset 0 0 0 4px rgba(150,164,83,.12),
+        2px 2px 4px rgba(0,0,0,.25);    
+}
+
+
+/******************************************************************************
+ * Libellé
+ ******************************************************************************/
+
+.lesson-content-exercise .audio-label
+{
+    display: flex;
+
+    align-items: center;
+
+    gap: .55rem;
+
+    flex: 0 0 auto;
+
+    margin-right: 1rem;
+
+    color: #536b2e;
+
+    font-family: "EB Garamond", serif;
+
+    font-size: 1.25rem;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+
+/******************************************************************************
+ * Petite icône musicale
+ ******************************************************************************/
+
+.lesson-content-exercise .audio-icon
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    font-size: 1.5rem;
+
+    color: #536b2e;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.8);
+}
+
+
+/******************************************************************************
+ * Lecteur natif
+ ******************************************************************************/
+
+.lesson-content-exercise .exercise-audio audio
+{
+    display: block;
+
+    flex: 1 1 auto;
+
+    width: auto;
+    min-width: 0;
+
+    height: 42px;
+
+    margin: 0;
+
+    accent-color: #536b2e;
+}
+
+
+@media (max-width:1000px)
+{
+    .lesson-content-exercise
+    {
+        flex-direction: column;
+    }
+
+    .lesson-content-exercise .image
+    {
+        width: 100%;
+
+        padding-right: 0;
+
+        margin-top: 1.5rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,63 @@
+.lesson-advice
+{
+
+    margin-top: 1em;    
+    margin-left: 3em;
+    margin-right: 20px;
+    padding: 0;    
+    padding-top: 0px;
+    padding-left: .7em;
+    padding-bottom: 0.5em;
+
+
+    border-left: 3px solid #aaa6a6; 
+    border-top: 1px dashed #aaa6a6;     
+    border-bottom: 1px dashed #aaa6a6;         
+    border-radius: 15px 0 0 5px;
+    
+    background: rgba(255, 248, 225, 0.3);
+
+}
+
+
+
+.lesson-advice .title
+{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.3em;
+
+    width: fit-content;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.15em;
+    /* text-decoration: underline; */
+}
+
+
+.lesson-advice .list
+{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5em;
+    padding-left: 22px;
+}
+
+
+.lesson-advice .list li
+{
+    margin-bottom: 12px;
+
+    line-height: 1;
+
+    font-family: cursive;    
+    font-size: 1.2em;    
+
+    list-style:decimal;
+}
+
+
+.lesson-advice .list li:last-child
+{
+    margin-bottom: 0;
+}

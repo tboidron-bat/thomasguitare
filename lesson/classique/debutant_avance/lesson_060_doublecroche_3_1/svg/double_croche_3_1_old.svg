@@ -1,0 +1,24 @@
+<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg" aria-label="Croche pointée suivie d'une double-croche, ellipses à gauche des hampes" role="img">
+
+  <!-- Hampe de la croche pointée -->
+  <line x1="20" y1="60" x2="20" y2="10" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Barre longue entre croche et double-croche -->
+  <rect x="20" y="10" width="50" height="6" fill="black" rx="3" ry="3"/>
+
+  <!-- Barre courte (1/4), positionnée juste à gauche de la hampe verticale -->
+  <rect x="58" y="22" width="12.5" height="6" fill="black" rx="3" ry="3"/>
+
+  <!-- Hampe de la double-croche -->
+  <line x1="70" y1="60" x2="70" y2="10" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Tête de la croche pointée (ellipse noire pleine), déplacée à gauche -->
+  <ellipse cx="12" cy="65" rx="8" ry="12" fill="black" stroke="none" transform="rotate(20 12 65)" />
+
+  <!-- Tête de la double-croche (ellipse avec contour), déplacée à gauche -->
+  <ellipse cx="62" cy="65" rx="8" ry="12" fill="black" stroke="black" stroke-width="2" transform="rotate(20 62 65)"/>
+
+  <!-- Point sur la tête de la note de gauche -->
+  <circle cx="27" cy="65" r="3.5" fill="black" />
+
+</svg>
