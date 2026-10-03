@@ -237,12 +237,10 @@
     margin-top: 0.3em;
     margin-bottom: 0.3em;
 
-    width: 70px;
+    width: 50px;
 
     transform: translateX(-50%);
 
-    border-left: 2px dotted rgba(0, 0, 0, 0.55);
-    border-right: 2px dotted rgba(0, 0, 0, 0.55);    
 
     background-image:
         linear-gradient(
@@ -256,13 +254,13 @@
 
             rgba(190, 190, 190, 0.7) 40%,            
 
-            rgba(150, 150, 150, 1) 45%,
+            rgb(151, 151, 151) 45%,
 
 
-            rgba(0, 0, 0, 1) 50%,
+            rgb(0, 0, 0) 50%,
 
 
-            rgba(150, 150, 150, 1) 55%,                        
+            rgb(136, 136, 136) 55%,                        
 
             rgba(190, 190, 190, 0.7) 60%,
 
@@ -305,7 +303,7 @@
         center top;
 
     background-size:
-        36px 36px;
+        18px 10px;
 
     filter:
         drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.55));

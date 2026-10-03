@@ -8,48 +8,21 @@ header
     padding-top: 5px;
     padding-left: 5px;
 
-    /* margin-bottom: 5px; */
-
-    /* box-sizing: border-box; */
-
-    border: 5px double #b99b6b;
+    border: 5px double #000000;
 
     border-radius: 10px;
 
-    /* background-color:#f7ead5; */
-
-   /* background-image:
-        url("/img/texture/paper_noise_00.png"); */
-
-    /* background-color:rgba(246, 248, 200, 0.8); */
+    background-color:#f7ead5;
 
     box-shadow:
         4px 4px 6px rgba(0,0,0,.20),
         inset 0 1px 0 rgba(255,255,255,.85);
 }
-header::before
-{
-    content: "";
-
-    position: absolute;
-    inset: 0;
-
-    background-image:
-        url("/img/texture/paper_noise_02.png");
-
-    background-repeat: repeat;
-
-    opacity: 0.30;
-
-    pointer-events: none;
-
-    border-radius: 5px;
-}
 /* =========================================================
    CONTENU
    ========================================================= */
 
-.content
+.header-container
 {
     position: relative;
 
@@ -57,25 +30,22 @@ header::before
     align-items: center;
 
     border-radius: 10px;    
-    border: 2px solid #b99b6b;    
-    /* border: 2px solid #a42f2f;         */
+    border: 2px solid #b99b6b;
 
     width: 100%;
     height: 100%;
 
-
-    /* border: 3px ridge rgb(255,255,255);     */
     z-index: 1;
 }
 .header-corner
 {
     position: absolute;
 
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
 
     background-image:
-        url("/img/ornament/corner_silver.png");
+        url("/img/ornament/corner_silver_00.png");
 
     background-repeat: no-repeat;
     background-size: contain;
@@ -90,30 +60,30 @@ header::before
 }
 .corner-tl
 {
-    top: -1px;
-    left: -1px ;
+    top: -9px;
+    left: -9px ;
 
 }
 .corner-tr
 {
-    top: -1px;
-    right: -1px;
+    top: -9px;
+    right: -9px;
 
     transform: scaleX(-1);
 }
 
 .corner-bl
 {
-    bottom: -1px;
-    left: -1px;
+    bottom: -9px;
+    left: -9px;
 
     transform: scaleY(-1);
 }
 
 .corner-br
 {
-    bottom: -1px;
-    right: -1px;
+    bottom: -9px;
+    right: -9px;
 
     transform: scale(-1);
 }
@@ -135,9 +105,6 @@ header::before
 .guitar-logo
 {
     margin-left: 1.0em;
-    margin-bottom: 1.0em;
-    margin-right: 0px;
-    padding-right: 0px;
 
     display: flex;
     align-items: center;
@@ -148,13 +115,14 @@ header::before
 
 .guitar-logo img
 {
-    width: 15   0px;
+    width: 150px;
     height: 150px;
 
     object-fit: contain;
 
     filter:
         drop-shadow(2px 3px 3px rgba(0,0,0,.28));
+        
 }
 
 
@@ -180,14 +148,6 @@ header::before
 }
 .site-name
 {
-    /* font-family:
-        Georgia,
-        "Times New Roman",
-        serif; */
-
-    /* font-family: "Lombardi";
-    font-family: "Goudy Initials";            
-    font-family: "Gothic Leaf"; */
     font-family: "Jacquard";    
 
     font-size: 4.7rem;
@@ -231,17 +191,10 @@ header::before
 }
 .section-name
 {
-    /* font-family:
-        Georgia,
-        "Times New Roman",
-        serif; */
-
-    /* font-family: "Jacquard";                     
-    font-family: "Lombardi";        */
     font-family: "Goudy Initials";            
 
 
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     font-weight: normal;
 
     color: #a54d24;
@@ -261,7 +214,7 @@ header::before
     position: absolute;
 
     left: 50%;
-    top: 45%;
+    top: 60%;
 
     transform: translateX(-50%);
 
@@ -320,7 +273,7 @@ header::before
 {
     position: absolute;
 
-    left: 59%;
+    left: 58.5%;
     top: 55%;
 
     width: 500px;
@@ -407,18 +360,15 @@ header::before
 
 .header-right
 {
+    position: relative;
+
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
     height: 100%;
-
     flex: 1;
-
-    gap: 0px;    
 }
-
-
 /* =========================================================
    ORNEMENTS
    ========================================================= */
@@ -505,4 +455,42 @@ header::before
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+
+
+.menu-catalog
+{
+    position: absolute;
+
+    right: 15%;
+    bottom: 15%;
+
+    display: flex;
+    gap: 10px;
+
+    z-index: 30;
+}
+.menu-catalog-button
+{
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    background: #6f4a18;
+    color: #f4dbb9;
+
+    border: 2px solid #4a2d0f;
+    border-radius: 6px;
+
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+
+    box-shadow: 2px 2px 4px rgba(0,0,0,.35);
+}
+
+.menu-catalog-button:hover
+{
+    background: #8b5a24;
 }

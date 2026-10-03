@@ -1,0 +1,223 @@
+lesson/classique/debutant
+├── 01_base
+│   ├── 01_hauteur
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── 1.mp3
+│   │   │   └── 2.mp3
+│   │   └── svg
+│   │       ├── name_the_note_2.svg
+│   │       ├── name_the_note.svg
+│   │       ├── notes.svg
+│   │       ├── outside_note.svg
+│   │       └── staff_key.svg
+│   ├── 02_cordeavide
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── 1.mp3
+│   │   │   ├── 2.mp3
+│   │   │   ├── 3.mp3
+│   │   │   └── 4.mp3
+│   │   └── svg
+│   │       ├── corde_a_vide_pouce_0.svg
+│   │       ├── corde_a_vide_pouce_1.svg
+│   │       ├── ex_corde_a_vide_03.svg
+│   │       ├── first_excercice.svg
+│   │       ├── measure.svg
+│   │       ├── milaresolsimi.svg
+│   │       ├── quarter.svg
+│   │       └── rosace.svg
+│   ├── 03_signature_rythmique
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── corde_a_vide_01.mp3
+│   │   │   ├── corde_a_vide_02.mp3
+│   │   │   ├── corde_a_vide_03.mp3
+│   │   │   ├── corde_a_vide_0.mp3
+│   │   │   └── valsinette.mp3
+│   │   └── svg
+│   │       ├── ex_corde_a_vide_02.svg
+│   │       ├── ex_corde_a_vide_04.svg
+│   │       ├── ex_corde_a_vide_05.svg
+│   │       ├── ex_corde_a_vide_06.svg
+│   │       ├── ex_corde_a_vide_07_valsinette.svg
+│   │       ├── la_blanche.svg
+│   │       └── timesignature.svg
+│   └── 04_ex_rythmique
+│       ├── lesson.html
+│       ├── mp3
+│       │   ├── corde_a_vide_07.mp3
+│       │   ├── ex_rythm_01.mp3
+│       │   └── ex_rythm_02.mp3
+│       └── svg
+│           ├── exercice_corde_a_vide_08.svg
+│           ├── exo_rythm_1.svg
+│           ├── exo_rythm_2.svg
+│           ├── figure.svg
+│           ├── la_ronde.svg
+│           └── point_de_prolongation.svg
+├── 02_first_note
+│   ├── 01_notes_si_mi
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── dodo_sissi.mp3
+│   │   │   ├── ex_si_mi_2.mp3
+│   │   │   └── ex_si_mi.mp3
+│   │   └── svg
+│   │       ├── cire_dore.svg
+│   │       ├── dodo_sissi.svg
+│   │       ├── ex_corde_si_mi_2.svg
+│   │       ├── ex_corde_si_mi.svg
+│   │       ├── main_gauche.svg
+│   │       ├── note_si_mi.svg
+│   │       ├── point_d_orgue.svg
+│   │       └── reprise.svg
+│   ├── 02_corde_sol_re
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── 1.m4a
+│   │   │   ├── ah_vous_dirais_je_maman.mp3
+│   │   │   ├── au_clair_de_la_lune.mp3
+│   │   │   ├── aura_lee.mp3
+│   │   │   └── flor_de_la_cantuta.mp3
+│   │   └── svg
+│   │       ├── ah_vous_dirais_je_maman.svg
+│   │       ├── au_clair_de_la_lune.svg
+│   │       ├── aura_lee.svg
+│   │       ├── la_flor_de_la_cantuta.svg
+│   │       └── note_re_sol.svg
+│   ├── 03_corde_mi_la
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── gamme_de_do.mp3
+│   │   │   └── une_poule_sur_un_mur.mp3
+│   │   └── svg
+│   │       ├── gamme_do.svg
+│   │       ├── note_mi_la.svg
+│   │       └── une_poule_sur_un_mur.svg
+│   └── 04_accord
+│       ├── lesson.html
+│       ├── mp3
+│       │   ├── corde_a_vide_multiple.mp3
+│       │   ├── do_majeur.mp3
+│       │   ├── la_mineur.mp3
+│       │   ├── mi_mineur.mp3
+│       │   ├── rythmique_mi_mineur.mp3
+│       │   └── rythmique_mim_lam.mp3
+│       └── svg
+│           ├── accord_do_majeur.svg
+│           ├── accord_la_mineur.svg
+│           ├── accord_mi_mineur.svg
+│           ├── corde_a_vide_multiple.svg
+│           ├── rythmique_mi_mineur.svg
+│           └── rythmique_mim_lam.svg
+├── 03_first_rythm
+│   ├── 01_liaison
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── ex_ryhtmique_liaison.mp3
+│   │   │   └── oh_when_the_saints.mp3
+│   │   └── svg
+│   │       ├── ex_rythmique.svg
+│   │       ├── liaison.svg
+│   │       └── oh_when_the_saints.svg
+│   └── 02_croche
+│       ├── lesson.html
+│       ├── mp3
+│       │   ├── a_la_claire_fontaine.mp3
+│       │   ├── ex_rythmique_cordeavide.mp3
+│       │   ├── ex_rythmique_croche_1.mp3
+│       │   ├── ex_rythmique_croche_2.mp3
+│       │   ├── fais_dodo_cola.mp3
+│       │   ├── frere_jacques.mp3
+│       │   └── promenons_nous_dans_les_bois.mp3
+│       └── svg
+│           ├── a_la_claire_fontaine.svg
+│           ├── corde_a_vide_croche.svg
+│           ├── croche.svg
+│           ├── ex_rythmique_croche_01.svg
+│           ├── ex_rythmique_croche_02.svg
+│           ├── frere_jacques.svg
+│           └── promenons_nous_dans_les_bois.svg
+├── 04_first_accidental
+│   ├── 01_diese
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── ainsi_font.mp3
+│   │   │   ├── divertissement.mp3
+│   │   │   ├── joyeux_anniversaire.mp3
+│   │   │   └── romance.mp3
+│   │   └── svg
+│   │       ├── ansi_font_font_font.svg
+│   │       ├── divertissement.svg
+│   │       ├── joyeux_anniversaire.svg
+│   │       ├── le_diese.svg
+│   │       └── romance.svg
+│   ├── 02_tonalite_sol
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── cadet_roussel.mp3
+│   │   │   ├── gamme_de_sol.mp3
+│   │   │   ├── il_court_le_furet.mp3
+│   │   │   └── une_souris_verte.mp3
+│   │   └── svg
+│   │       ├── armure.svg
+│   │       ├── cadet_roussel.svg
+│   │       ├── gamme_sol.svg
+│   │       ├── il_court_il_court_le_furet.svg
+│   │       └── une_souris_verte.svg
+│   ├── 03_bemol
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── gamme_fa.mp3
+│   │   │   └── j_ai_du_bon_tabac.mp3
+│   │   └── svg
+│   │       ├── gamme_fa.svg
+│   │       ├── j_ai_du_bon_tabac.svg
+│   │       └── le_bemol.svg
+│   └── 04_becarre
+│       ├── lesson.html
+│       ├── mp3
+│       │   └── boogie_en_sol.mp3
+│       └── svg
+│           ├── boogie_en_sol.svg
+│           └── le_becarre.svg
+├── 05_intervalles
+│   ├── 01_douze_note
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   └── jeux_interdits_debut.mp3
+│   │   └── svg
+│   │       ├── fretboard_00.svg
+│   │       ├── jeux_interdits_debut.svg
+│   │       ├── les_12_notes.svg
+│   │       └── Partition sans titre-1.svg
+│   └── lesson.html
+├── 06_consolidation
+│   ├── 01_lies
+│   │   ├── lesson.html
+│   │   ├── mp3
+│   │   │   ├── hymne_a_la_joie.mp3
+│   │   │   └── menuet_bach.mp3
+│   │   └── svg
+│   │       ├── hymne_a_la_joie.svg
+│   │       ├── liés_ascendants.svg
+│   │       ├── liés_descendants.svg
+│   │       └── menuet_j_s_bach.svg
+│   └── 02_triolet
+│       ├── lesson.html
+│       ├── mp3
+│       │   ├── ex_rythmique_triolet_1.mp3
+│       │   ├── ex_rythmique_triolet_2.mp3
+│       │   └── le_bon_roi_dagobert.mp3
+│       └── svg
+│           ├── ex_rythmique_triolet_1.svg
+│           ├── ex_rythmique_triolet_2.svg
+│           ├── le_bon_roi_dagobert.svg
+│           └── triolet.svg
+└── 06_goal
+    ├── lesson.html
+    └── svg
+        └── string_number.svg
+
+60 directories, 161 files

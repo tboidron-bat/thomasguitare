@@ -103,7 +103,9 @@
     color: #5a4300;
     font-weight: 700;
 
-    background: rgba(255, 241, 168, 0.65);
+    /* background: rgba(255, 241, 168, 0.2); */
+
+    text-decoration: underline;    
 
     border-radius: 3px;
 

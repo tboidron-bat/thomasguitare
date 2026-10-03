@@ -40,7 +40,7 @@
     padding-top: 1.5rem;
     padding-bottom: 3.5em;
 
-    border-top: dotted 2px  #207d16  ;            
+    border-top: solid 2px  #207d16  ;            
     
     border-radius: 5px 0px 0px 0px;
 
@@ -81,7 +81,7 @@
             rgba(190, 215, 235, 0.35) 1.82rem
         ), 
 
-        url("/img/texture/paper_noise_canson.webp");
+        url("/img/texture/paper_noise_02.png");
 
 
 
@@ -118,7 +118,7 @@
             rgba(190, 215, 235, 0.35) 1.82rem
         ), 
 
-        url("/img/texture/paper_noise_canson.png");
+        url("/img/texture/paper_noise_02.png");
 
 
 
@@ -239,18 +239,20 @@
 
 .lesson-content-exercise ul
 {
-    padding:0;
+    padding:1em 1em 1em 0.6em;
 
 
     margin: 0;
-    margin-right: 1.0em;
-    /* padding-left: 0.1em;  */
-    margin-left: 1.3em;   
+    margin-left: 8px;       
+
 
 
     /* border-left: double 4px rgba(0,155,0,0.2); */
     /* border-left: double 4px rgba(0,155,0,0.2);     */
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid rgba(0,155,0,0.2);
+
+    background-color: rgba(255, 0, 0, 0.05);    
 
 }
 
@@ -258,14 +260,15 @@
 {
     padding:0;
     margin: 0;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.3em;
     /* padding-left: 0.em;         */
 
     color: #252525;    
 
     font-family: "EB Garamond", serif;    
 
-    list-style: url("/img/chip/star_green_02.png");
+    list-style: url("/img/chip/disc_little_grey");
+    /* list-style:disc; */
 
     line-height: 1;
 

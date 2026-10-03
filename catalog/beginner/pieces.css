@@ -1,0 +1,250 @@
+/* ============================================================
+   CATALOGUE — MORCEAUX
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   STRUCTURE GÉNÉRALE
+   ------------------------------------------------------------ */
+
+main
+{
+    width: 100%;
+    padding: 0;
+}
+
+
+.catalog-group
+{
+    position: relative;
+
+    width: min(900px, 90%);
+    margin: 45px auto 60px auto;
+    padding: 30px 40px 35px 40px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            rgba(255, 248, 225, 0.78),
+            rgba(235, 215, 175, 0.62)
+        );
+
+    border: 2px solid rgba(105, 72, 35, 0.45);
+    border-radius: 8px;
+
+    box-shadow:
+        0 5px 12px rgba(50, 30, 10, 0.18),
+        inset 0 0 25px rgba(120, 80, 30, 0.08);
+}
+
+
+/* ------------------------------------------------------------
+   PETITE DÉCORATION DU CADRE
+   ------------------------------------------------------------ */
+
+.catalog-group::before,
+.catalog-group::after
+{
+    content: "❦";
+
+    position: absolute;
+
+    font-family: serif;
+    font-size: 1.5rem;
+
+    color: #8b5a24;
+
+    opacity: 0.75;
+}
+
+.catalog-group::before
+{
+    top: 8px;
+    left: 14px;
+}
+
+.catalog-group::after
+{
+    top: 8px;
+    right: 14px;
+}
+
+
+/* ------------------------------------------------------------
+   TITRE — DÉBUTANT
+   ------------------------------------------------------------ */
+
+.catalog-group h3
+{
+    margin: 0 0 25px 0;
+    padding: 0 0 12px 0;
+
+    text-align: center;
+
+    font-family:
+        "IM FELL English",
+        Georgia,
+        serif;
+
+    font-size: 2rem;
+    font-weight: normal;
+
+    color: #49351f;
+
+    border-bottom: 1px solid rgba(90, 60, 30, 0.30);
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.65);
+}
+
+
+/* ------------------------------------------------------------
+   LISTE
+   ------------------------------------------------------------ */
+
+.catalog-list
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+
+/* ------------------------------------------------------------
+   MORCEAU
+   ------------------------------------------------------------ */
+
+.catalog-list li
+{
+    position: relative;
+
+    margin: 0;
+
+    padding: 10px 15px 10px 35px;
+
+    border-bottom:
+        1px solid rgba(100, 70, 35, 0.15);
+
+    transition:
+        background-color 0.15s ease,
+        padding-left 0.15s ease;
+}
+
+
+.catalog-list li:last-child
+{
+    border-bottom: none;
+}
+
+
+/* ------------------------------------------------------------
+   ORNEMENT DEVANT LE MORCEAU
+   ------------------------------------------------------------ */
+
+.catalog-list li::before
+{
+    content: "♪";
+
+    position: absolute;
+
+    left: 8px;
+    top: 8px;
+
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+
+    color: #8b5a24;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.6);
+}
+
+
+/* ------------------------------------------------------------
+   LIENS
+   ------------------------------------------------------------ */
+
+.catalog-list a
+{
+    display: block;
+
+    color: #38291b;
+
+    font-family:
+        "EB Garamond",
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 1.25rem;
+
+    line-height: 1.35;
+
+    text-decoration: none;
+
+    transition:
+        color 0.15s ease,
+        padding-left 0.15s ease;
+}
+
+
+/* ------------------------------------------------------------
+   SURVOL
+   ------------------------------------------------------------ */
+
+.catalog-list li:hover
+{
+    background:
+        rgba(180, 140, 80, 0.10);
+
+    padding-left: 40px;
+}
+
+
+.catalog-list a:hover
+{
+    color: #7a3f20;
+
+    text-decoration: underline;
+
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+
+/* ------------------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------------------ */
+
+@media (max-width: 700px)
+{
+    .catalog-group
+    {
+        width: 94%;
+
+        margin-top: 25px;
+
+        padding:
+            25px 18px 28px 18px;
+    }
+
+
+    .catalog-group h3
+    {
+        font-size: 1.7rem;
+    }
+
+
+    .catalog-list li
+    {
+        padding-left: 30px;
+    }
+
+
+    .catalog-list a
+    {
+        font-size: 1.1rem;
+    }
+}
