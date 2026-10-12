@@ -26,7 +26,7 @@
     box-shadow:
         3px 3px 3px rgba(0,0,0,.4);
 
-    opacity: 0.92;        
+    /* opacity: 0.92;         */
 }
 
 
@@ -43,8 +43,7 @@
     margin: 0;
     padding-left: 1.0em;
 
-    /* background-image: url("/img/texture/parchment_500x750.png"); */
-    background-image: url("/img/texture/paper_noise_00.png");    
+    background-image: url("/img/texture/paper_noise_parchment.png");    
 
     border-top:
         solid 1px #000000;
@@ -52,12 +51,7 @@
     border-bottom:
         solid 1px #000000;
 
-    /* border-left: solid 15px #000000; */
-
     border-radius: 15px;
-
-
-
 }
 
 
@@ -93,7 +87,7 @@
     height: 75px;
 
     background:
-        url("/img/ornament/corner_arabic_00.png")
+        url("/img/ornament/corner_arabic_00.webp")
         top left / contain
         no-repeat;
 
@@ -116,7 +110,7 @@
     height: 75px;
 
     background:
-        url("/img/ornament/corner_arabic_00.png")
+        url("/img/ornament/corner_arabic_00.webp")
         top left / contain
         no-repeat;
 

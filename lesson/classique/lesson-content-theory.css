@@ -15,7 +15,7 @@
     border-left: ridge 3px rgb(245, 213, 145);
     border-right: ridge 3px rgb(245, 213, 145);
 
-    border-top: 2px solid black;
+    /* border-top: 2px solid black; */
 }
 
 
@@ -59,8 +59,11 @@
             transparent 0,
             transparent 3rem,
 
-            #ec8282 3rem,
-            #f89292 3.1rem,
+            /* #ec8282 3rem, */
+            /* #f89292 3.1rem,             */
+            rgba(236, 130, 130, 0.3) 3rem,
+            rgba(248, 146, 146, 0.3) 3.1rem,                         
+
 
             transparent 3.1rem
         ),
@@ -70,8 +73,8 @@
             transparent 0,
             transparent 1.75rem,
 
-            rgba(190, 215, 235, 0.55) 1.75rem,
-            rgba(190, 215, 235, 0.55) 1.82rem
+            rgba(190, 215, 235, 0.25) 1.75rem,
+            rgba(190, 215, 235, 0.25) 1.82rem
         ),
 
         linear-gradient(
@@ -109,8 +112,8 @@
             transparent 0,
             transparent 1.75rem,
 
-            rgba(190, 215, 235, 0.55) 1.75rem,
-            rgba(190, 215, 235, 0.55) 1.82rem
+            rgba(190, 215, 235, 0.25) 1.75rem,
+            rgba(190, 215, 235, 0.25) 1.82rem
         ),
 
         linear-gradient(
@@ -263,19 +266,14 @@
 
     display: block;
 
-    width: 40%;
+    width: 100%;
     height: 2px;
 
     margin: 0.45em auto 0;
 
-    background: linear-gradient(
-        to right,
-        transparent,
-        rgba(176, 104, 48, 0.65),
-        rgba(205, 135, 70, 0.75),
-        rgba(176, 104, 48, 0.65),
-        transparent
-    );
+    background: #536b2e;
+    background: #d8b90b;
+
 }
 
 
@@ -283,18 +281,6 @@
 {
     border-bottom: none;
 }
-
-.lesson-content-theory > .page > ul > li::before
-{
-    /* content: "➥"; */
-
-    /*    ❯ › ➣ ➢   →   ➜
-       –   —  - ·   •
-            ➥ ❧   
-☞   ➤          */
-    /* margin-right: 0.5em; */
-}
-
 .lesson-content-theory .lesson-sublist
 {
     width: fit-content;
@@ -303,13 +289,14 @@
     margin-left: 3.0em;
     margin-right: 1.0em;
     padding-right: 0.5em;
-    padding-top: 0.5em;    
+    /* padding-top: 0.5em;     */
 
-    border-radius: 1.0em;
+    border-radius: 0px 0 0em 0.0em;
 
-    border: solid 2px rgba(229, 168, 85, 0.2);
+    /* border: solid 2px rgba(229, 168, 85, 0.2); */
+    border-left: solid 5px rgba(0, 0, 85, 1);    
 
-    background: rgba(255,155,0,.05);
+    /* background: rgba(255,155,0,.01); */
 
     box-shadow: none;
 }
@@ -319,15 +306,32 @@
     padding: 0;
     margin-left: 1.4em;
     margin-right: .1em;    
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2em;        
 }
 
 .lesson-content-theory .lesson-sublist li
 {
-    font-size: 1.2rem;    
-    list-style:url(/img/chip/disc_orange.png);
+
+    /* list-style:url(/img/chip/disc_orange.png); */
     list-style:square;    
     line-height: 1;
 }
+
+.lesson-content-theory .lesson-sublist li:not(:last-child)::after
+{
+    content: "";
+
+    display: block;
+
+    width: 40%;
+    height: 2px;
+
+    margin: 0.45em auto 0;
+
+    background: #536b2e;
+}
+
 
 /******************************************************************************
  * Illustration

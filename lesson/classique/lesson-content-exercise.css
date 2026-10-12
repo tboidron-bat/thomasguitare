@@ -40,7 +40,7 @@
     padding-top: 1.5rem;
     padding-bottom: 3.5em;
 
-    border-top: solid 2px  #207d16  ;            
+    /* border-top: solid 2px  #207d16  ;             */
     
     border-radius: 5px 0px 0px 0px;
 
@@ -55,31 +55,41 @@
 {
     position: relative;
 
-    overflow: hidden;
+    overflow: visible;
 
     padding-left: 1.7em;
     padding-right: 2.5em;
 
 
-    background:    
+    background:
         linear-gradient(
             to right,
             transparent 0,
             transparent 3rem,
 
-            #ec8282 3rem,
-            #f89292 3.1rem,
+            /* #ec8282 3rem, */
+            /* #f89292 3.1rem,             */
+            rgba(236, 130, 130, 0.3) 3rem,
+            rgba(248, 146, 146, 0.3) 3.1rem,                         
+
 
             transparent 3.1rem
         ),
+
         repeating-linear-gradient(
             to bottom,
             transparent 0,
             transparent 1.75rem,
 
-            rgba(190, 215, 235, 0.35) 1.75rem,
-            rgba(190, 215, 235, 0.35) 1.82rem
-        ), 
+            rgba(190, 215, 235, 0.25) 1.75rem,
+            rgba(190, 215, 235, 0.25) 1.82rem
+        ),
+
+        linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.65)
+        ),
 
         url("/img/texture/paper_noise_02.png");
 
@@ -88,6 +98,9 @@
     margin: 0;
 
 }
+
+
+
 
 /******************************************************************************
  * PAGE DROITE
@@ -108,15 +121,21 @@
 
     margin: 0;
 
-    background:    
+    background:
         repeating-linear-gradient(
             to bottom,
             transparent 0,
             transparent 1.75rem,
 
-            rgba(190, 215, 235, 0.35) 1.75rem,
-            rgba(190, 215, 235, 0.35) 1.82rem
-        ), 
+            rgba(190, 215, 235, 0.25) 1.75rem,
+            rgba(190, 215, 235, 0.25) 1.82rem
+        ),
+
+        linear-gradient(
+            to right,
+            rgba(255, 250, 250, 0.45),
+            rgba(255, 255, 255, 0.65)
+        ),
 
         url("/img/texture/paper_noise_02.png");
 
@@ -127,7 +146,7 @@
 
 
 
-.lesson-content-exercise h2
+.lesson-content-exercise .page-left h2
 {
     display:inline-flex;
     
@@ -142,7 +161,7 @@
  * Lettrine et Ruban vert du titre Exercice
  ******************************************************************************/
 
-.lesson-content-exercise .dropcap
+.lesson-content-exercise .page-left .dropcap
 {
     position: relative;
 
@@ -188,7 +207,7 @@
  ******************************************************************************/
 
 
-.lesson-content-exercise .title-text
+.lesson-content-exercise .page-left .title-text
 {
     position: relative;
     display: flex;
@@ -230,50 +249,108 @@
 
 .lesson-content-exercise h3
 {
-    display: inline;
+    /* display: inline; */
+
+    display: block;
+
+    clear: both;
+
     padding: 0;
     margin: 0;
-    font-size:1rem;    
+    margin-top: 1.0em;
+    text-align: center;
+
+    /* background-color: #f5ebcb; */
+
+    border-bottom: solid 2px #96a453;
+
+    font-size:1.0em;    
 }
+.lesson-content-exercise .page-left h3.exercise-title
+{
+    margin-top: -50px;
+    position: relative;
+    z-index: 4;
+}
+
+
 
 
 .lesson-content-exercise ul
 {
-    padding:1em 1em 1em 0.6em;
+    /* padding:1em 1em 1em 0.6em; */
 
 
     margin: 0;
-    margin-left: 8px;       
+    padding: 0;
+    margin-top: 1.0em;
+    /* padding-left: 0.3em; */
+    /* margin-left: 8px;        */
 
 
-
-    /* border-left: double 4px rgba(0,155,0,0.2); */
+    border-radius: 20px 20px 20px 0px;
+    border-right: solid 10px rgba(0,155,0,1);
+    /* border-left: solid 10px rgba(0,0,255,1); */
     /* border-left: double 4px rgba(0,155,0,0.2);     */
-    border-radius: 0 20px 20px 0;
-    border: 1px solid rgba(0,155,0,0.2);
 
-    background-color: rgba(255, 0, 0, 0.05);    
+    /* border: 2px solid rgba(0,155,0,0.2); */
+
+    /* background-color: rgba(255, 0, 0, 0.05);     */
 
 }
 
 .lesson-content-exercise li
 {
-    padding:0;
+    position: relative;
+
+    padding: 0;
+    padding-left: 24px;
+
     margin: 0;
     margin-bottom: 0.3em;
-    /* padding-left: 0.em;         */
 
-    color: #252525;    
+    color: #252525;
 
-    font-family: "EB Garamond", serif;    
-
-    list-style: url("/img/chip/disc_little_grey");
-    /* list-style:disc; */
+    font-family: "EB Garamond", serif;
 
     line-height: 1;
+    font-size: 1.3em;
 
-    font-size: 1.3em;        
+    list-style: none;
 }
+
+.lesson-content-exercise li::before
+{
+    content: "";
+
+    position: absolute;
+
+    left: 2px;
+    top: 0.15em;
+
+    width: 16px;
+    height: 16px;
+
+    background-image: url("/img/chip/star_green_03.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.lesson-content-exercise li:not(:last-child)::after
+{
+    content: "";
+
+    display: block;
+
+    width: 100%;
+    height: 0;
+
+    margin: 0.45em auto 0;
+
+    border-top: 2px dashed rgba(205, 165, 75, 0.55);
+}
+
 
 .lesson-content-exercise .lesson-figure
 {
@@ -392,32 +469,53 @@
     transform: rotate(180deg);
 }
 
-/******************************************************************************
- * Fleuron — largeur complète de la page droite
- ******************************************************************************/
+
+/* ============================================================
+   FLEURON — PAGE GAUCHE
+   ============================================================ */
+
+.lesson-content-exercise .page-left .fleurons-exerice
+{
+    position: absolute;
+
+    bottom: 0;
+    left: -10px;
+
+    width: 100%;
+    height: 150px;
+
+    background-image: url("/img/ornament/fleuron_exerice_right.webp");
+    background-position: right bottom;
+    background-size: 40% auto;
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+    z-index: 4;
+}
+
+
+/* ============================================================
+   FLEURON — PAGE DROITE
+   ============================================================ */
 
 .lesson-content-exercise .page-right .fleurons-exerice
 {
     position: absolute;
 
-    bottom:0px;
-    right: 10px;
+    bottom: 0;
+    left: 10px;
 
-    width: 96%;
-    height: 45px;
+    width: 100%;
+    height: 150px;
 
-    background:
-        url("/img/ornament/fleuron_exerice_right_02.png")
-        center / contain
-        repeat;
+    background-image: url("/img/ornament/fleuron_exerice_left.webp");
+    background-position: left bottom;
+    background-size: 40% auto;
+    background-repeat: no-repeat;
 
     pointer-events: none;
-
     z-index: 4;
 }
-
-
-
 
 /******************************************************************************
  * Lecteur audio 

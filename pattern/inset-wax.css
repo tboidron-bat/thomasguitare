@@ -70,7 +70,7 @@
 
     background:
         /* url("/img/ornament/corner_00.png") center / contain no-repeat, */
-        url("/img/ornament/corner_arabic_00.png") center / contain no-repeat;
+        url("/img/ornament/corner_arabic_00.webp") center / contain no-repeat;
 
     pointer-events: none;
 }
