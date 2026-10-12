@@ -1,13 +1,27 @@
 body
 {
-    margin: 10px;
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
 
-    background-color: #151b3a;
+    background-color: #a16203;
 
     background-image:
-        /* url("/img/background/castle_pixelart.webp"); */
-        url("/img/background/fresque_musical_00.png");
+        linear-gradient(
+            to bottom,
+            rgba(35, 24, 12, 0.12),
+            rgba(35, 24, 12, 0.28)
+        ),
+        url("/img/background/castle_pixelart.webp");
+        /* url("/img/background/fresque_musical_00.webp"); */
+
 
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+
