@@ -1,35 +1,52 @@
 #!/bin/bash
 
+set -e
+
 echo "🚀 Mise à jour du site..."
 
-# Vérifie que tu es dans un dépôt git
+# Vérifie que tu es dans un dépôt Git
 if [ ! -d .git ]; then
-  echo "❌ Ce dossier n'est pas un dépôt Git."
-  exit 1
+    echo "❌ Ce dossier n'est pas un dépôt Git."
+    exit 1
 fi
 
-# Vérifie s'il y a des changements
-if git diff-index --quiet HEAD --; then
-  echo "ℹ️ Aucun changement à valider."
+# Vérifie la branche courante
+BRANCHE=$(git branch --show-current)
+
+if [ "$BRANCHE" != "master" ]; then
+    echo "❌ Tu dois être sur la branche master."
+    echo "Branche actuelle : $BRANCHE"
+    exit 1
+fi
+
+# Ajoute les modifications
+git add .
+
+# Vérifie s'il y a des changements à valider
+if ! git diff --cached --quiet; then
+
+    # Commit avec message personnalisé ou automatique
+    if [ -z "$1" ]; then
+        git commit -m "Mise à jour automatique"
+    else
+        git commit -m "$1"
+    fi
+
 else
-  # Ajout des fichiers modifiés
-  git add .
-
-  # Commit avec message automatique
-  if [ -z "$1" ]; then
-    git commit -m "Mise à jour automatique"
-  else
-    git commit -m "$1"
-  fi
+    echo "ℹ️ Aucun changement à valider."
 fi
 
-# Récupération des changements distants (en rebase)
-git pull origin main --rebase || {
-  echo "❌ Conflit ou index sale, pull annulé."
-  exit 1
-}
+# Récupère les changements distants
+echo "🔄 Récupération des changements depuis GitHub..."
 
-# Push vers GitHub
-git push origin main
+git fetch origin main
+
+# Intègre les changements distants dans master
+git rebase origin/main
+
+# Envoie master vers main sur GitHub
+echo "📤 Envoi des modifications vers GitHub..."
+
+git push origin master:main
 
 echo "✅ Site mis à jour avec succès !"
