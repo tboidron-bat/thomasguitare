@@ -1,7 +1,7 @@
 body
 {
     margin: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -13,15 +13,11 @@ body
             rgba(35, 24, 12, 0.12),
             rgba(35, 24, 12, 0.28)
         ),
-        url("/img/background/castle_pixelart.webp");
-        /* url("/img/background/fresque_musical_00.webp"); */
+        url("/img/background/parchment_07.webp");
 
-
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* background-attachment: scroll; */
 }
-
-
-
