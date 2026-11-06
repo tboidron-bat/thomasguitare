@@ -89,9 +89,8 @@
         /* url("/img/texture/paper_noise_canson.webp"); */
 }
 
-
-/******************************************************************************
- * IDENTITÉ DU BLOC — MORCEAU
+ /******************************************************************************
+ * HERO — MORCEAU
  ******************************************************************************/
 
 .lesson-content-piece .hero
@@ -99,87 +98,168 @@
     position: relative;
 
     display: flex;
-
     align-items: center;
 
     width: fit-content;
+    max-width: 100%;
 
-    height: 82px;
-
-    margin: 0 0 0 0;
-
-    z-index: 4;
-
-    /* opacity: 0.8; */
-}
-
-
-/******************************************************************************
- * HERO — MORCEAU
- ******************************************************************************/
-
-
-.lesson-content-piece .hero
-{
-    position: relative;
-
-    width: 100%;
-    height: 140px;
+    height: 150px;
 
     margin: 0;
 
-    background:
-        url("/img/parchment_00.png")
-        left center / contain
-        no-repeat;
+    z-index: 4;
 }
 
+/******************************************************************************
+ * PARTIE GAUCHE — LYRE
+ ******************************************************************************/
+
+.lesson-content-piece .hero-left
+{
+    flex: 0 0 150px;
+
+    margin-right: -35px;
+
+    height: 99%;
+
+    background:
+        url("/img/lesson_content_piece/title_left_parchment_with_lyre.webp")
+        left center / contain
+        no-repeat;
+
+    z-index: 3;
+}
+
+
+
+/******************************************************************************
+ * PARTIE CENTRALE — PARCHEMIN
+ ******************************************************************************/
+
+.lesson-content-piece .hero-center
+{
+    position: relative;
+
+    flex: 0 0 auto;
+
+    width: max-content;
+
+    height: 100%;
+
+    padding: 0 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        url("/img/lesson_content_piece/parchment_00.png")
+        center center / auto 95%
+        repeat-x;
+
+    z-index: 2;
+}
+
+/******************************************************************************
+ * PARTIE DROITE — PLUME
+ ******************************************************************************/
+
+.lesson-content-piece .hero-right
+{
+    flex: 0 0 150px;
+
+    margin-left: -20px;    
+
+    height: 100%;
+
+    background:
+        url("/img/lesson_content_piece/title_right_parchment_with_quill.webp")
+        right center / contain
+        no-repeat;
+
+    z-index: 3;
+}
 
 /******************************************************************************
  * Texte du HERO
  ******************************************************************************/
 
-
-
-
-
-.lesson-content-piece .hero h2
+/* .lesson-content-piece .hero-center h2
 {
     position: absolute;
 
-    margin: 0;
-
-    left: 30%;
+    left: 50%;
     top: 50%;
 
     transform: translate(-50%, -50%);
 
     display: flex;
-
     align-items: center;
 
+    width: max-content;
+    max-width: none;
+
+    margin: 0;
+
+
+    font-family: "Gothic Leaf";                
     font-family: "IM Fell", serif;    
-   font-family: "Jacquard";
+    font-family: "Jacquard";
     font-family: "Camelot";
     font-family: "Lombardi";
-    /* font-family: "Gothic Leaf";         */
-
-
+    font-family: "Lombardi";
 
     font-size: 3em;
 
+    white-space: nowrap;
+
+    color: #fff700;    
+
     text-shadow:
-        -1px -1px 0 white,
-         1px -1px 0 whitesmoke,
-        -1px  1px 0 wheat,
-         1px  1px 0 white,
-         0px 1px 2px rgba(255, 191, 191, 0.8);
 
- 
+        3px 2px 2px rgba(0, 0, 0, 1),
+        5px 7px 5px rgba(0, 0, 0, 0.55),
+
+        -1px -1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0),
+        -1px  1px 0 rgb(0, 0, 0),
+        1px  1px 0 rgb(0, 0, 0);         
 
 
+    z-index: 4;
+} */
 
-    z-index: 2;
+.lesson-content-piece .hero-center h2
+{
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    width: max-content;
+
+    margin: 0;
+
+    white-space: nowrap;
+
+    transform: none;
+
+    font-family: "Lombardi";    
+
+    color: #fff700;       
+    
+    font-size: 3em;    
+
+    text-shadow:
+
+        3px 2px 2px rgba(0, 0, 0, 1),
+        5px 7px 5px rgba(0, 0, 0, 0.55),
+
+        -1px -1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0),
+        -1px  1px 0 rgb(0, 0, 0),
+        1px  1px 0 rgb(0, 0, 0);         
+
 }
 
 
@@ -200,14 +280,17 @@
     height: 72px;
 
     font-family: "Lombardi";    
-    /* font-family: "IM Fell", serif;     */
+    font-family: "Goudy Initials";                
+    font-family: "IM Fell", serif;    
 
 
-    font-family: "Goudy Initials";            
+
 
     font-size: 5rem;
 
     color: #000000;
+
+    color: #f2c618;        
 
     /* text-shadow:
         -1px -1px 0 white,
@@ -235,7 +318,7 @@
     height: 80px;
 
     left: 50%;
-    bottom: -55px;
+    bottom: -45px;
 
     transform: translateX(-50%);
 
@@ -244,7 +327,7 @@
         center / contain
         no-repeat;
 
-    opacity: .65;
+    opacity: 1;
 
     pointer-events: none;
 
@@ -265,15 +348,6 @@
 
     margin: 0;
     margin-right: 1em;
-
-    /* color: #252525; */
-
-    /* font-family: "EB Garamond", serif; */
-
-    /* line-height: 1.15; */
-
-    /* font-size: 1.3em; */
-
 }
 
 
