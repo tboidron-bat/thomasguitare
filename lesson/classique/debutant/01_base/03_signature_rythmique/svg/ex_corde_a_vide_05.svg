@@ -27,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.2148042"
-     inkscape:cx="191.80046"
-     inkscape:cy="542.47425"
-     inkscape:window-width="1104"
-     inkscape:window-height="552"
+     inkscape:zoom="0.6074021"
+     inkscape:cx="373.72278"
+     inkscape:cy="478.26637"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg310" />
   <title
@@ -1051,20 +1051,25 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <text
-     xml:space="preserve"
-     style="font-size:210px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:3.75;paint-order:stroke fill markers"
-     x="210.76811"
-     y="320.04007"
-     id="text496"><tspan
-       sodipodi:role="line"
-       id="tspan494"
-       style="stroke-width:3.75"
-       x="210.76811"
-       y="320.04007">Exercice de corde à vide genre arpège.</tspan></text>
   <path
      class="Fingering"
      d="m 333.8716,2219.1366 -10.9801,1.1338 -0.2262,2.74 h 1.4328 c 2.4736,0 3.4389,0.6803 3.4389,2.3244 0,0.7369 -0.166,1.814 -0.543,3.3447 l -7.7072,32.767 c -1.2217,5.4611 -1.267,5.5178 -5.3694,5.7635 l -0.2564,2.7211 h 14.4943 l 0.2263,-2.7211 h -0.724 c -2.8958,0 -3.8611,-0.4346 -3.8611,-1.9842 0,-0.5858 0.2564,-1.8896 0.6787,-3.7793 l 2.9411,-12.3018 c 1.6289,5.2155 3.2126,6.6327 7.1944,6.6327 9.7584,0 15.6708,-13.2844 15.6708,-24.3201 0,-3.7038 -0.5882,-6.1981 -1.9758,-8.3902 -1.5837,-2.4187 -3.9818,-3.9305 -6.3498,-3.9305 -3.0768,0 -6.2593,2.2865 -8.9741,6.4438 l 0.8898,-6.4438 m 6.2292,4.025 c 2.7148,0 4.5247,2.6267 4.5247,6.6328 0,4.1762 -1.0407,9.2972 -2.8506,13.9647 -2.0965,5.669 -4.5248,8.239 -7.7072,8.239 -2.9713,0 -5.0677,-2.9101 -5.0677,-6.9351 0,-6.784 4.2683,-21.9014 11.1008,-21.9014"
      id="path290-3"
      style="stroke-width:1.68823" />
+  <text
+     xml:space="preserve"
+     style="font-size:150px;font-family:C059;-inkscape-font-specification:C059;text-align:center;text-anchor:middle;fill:#000000;stroke-width:8.50395;paint-order:stroke fill markers"
+     x="2178.7358"
+     y="250.73917"
+     id="text768"><tspan
+       sodipodi:role="line"
+       id="tspan766"
+       style="font-size:150px;text-align:center;text-anchor:middle;stroke-width:8.50394"
+       x="2178.7358"
+       y="250.73917">La signature rythmique</tspan><tspan
+       sodipodi:role="line"
+       style="font-size:150px;text-align:center;text-anchor:middle;stroke-width:8.50394"
+       x="2178.7358"
+       y="438.23917"
+       id="tspan820"> Exercice n°3</tspan></text>
 </svg>
