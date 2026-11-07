@@ -27,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3651269"
-     inkscape:cx="240.2707"
-     inkscape:cy="383.8471"
-     inkscape:window-width="1104"
-     inkscape:window-height="552"
+     inkscape:zoom="0.68256345"
+     inkscape:cx="405.82308"
+     inkscape:cy="507.64511"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg322" />
   <title
@@ -1162,13 +1162,18 @@
   </metadata>
   <text
      xml:space="preserve"
-     style="font-size:105px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
-     x="1601.7155"
-     y="359.86188"
-     id="text829"><tspan
+     style="font-size:150px;font-family:C059;-inkscape-font-specification:C059;text-align:center;text-anchor:middle;fill:#000000;stroke-width:8.50395;paint-order:stroke fill markers"
+     x="2187.4998"
+     y="239.84273"
+     id="text768"><tspan
        sodipodi:role="line"
-       id="tspan827"
-       style="stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
-       x="1601.7155"
-       y="359.86188">Un premier exercice.</tspan></text>
+       id="tspan766"
+       style="font-size:150px;text-align:center;text-anchor:middle;stroke-width:8.50394"
+       x="2187.4998"
+       y="239.84273">Les cordes à vides</tspan><tspan
+       sodipodi:role="line"
+       style="font-size:150px;text-align:center;text-anchor:middle;stroke-width:8.50394"
+       x="2187.4998"
+       y="427.34271"
+       id="tspan820"> Exercice n°1</tspan></text>
 </svg>

@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.46229354"
-     inkscape:cx="446.68588"
-     inkscape:cy="392.60769"
-     inkscape:window-width="1280"
-     inkscape:window-height="651"
+     inkscape:zoom="0.65378179"
+     inkscape:cx="423.68876"
+     inkscape:cy="482.57691"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="SVGRoot" />
   <defs
@@ -146,4 +146,62 @@
      cy="78.03878"
      rx="8.4986305"
      ry="8.2962818" />
+  <rect
+     style="fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     id="rect302"
+     width="16.263748"
+     height="1.0085801"
+     x="94.733055"
+     y="172.96674" />
+  <rect
+     style="fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     id="rect302-3"
+     width="16.263748"
+     height="1.0085801"
+     x="125.81867"
+     y="172.76917" />
+  <rect
+     style="fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     id="rect302-3-6"
+     width="16.263748"
+     height="1.0085801"
+     x="152.87349"
+     y="172.61266" />
+  <rect
+     style="fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     id="rect302-3-6-7"
+     width="16.263748"
+     height="1.0085801"
+     x="182.50688"
+     y="172.61267" />
+  <rect
+     style="fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     id="rect302-3-6-5"
+     width="16.263748"
+     height="1.0085801"
+     x="210.02356"
+     y="172.61272" />
+  <rect
+     style="fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     id="rect302-3-6-3"
+     width="16.263748"
+     height="1.0085801"
+     x="237.54024"
+     y="172.61273" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.5833px;font-family:C059;-inkscape-font-specification:C059;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     x="154.93747"
+     y="14.975359"
+     id="text768"><tspan
+       sodipodi:role="line"
+       id="tspan766"
+       style="font-size:10.5833px;text-align:center;text-anchor:middle;stroke-width:0.6"
+       x="154.93747"
+       y="14.975359">La hauteur des notes</tspan><tspan
+       sodipodi:role="line"
+       style="font-size:10.5833px;text-align:center;text-anchor:middle;stroke-width:0.6"
+       x="154.93747"
+       y="28.204483"
+       id="tspan820"> Exercice n°1</tspan></text>
 </svg>
