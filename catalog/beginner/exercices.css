@@ -1,5 +1,6 @@
 /* Mise en page du répertoire — les styles généraux restent ceux du site. */
-    .exercise-directory {
+    .exercise-directory 
+    {
       max-width: 1050px;
       margin: 0 auto;
     }
