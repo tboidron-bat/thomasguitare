@@ -25,13 +25,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2973261"
-     inkscape:cx="544.8563"
-     inkscape:cy="306.06126"
-     inkscape:window-width="1104"
-     inkscape:window-height="552"
+     inkscape:zoom="0.84096521"
+     inkscape:cx="436.40331"
+     inkscape:cy="237.22741"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1060" />
   <defs
@@ -464,13 +464,18 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-size:9.525px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.062;stroke-dasharray:none;paint-order:stroke fill markers"
-     x="98.871498"
-     y="17.088615"
-     id="text635"><tspan
+     style="font-size:10.5833px;font-family:C059;-inkscape-font-specification:C059;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     x="148.53317"
+     y="14.764955"
+     id="text1120"><tspan
        sodipodi:role="line"
-       id="tspan633"
-       style="font-size:9.525px;stroke-width:0.062;stroke-dasharray:none"
-       x="98.871498"
-       y="17.088615">Exercice rythmique 2</tspan></text>
+       id="tspan1118"
+       style="stroke-width:0.6"
+       x="148.53317"
+       y="14.764955">Exercice n°2</tspan><tspan
+       sodipodi:role="line"
+       style="stroke-width:0.6"
+       x="148.53317"
+       y="27.99408"
+       id="tspan1122">Pause, demi-pause, soupir, noir &amp; ronde</tspan></text>
 </svg>
