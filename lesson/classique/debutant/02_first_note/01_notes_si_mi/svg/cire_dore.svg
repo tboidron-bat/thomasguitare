@@ -5,7 +5,7 @@
    viewBox="0 0 1122.5197 793.7008"
    version="1.2"
    id="svg73"
-   sodipodi:docname="recit_dore.svg"
+   sodipodi:docname="cire_dore.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,8 +26,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.79306722"
-     inkscape:cx="411.06225"
-     inkscape:cy="439.43312"
+     inkscape:cx="411.06226"
+     inkscape:cy="441.95497"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -570,14 +570,4 @@
        id="tspan513"
        x="451.84906"
        y="94.773376">Le ciré doré</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:20px;font-family:C059;-inkscape-font-specification:C059;fill:#000000;stroke:none;stroke-width:2.26772;paint-order:stroke fill markers"
-     x="1015.4651"
-     y="783.32635"
-     id="text1212"><tspan
-       sodipodi:role="line"
-       id="tspan1210"
-       x="1015.4651"
-       y="783.32635">Morceau 1</tspan></text>
 </svg>
