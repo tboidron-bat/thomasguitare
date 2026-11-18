@@ -1,0 +1,600 @@
+/******************************************************************************
+ *
+ * PAGE GAMME
+ *
+ ******************************************************************************/
+
+
+/******************************************************************************
+ * CONTENEUR PRINCIPAL
+ ******************************************************************************/
+
+.lesson-content-gamme
+{
+    display: flex;
+    align-items: stretch;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: #e5bd83;
+
+    background-image:
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent 1.75rem,
+            rgba(190, 215, 235, 0.35) 1.75rem,
+            rgba(190, 215, 235, 0.35) 1.82rem
+        ),
+
+        linear-gradient(
+            to right,
+            rgba(255, 250, 235, 0.75),
+            rgba(255, 255, 255, 0.65)
+        ),
+
+        url("/img/texture/paper_noise_white.png");
+
+    border-left: ridge 3px rgb(245, 213, 145);
+    border-right: ridge 3px rgb(245, 213, 145);
+
+    border-top: solid 2px rgba(83, 107, 46, 0.45);
+}
+
+
+/******************************************************************************
+ * PAGES
+ ******************************************************************************/
+
+.lesson-content-gamme .page
+{
+    flex: 0 0 50%;
+
+    width: 50%;
+    min-width: 0;
+
+    box-sizing: border-box;
+
+    padding-bottom: 1.5em;
+}
+
+
+/******************************************************************************
+ * PAGE GAUCHE
+ ******************************************************************************/
+
+.lesson-content-gamme .page-left
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin: 0;
+
+    padding-top: 0;
+    padding-left: 1.6em;
+    padding-right: 2.5em;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent 0,
+            transparent 3rem,
+
+            rgba(83, 107, 46, 0.25) 3rem,
+            rgba(83, 107, 46, 0.25) 3.1rem,
+
+            transparent 3.1rem
+        );
+}
+
+
+/******************************************************************************
+ * PAGE DROITE
+ ******************************************************************************/
+
+.lesson-content-gamme .page-right
+{
+    position: relative;
+
+    overflow: visible;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 1rem 0;
+}
+
+
+/******************************************************************************
+ * TITRE
+ ******************************************************************************/
+
+.lesson-content-gamme h2
+{
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/******************************************************************************
+ * LETTRINE — G
+ ******************************************************************************/
+
+.lesson-content-gamme .dropcap
+{
+    position: relative;
+
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 0 0 76px;
+
+    width: 76px;
+    height: 76px;
+
+    box-sizing: border-box;
+
+    margin-right: 6px;
+
+    padding: 0 7px 7px 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.5rem;
+    font-weight: normal;
+
+    line-height: 1;
+
+    color: #a87532;
+
+    -webkit-text-stroke: 1px #69451f;
+
+    background:
+        radial-gradient(
+            circle at 35% 25%,
+            #dbf4ad 0%,
+            #354b29 55%,
+            #d2f2dd 100%
+        );
+
+    border: 3px double #c6a45c;
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 3px #354329,
+        0 0 0 5px #d0b477,
+        inset 0 2px 4px rgba(255,255,255,.35),
+        inset 0 -4px 7px rgba(0,0,0,.45),
+        3px 5px 8px rgba(0,0,0,.35);
+
+    text-shadow:
+        1px 1px 0 #f5dfae,
+        2px 2px 0 #c69a59,
+        3px 3px 0 #8a5b28,
+        4px 5px 0 #69451f,
+        6px 7px 5px rgba(50, 30, 10, 0.35),
+        0 10px 12px rgba(50, 30, 10, 0.15);
+
+    text-decoration: none;
+
+    z-index: 2;
+}
+
+
+/******************************************************************************
+ * TEXTE DU TITRE
+ ******************************************************************************/
+
+.lesson-content-gamme .title-text
+{
+    position: relative;
+
+    display: inline-block;
+
+    padding: 0;
+    padding-top: 0.8em;
+
+    margin: 0;
+
+    font-size: 3rem;
+    font-weight: inherit;
+
+    color: #e8c77e;
+
+    letter-spacing: inherit;
+
+    -webkit-text-stroke: 1.2px #70451f;
+
+    text-shadow:
+        1px 1px 0 #846d21,
+        2px 2px 0 #948f89,
+        3px 3px 0 #fffbf8,
+        0 1px 0 rgba(0, 0, 0, 0.4);
+
+    text-decoration: none;
+}
+
+
+/******************************************************************************
+ * FLEURON — ÉPÉE
+ ******************************************************************************/
+
+.lesson-content-gamme .title-text::after
+{
+    content: "";
+
+    display: block;
+
+    width: 300px;
+    height: 60px;
+
+    margin: -15px auto 0;
+
+    background:
+        url("/img/ornament/gamme_fleuron_01.png")
+        center / contain no-repeat;
+}
+
+
+/******************************************************************************
+ * LISTE DES TEXTES
+ ******************************************************************************/
+
+.lesson-content-gamme .charte-list
+{
+    padding: 0;
+
+    padding-top: 1em;
+    padding-left: 52px;
+
+    margin: 0;
+}
+
+
+.lesson-content-gamme .charte-list li
+{
+    position: relative;
+
+    margin: 0;
+
+    margin-bottom: 0.4em;
+    margin-left: -0.4em;
+
+    line-height: 1.2em;
+
+    list-style: url("/img/chip/disc_orange_01.png");
+
+    font-family: "EB Garamond", serif;
+    font-size: 1.8em;
+}
+
+
+/******************************************************************************
+ * SÉPARATEURS
+ ******************************************************************************/
+
+.lesson-content-gamme .charte-list li:not(:last-child)::after
+{
+    content: "";
+
+    display: block;
+
+    width: 100%;
+    height: 2px;
+
+    margin: 0.45em auto 0;
+
+    background:
+        linear-gradient(
+            to right,
+            transparent,
+            #a9a84e,
+            transparent
+        );
+}
+
+
+/******************************************************************************
+ * LECTEUR AUDIO
+ ******************************************************************************/
+
+.lesson-content-gamme .gamme-audio
+{
+    display: flex;
+    align-items: center;
+
+    width: 92%;
+
+    min-height: 58px;
+
+    margin: 1.5rem auto 0;
+
+    padding: 7px 12px;
+
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(104, 104, 104, 0.35),
+            rgba(122, 99, 27, 0.12)
+        ),
+
+        #2f2f2f;
+
+    border: 2px solid #343e1e;
+    border-radius: 10px;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(255,255,255,.65),
+        inset 0 0 0 4px rgba(150,164,83,.12),
+        2px 3px 5px rgba(0,0,0,.22);
+}
+
+
+/******************************************************************************
+ * LABEL AUDIO
+ ******************************************************************************/
+
+.lesson-content-gamme .gamme-audio-label
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex: 0 0 auto;
+
+    margin-right: 1rem;
+
+    color: #ffffff;
+
+    font-family: "EB Garamond", serif;
+    font-size: 1.6rem;
+}
+
+
+/******************************************************************************
+ * LECTEUR NATIF
+ ******************************************************************************/
+
+.lesson-content-gamme .gamme-audio audio
+{
+    display: block;
+
+    flex: 1 1 auto;
+
+    width: auto;
+    min-width: 0;
+
+    height: 42px;
+
+    margin: 0;
+
+    accent-color: #a9c66a;
+}
+
+
+/******************************************************************************
+ * FIGURE — CADRE DÉCORATIF
+ ******************************************************************************/
+
+.lesson-content-gamme .lesson-figure
+{
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin: 0;
+
+    transition: transform .25s ease;
+}
+
+
+/******************************************************************************
+ * CADRE PNG
+ *
+ * Image décorative avec centre transparent.
+ * Le SVG est positionné dans la zone centrale.
+ *
+ ******************************************************************************/
+
+.lesson-content-gamme .figure-frame
+{
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 88%;
+    max-width: 560px;
+
+    aspect-ratio: 1 / 1;
+
+    box-sizing: border-box;
+
+    padding:
+        12%
+        9%
+        23%;
+
+    margin: 0 auto;
+
+    background:
+        url("/img/background/gamme_frame.webp")
+        center / 100% 100% no-repeat;
+}
+
+
+/******************************************************************************
+ * SVG — DIAGRAMME DE GAMME
+ ******************************************************************************/
+
+.lesson-content-gamme .gamme
+{
+    display: block;
+
+    width: 135%;
+
+    max-width: none;
+
+    height: auto;
+
+    flex: 0 0 auto;
+
+    object-fit: contain;
+}
+
+
+/******************************************************************************
+ * SURVOL
+ ******************************************************************************/
+
+.lesson-content-gamme .lesson-figure:hover
+{
+    transform: scale(1.05);
+
+    z-index: 10;
+}
+
+
+/******************************************************************************
+ * MOBILE
+ ******************************************************************************/
+
+@media (max-width: 1000px)
+{
+    .lesson-content-gamme
+    {
+        flex-direction: column;
+    }
+
+
+    .lesson-content-gamme .page
+    {
+        width: 100%;
+
+        flex: 0 0 100%;
+    }
+
+
+    .lesson-content-gamme .page-left
+    {
+        padding-right: 1.6em;
+    }
+
+
+    .lesson-content-gamme .page-right
+    {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .lesson-content-gamme h2
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .lesson-content-gamme .dropcap
+    {
+        flex: 0 0 66px;
+
+        width: 66px;
+        height: 66px;
+
+        font-size: 4rem;
+    }
+
+
+    .lesson-content-gamme .title-text
+    {
+        font-size: 2.4rem;
+    }
+
+
+    .lesson-content-gamme .title-text::after
+    {
+        width: 240px;
+        height: 48px;
+    }
+
+
+    .lesson-content-gamme .figure-frame
+    {
+        width: 80%;
+        max-width: 480px;
+    }
+
+
+    .lesson-content-gamme .lesson-figure:hover
+    {
+        transform: scale(1.02);
+    }
+}
+
+
+/******************************************************************************
+ * PETITS ÉCRANS
+ ******************************************************************************/
+
+@media (max-width: 600px)
+{
+    .lesson-content-gamme .page-left
+    {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+    .lesson-content-gamme .charte-list
+    {
+        padding-left: 35px;
+    }
+
+
+    .lesson-content-gamme .charte-list li
+    {
+        font-size: 1.3em;
+    }
+
+
+    .lesson-content-gamme .gamme-audio
+    {
+        width: 100%;
+    }
+
+
+    .lesson-content-gamme .figure-frame
+    {
+        width: 94%;
+
+        padding:
+            12%
+            9%
+            23%;
+    }
+}
+
+
