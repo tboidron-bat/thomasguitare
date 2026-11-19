@@ -25,13 +25,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2412748"
-     inkscape:cx="443.47772"
-     inkscape:cy="613.40844"
-     inkscape:window-width="1104"
-     inkscape:window-height="552"
+     inkscape:zoom="0.68242819"
+     inkscape:cx="426.41849"
+     inkscape:cy="431.54724"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1060" />
   <defs
@@ -468,13 +468,18 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-size:9.525px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:0.264583;paint-order:stroke fill markers"
-     x="73.686142"
-     y="17.320549"
-     id="text364"><tspan
+     style="font-size:10.5833px;font-family:C059;-inkscape-font-specification:C059;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.600001;paint-order:stroke fill markers"
+     x="144.61079"
+     y="10.239446"
+     id="text419"><tspan
        sodipodi:role="line"
-       id="tspan362"
-       style="font-size:9.525px;stroke-width:0.264583"
-       x="73.686142"
-       y="17.320549">Exercice rythmique sur la liaison</tspan></text>
+       id="tspan417"
+       style="stroke-width:0.6"
+       x="144.61079"
+       y="10.239446">Enrichissement rythmique</tspan><tspan
+       sodipodi:role="line"
+       style="stroke-width:0.6"
+       x="144.61079"
+       y="23.468571"
+       id="tspan473">Exercice n°1 - liaison</tspan></text>
 </svg>

@@ -34,7 +34,7 @@
     border-left: ridge 3px rgb(245, 213, 145);
     border-right: ridge 3px rgb(245, 213, 145);
 
-    border-top: solid 2px rgba(0,0,150,0.38);
+    border-top: double 5px rgba(0,0,150,0.38);
 }
 
 
@@ -71,6 +71,7 @@
 
     margin: 0;
 
+    padding-top: 5px;
     padding-left: 1.6em;
     padding-right: 2.5em;
 
@@ -439,7 +440,8 @@
 
 .lesson-content-piece .page-right
 {
-   padding-bottom: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;    
 
     position: relative;
 
