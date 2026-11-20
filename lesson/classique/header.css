@@ -267,8 +267,9 @@ header
 }
 
 /* =========================================================
-   BANNIERE CENTRAL
+   BANNIERE CENTRALE
    ========================================================= */
+
 .header-center
 {
     position: absolute;
@@ -287,39 +288,44 @@ header
     align-items: center;
     justify-content: center;
 }
+
 .header-center img
 {
     width: 280px;
     height: auto;
-
-    /* surtout pas de margin-left ici */
 
     filter:
         drop-shadow(2px 2px 2px rgba(0,0,0,1));
 
     opacity: 0.8;
 }
-.button
+
+/* =========================================================
+   BOUTONS DE NAVIGATION
+   ========================================================= */
+
+.header-center .button
 {
-    appearance: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    border: none;
-    padding: 0;
-
-    background-color: transparent;
-
-    cursor: pointer;
+    flex-shrink: 0;
 
     width: 100px;
     height: 100px;
 
-    background-image:
-        url("/img/button_leather_00.png");
+    padding: 0;
 
+    background-color: transparent;
+    background-image: url("/img/button_leather_00.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 
+    border: none;
+
+    text-decoration: none;
     color: #f4dbb9;
 
     font-family: Georgia, serif;
@@ -335,25 +341,31 @@ header
     filter:
         drop-shadow(1px 2px 3px rgba(0,0,0,.45));
 
-        opacity: 0.9;
+    opacity: 0.9;
+
+    cursor: pointer;
 }
-.button:hover
+
+.header-center .button:hover
 {
-    /* transform: translateY(-2px); */
-    opacity: 1;    
+    opacity: 1;
 }
-.prev
+
+/* =========================================================
+   POSITIONNEMENT
+   ========================================================= */
+
+.header-center .prev
 {
     margin-right: -10px;
-    transform: translateY(-5px);        
+    transform: translateY(-5px);
 }
 
-.next
+.header-center .next
 {
     margin-left: -13px;
-    transform: translateY(-5px);            
+    transform: translateY(-5px);
 }
-
 /* =========================================================
    DROITE
    ========================================================= */
