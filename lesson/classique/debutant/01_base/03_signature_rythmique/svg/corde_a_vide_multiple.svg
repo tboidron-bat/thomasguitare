@@ -27,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.30370105"
-     inkscape:cx="783.66537"
-     inkscape:cy="484.02861"
-     inkscape:window-width="1104"
-     inkscape:window-height="552"
+     inkscape:zoom="0.6074021"
+     inkscape:cx="572.93184"
+     inkscape:cy="282.35003"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg946" />
   <title
@@ -3144,13 +3144,18 @@
   </metadata>
   <text
      xml:space="preserve"
-     style="font-size:210px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;stroke:#000000;stroke-width:3.75;paint-order:stroke fill markers"
-     x="471.22073"
-     y="306.52402"
-     id="text1940"><tspan
+     style="font-size:150px;font-family:C059;-inkscape-font-specification:C059;text-align:center;text-anchor:middle;fill:#000000;stroke-width:8.50395;paint-order:stroke fill markers"
+     x="2055.7422"
+     y="216.90417"
+     id="text814"><tspan
        sodipodi:role="line"
-       id="tspan1938"
-       style="stroke-width:3.75"
-       x="471.22073"
-       y="306.52402">Exercide de corde à vide multiple.</tspan></text>
+       id="tspan812"
+       style="stroke-width:8.50394"
+       x="2055.7422"
+       y="216.90417">La signature rythmique</tspan><tspan
+       sodipodi:role="line"
+       style="stroke-width:8.50394"
+       x="2055.7422"
+       y="404.40417"
+       id="tspan816">Exercice n°4</tspan></text>
 </svg>
