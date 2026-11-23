@@ -1,5 +1,6 @@
 /* ============================================================
    CATALOGUE — MORCEAUX
+   Thème parchemin médiéval — eGuitare
    ============================================================ */
 
 
@@ -13,34 +14,153 @@ main
     padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url("/img/background/background_catalog_piece_03.webp");
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* ============================================================
+   EN-TÊTE — CATALOGUE DES MORCEAUX
+   ============================================================ */
+
+header
+{
+    position: relative;
+
+    padding: 8px 0px 8px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(255,248,228,.96),
+            rgba(230,211,174,.90)
+        );
+
+    border-radius: 0 0 5em 5em;
+
+    border-bottom: 3px double #98703c;
+
+    box-shadow:
+        0 3px 10px rgba(50,30,10,.20),
+        inset 0 -8px 15px rgba(130,90,40,.06);
+
+    opacity: 0.9;
+}
+
+
+/* ------------------------------------------------------------
+   TITRE
+   ------------------------------------------------------------ */
+
+header .titre
+{
+    margin: 0;
+
+    font-family:
+        "IM FELL English",
+        Georgia,
+        serif;
+
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+
+    font-weight: normal;
+
+    letter-spacing: .5px;
+
+    line-height: 1.3;
+
+    color: #563b21;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.75);
+}
+
+.home-link
+{
+
+    transform: translateY(-50%);
+
+    font-size: 5.5rem;
+
+    color: #a47737;
+
+    text-decoration: none;
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
+}
+
+/* ------------------------------------------------------------
+   ORNEMENT SOUS LE TITRE
+   ------------------------------------------------------------ */
+
+/* header .titre::after
+{
+    content: "❧";
+
+    display: block;
+
+    margin-top: 12px;
+
+    color: #a47737;
+
+    font-size: 1.8rem;
+
+    line-height: 1;
+} */
+
+
+/* ------------------------------------------------------------
+   CADRE DU CATALOGUE
+   ------------------------------------------------------------ */
 
 .catalog-group
 {
     position: relative;
 
     width: min(900px, 90%);
-    margin: 45px auto 60px auto;
-    padding: 30px 40px 35px 40px;
+
+    margin: 45px auto 60px;
+    padding: 35px 40px 40px;
 
     box-sizing: border-box;
 
     background:
         linear-gradient(
-            rgba(255, 248, 225, 0.78),
-            rgba(235, 215, 175, 0.62)
+            135deg,
+            rgba(255,255,255,.30),
+            transparent 45%,
+            rgba(160,115,55,.06)
+        ),
+        linear-gradient(
+            to bottom,
+            #fff8e9,
+            #f5e9ce 55%,
+            #f1e2c1
         );
 
-    border: 2px solid rgba(105, 72, 35, 0.45);
-    border-radius: 8px;
+    border: 1px solid #aa895b;
+    border-radius: 7px;
 
     box-shadow:
-        0 5px 12px rgba(50, 30, 10, 0.18),
-        inset 0 0 25px rgba(120, 80, 30, 0.08);
+        0 5px 14px rgba(50,30,10,.20),
+        0 1px 3px rgba(50,30,10,.15),
+        inset 0 0 25px rgba(120,80,30,.09),
+        inset 0 1px 2px rgba(255,255,255,.8);
 }
 
 
 /* ------------------------------------------------------------
-   PETITE DÉCORATION DU CADRE
+   ORNEMENTS DU CADRE
    ------------------------------------------------------------ */
 
 .catalog-group::before,
@@ -50,24 +170,26 @@ main
 
     position: absolute;
 
-    font-family: serif;
-    font-size: 1.5rem;
+    top: 9px;
 
-    color: #8b5a24;
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
 
-    opacity: 0.75;
+    color: #a77b3f;
+
+    opacity: .8;
 }
 
 .catalog-group::before
 {
-    top: 8px;
-    left: 14px;
+    left: 13px;
 }
 
 .catalog-group::after
 {
-    top: 8px;
-    right: 14px;
+    right: 13px;
+
+    transform: scaleX(-1);
 }
 
 
@@ -77,8 +199,10 @@ main
 
 .catalog-group h3
 {
-    margin: 0 0 25px 0;
-    padding: 0 0 12px 0;
+    position: relative;
+
+    margin: 0 0 22px;
+    padding: 0 0 16px;
 
     text-align: center;
 
@@ -90,12 +214,38 @@ main
     font-size: 2rem;
     font-weight: normal;
 
-    color: #49351f;
+    letter-spacing: .5px;
 
-    border-bottom: 1px solid rgba(90, 60, 30, 0.30);
+    color: #563b21;
+
+    border-bottom: 1px solid rgba(120,85,40,.28);
 
     text-shadow:
-        1px 1px 0 rgba(255,255,255,.65);
+        1px 1px 0 rgba(255,255,255,.75);
+}
+
+
+/* Ornement sous le titre */
+
+.catalog-group h3::after
+{
+    content: "❧";
+
+    position: absolute;
+
+    left: 50%;
+    bottom: -15px;
+
+    transform: translateX(-50%);
+
+    padding: 0 12px;
+
+    background: #f7ecd5;
+
+    color: #a77b3f;
+
+    font-size: 1.35rem;
+    line-height: 1;
 }
 
 
@@ -113,7 +263,7 @@ main
 
 
 /* ------------------------------------------------------------
-   MORCEAU
+   ENTRÉES DE MORCEAUX
    ------------------------------------------------------------ */
 
 .catalog-list li
@@ -122,14 +272,14 @@ main
 
     margin: 0;
 
-    padding: 10px 15px 10px 35px;
+    padding: 11px 15px 11px 38px;
 
     border-bottom:
-        1px solid rgba(100, 70, 35, 0.15);
+        1px solid rgba(120,85,45,.17);
 
     transition:
-        background-color 0.15s ease,
-        padding-left 0.15s ease;
+        background-color .25s ease,
+        padding-left .25s ease;
 }
 
 
@@ -140,7 +290,7 @@ main
 
 
 /* ------------------------------------------------------------
-   ORNEMENT DEVANT LE MORCEAU
+   SYMBOLE MUSICAL
    ------------------------------------------------------------ */
 
 .catalog-list li::before
@@ -149,28 +299,34 @@ main
 
     position: absolute;
 
-    left: 8px;
-    top: 8px;
+    left: 9px;
+    top: 50%;
+
+    transform: translateY(-50%);
 
     font-family: Georgia, serif;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 
-    color: #8b5a24;
+    color: #a47737;
 
     text-shadow:
-        1px 1px 0 rgba(255,255,255,.6);
+        1px 1px 0 rgba(255,255,255,.7);
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
 }
 
 
 /* ------------------------------------------------------------
-   LIENS
+   LIENS DES MORCEAUX
    ------------------------------------------------------------ */
 
 .catalog-list a
 {
     display: block;
 
-    color: #38291b;
+    color: #49331f;
 
     font-family:
         "EB Garamond",
@@ -180,13 +336,13 @@ main
 
     font-size: 1.25rem;
 
-    line-height: 1.35;
+    line-height: 1.4;
 
     text-decoration: none;
 
     transition:
-        color 0.15s ease,
-        padding-left 0.15s ease;
+        color .25s ease,
+        padding-left .25s ease;
 }
 
 
@@ -197,20 +353,123 @@ main
 .catalog-list li:hover
 {
     background:
-        rgba(180, 140, 80, 0.10);
+        linear-gradient(
+            to right,
+            rgba(180,140,80,.13),
+            rgba(180,140,80,.035)
+        );
 
-    padding-left: 40px;
+    padding-left: 43px;
+}
+
+
+.catalog-list li:hover::before
+{
+    color: #bd853c;
+
+    transform: translateY(-50%) scale(1.12);
 }
 
 
 .catalog-list a:hover
 {
-    color: #7a3f20;
+    color: #8a4d21;
 
     text-decoration: underline;
 
+    text-decoration-color: rgba(160,100,40,.55);
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
+}
+
+/* ============================================================
+   FOOTER — CATALOGUE
+   ============================================================ */
+
+footer
+{
+    position: relative;
+
+    margin-top: 65px;
+    padding: 28px 20px 25px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            to bottom,
+            #eee0c2,
+            #e3d0aa
+        );
+
+    border-top: 3px double #98703c;
+
+    box-shadow:
+        0 -3px 10px rgba(50,30,10,.12),
+        inset 0 6px 12px rgba(130,90,40,.06);
+}
+
+
+/* ------------------------------------------------------------
+   TEXTE DU FOOTER
+   ------------------------------------------------------------ */
+
+.footer-text
+{
+    display: block;
+
+    font-family:
+        "EB Garamond",
+        Georgia,
+        serif;
+
+    font-size: 1rem;
+
+    letter-spacing: .4px;
+
+    color: #795b37;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.5);
+}
+
+
+/* ------------------------------------------------------------
+   ORNEMENT SUPÉRIEUR
+   ------------------------------------------------------------ */
+
+footer::before
+{
+    content: "❧";
+
+    position: absolute;
+
+    top: -17px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    padding: 0 15px;
+
+    background: #eee0c2;
+
+    color: #a47737;
+
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+
+/* ------------------------------------------------------------
+   ACCESSIBILITÉ CLAVIER
+   ------------------------------------------------------------ */
+
+.catalog-list a:focus-visible
+{
+    outline: 2px solid #a47737;
+    outline-offset: 3px;
+
+    border-radius: 2px;
 }
 
 
@@ -224,10 +483,9 @@ main
     {
         width: 94%;
 
-        margin-top: 25px;
+        margin: 25px auto 35px;
 
-        padding:
-            25px 18px 28px 18px;
+        padding: 28px 18px 30px;
     }
 
 
@@ -239,7 +497,13 @@ main
 
     .catalog-list li
     {
-        padding-left: 30px;
+        padding-left: 32px;
+    }
+
+
+    .catalog-list li:hover
+    {
+        padding-left: 36px;
     }
 
 
