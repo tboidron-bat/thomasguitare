@@ -57,7 +57,7 @@ lesson/classique/debutant
 │           ├── la_ronde.svg
 │           └── point_de_prolongation.svg
 ├── 02_first_note
-│   ├── 01_notes_si_mi
+│   ├── 01_corde_si_mi
 │   │   ├── lesson.html
 │   │   ├── mp3
 │   │   │   ├── dodo_sissi.mp3
