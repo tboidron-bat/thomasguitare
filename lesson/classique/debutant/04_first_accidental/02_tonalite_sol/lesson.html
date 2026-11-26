@@ -10,6 +10,8 @@
 
 	<link rel="stylesheet" href="/fonts/font.css" />
 	<link rel="stylesheet" href="/charte_couleurs.css" />
+	<link rel="stylesheet" href="/color_palette_gamme.css" />		
+	
 
 
 	<link rel="stylesheet" href="/lesson/classique/header.css" />
@@ -25,6 +27,7 @@
 	<link rel="stylesheet" href="/lesson/classique/lesson-content-theory.css" />
 	<link rel="stylesheet" href="/lesson/classique/lesson-content-exercise.css" />
 	<link rel="stylesheet" href="/lesson/classique/lesson-content-piece.css" />
+	<link rel="stylesheet" href="/lesson/classique/lesson-content-gamme.css" />	
 
 	<link rel="stylesheet" href="/pattern/inset-wax.css" />
 
@@ -79,19 +82,20 @@
 			</div>
 
 			<!-- centre -->
+
 			<div class="header-center">
 
-				<button class="button prev" type="button">
+				<a class="button prev" href="/lesson/classique/debutant/04_first_accidental/01_diese/lesson.html" aria-label="Leçon précédente">
 					←
-				</button>
+				</a>
 
 				<img src="/img/banner_00.png" alt="">
 
-				<button class="button next" type="button">
+				<a class="button next" href="/lesson/classique/debutant/04_first_accidental/03_bemol/lesson.html" aria-label="Leçon suivante">
 					→
-				</button>
+				</a>
 
-			</div>
+			</div>      
 
 
 			<!-- right -->
@@ -182,30 +186,43 @@
 								<li>
 									Nous avons vu précédemment une
 									<span class="color-concept">altération ponctuelle</span>&nbsp;:
-									le <span class="color-technique">dièse</span>,
+									<span class="color-technique">le dièse (&num;)</span>,
 									valable sur une seule mesure.
 								</li>
 								<li>
 									Une altération peut aussi appara&icirc;tre
-									<span class="color-action">à c&ocirc;té de la clé de Sol</span>.
+									<span class="color-fondamental">à c&ocirc;té de la clé de Sol</span>.
 								</li>
 								<li>
 									Il s'agit alors d'une
-									<span class="color-concept">altération structurelle</span>,
-									qui affecte <span class="color-fondamental">tout le morceau</span>.
+									<span class="color-fondamental">altération structurelle</span>,
+									qui affecte <span class="color-concept">tout le morceau</span>.
 								</li>
 								<li>
-									Le premier dièse à la clé de Sol se trouve sur le
-									<span class="color-technique">Fa</span>&nbsp;:
-									tous les Fa du morceau seront joués
-									<span class="color-fondamental">Fa dièse</span>.
-								</li>
-								<li>
-									On dit aussi que l'on est dans la tonalité de
-									<span class="color-fondamental">Sol</span>.
+									Le premier dièse à la clé se trouve <span class="color-fondamental">toujours</span> sur le
+									<span class="color-technique">Fa</span>.
 								</li>
 							</ul>
 
+							<div class="inset-wax">
+								<img class="inset-wax-seal" src="/img/wax_seal.png" alt="">
+								<div class="inset-wax-paper">
+								<div class="inset-wax-corner inset-wax-corner-top-right"></div>
+								<div class="inset-wax-content">
+									<p>
+									<span class="dropcap-small">T</span>
+									ous les <span class="color-technique">Fa</span> du morceau seront joués
+									<span class="color-fondamental">Fa dièse</span>.
+									Cela signifie que le morceau est écrit dans la tonalité de <span class="color-fondamental">Sol</span>.
+									</p>
+								</div>
+								<div class="inset-wax-corner inset-wax-corner-bottom-left"></div>
+
+								<div class="inset-wax-corner inset-wax-corner-bottom-right"></div>
+
+								</div>
+
+							</div>
 
 							<div class="fleuron fleurons-left"></div>																				
 
@@ -238,34 +255,54 @@
 					</section>
 
 					<!-- Bloc 2 -->
-					<section class="lesson-content-theory">
-						<div class="text">
-							<p>
-								<u><b>La gamme de Sol</b></u><br>
+					<section class="lesson-content-gamme">
+
+
+						<div class="page page-left">
+
+							<h2>
+								<span class="dropcap">
+									G
+								</span>
+								<span class="title-text">
+									amme de Sol
+								</span>
+							</h2>
 
 							<ul class="charte-list">
+
+
+								<li>
+									<span class="gamme-concept">La gamme de Sol</span> est composée des notes :
+									<span class="gamme-technique">Sol, La, Si, Do, Ré, Mi, Fa#, Sol</span>
+								</li>
+
+
 								<li>
 
 									Pour jouer nos morceaux dans cette nouvelle
-									<span class="color-fondamental">tonalit&eacute</span>, il est trés utile de
+									<span class="gamme-fondamental">tonalit&eacute</span>, il est trés utile de
 									connaitre cette
 									nouvelle
-									<span class="color-concept">gamme</span>.
+									<span class="gamme-concept">gamme</span>.
 								</li>
 							</ul>
-							</p>
 
-							<audio controls>
-								<source src="/mp3/gamme_de_sol.mp3" type="audio/mpeg">
-								Votre navigateur ne supporte pas la balise audio.
-							</audio>
+							
+							<div class="gamme-audio">
 
+								<span class="gamme-audio-label">
+									Gamme
+								</span>
+
+								<audio controls>
+									<source src="/mp3/04_first_accidental_02_tonalite_sol_gamme_de_sol.mp3" type="audio/mpeg">
+									Votre navigateur ne supporte pas la balise audio.
+								</audio>
+
+							</div>
 
 						</div>
-						<div class="image">
-							<img src="svg/gamme_sol.svg" alt="gammer de sol" />
-						</div>
-
 
 						<div class="page page-right">
 
@@ -278,7 +315,7 @@
 									<div class="piece-corner piece-corner-bl"></div>
 									<div class="piece-corner piece-corner-br"></div>
 
-									<img src="svg/.svg" alt="" class="piece-score">
+									<img src="svg/gamme_sol.svg" alt="La gamme de Sol" class="gamme">
 
 								</div>
 
@@ -286,9 +323,7 @@
 
 						</div>
 
-
 					</section>
-
 
 					<!-- Bloc 4 -->
 					<section class="lesson-content-piece">
